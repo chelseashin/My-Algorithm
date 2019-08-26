@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\multicampus\PycharmProjects\Algorithm\venv"
+VIRTUAL_ENV="C:\Users\multicampus\Desktop\chelsea\My-Algorithm\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

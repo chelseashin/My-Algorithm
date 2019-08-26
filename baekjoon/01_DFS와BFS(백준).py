@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("10_input.txt")
+sys.stdin = open("01_input.txt")
 
 def dfs(v):
     global N, A, visited

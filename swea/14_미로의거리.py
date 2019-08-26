@@ -1,6 +1,8 @@
 import sys
 sys.stdin = open("14_input.txt")
 
+# bfs
+
 # 상 하 좌 우
 dr = [-1, 1, 0, 0]
 dc = [0, 0, -1, 1]

@@ -1,6 +1,7 @@
 import sys
 sys.stdin = open("4013_input.txt")
 
+<<<<<<< HEAD
 # def dfs(pos, dir):
 #     global mag, turn
 #     visited[pos] = 1
@@ -13,6 +14,27 @@ sys.stdin = open("4013_input.txt")
 #         mag[pos] = mag[0][-1]] + mag[0][:-1]
 #     else:
 #         mag[pos] = mag[0][1:] + [mag[0][0]]
+=======
+def dfs(pos, dir):
+    global mag, turn
+    visited[pos] = 1
+    # 양쪽에 있는 것들은 반대방향
+    if (pos > 0):
+        if mag[pos][6] != mag[pos-1][2] and visited[pos-1] == 0:
+            dfs(pos-1, -dir)
+    if (pos < 3):
+        if mag[pos][2] != mag[pos+1][6] and visited[pos+1] == 0:
+            dfs(pos+1, -dir)
+
+    # 시계방향
+    if dir == 1:
+        mag[pos] = [mag[pos][-1]] + mag[pos][:-1]
+
+    # 반시계방향
+    else:
+        mag[pos] = mag[pos][1:] + [mag[pos][0]]
+
+>>>>>>> 7ea688b216f5799155c7ade79f0a00ecd97784e3
 
 T = int(input())
 for tc in range(T):
@@ -27,6 +49,10 @@ for tc in range(T):
         # dfs(n-1, d)
 
     score = 1*mag[0][0] + 2*mag[1][0] + 4*mag[2][0] + 8*mag[3][0]
+<<<<<<< HEAD
     # print("#{} {}".format(tc+1, score))
 
 0131202
+=======
+    print("#{} {}".format(tc+1, score))
+>>>>>>> 7ea688b216f5799155c7ade79f0a00ecd97784e3

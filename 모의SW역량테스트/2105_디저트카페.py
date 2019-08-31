@@ -12,9 +12,9 @@ def check(r, c):
     c_range = parr[1]
     for i in range(4):
         if i % 2:
-            for i in range(1, r_range):
-                nr = r + dr[i]
-                nc = c + dc[i]
+            for x in range(1, r_range):
+                nr = r + dr[x]
+                nc = c + dc[x]
                 if not (0 <= nr < N and 0 <= nc < N):
                     return
                 if cafe[nr][nc] in result_arr:

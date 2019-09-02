@@ -24,7 +24,7 @@ for o in order:
         for n in new:
             A.append(arr[a][n])
         # print(A)
-        for 
+
 
     if score > max_score:
         max_score = score

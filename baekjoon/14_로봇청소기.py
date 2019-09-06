@@ -8,7 +8,7 @@ dc = [0, 1, 0, -1]
 def bfs(sr, sc, sd):
     global N, M, arr, count
     Q = [(sr, sc, sd)]
-    arr[sr][sc] = 1
+    arr[sr][sc] = 10
     count += 1
     while Q:
         r, c, d = Q.pop(0)
@@ -32,9 +32,11 @@ def bfs(sr, sc, sd):
             # 후진 못할 때
             if not (1 <= nr < N-1 and 1 <= nc < M-1):
                 break
+            if arr[nr][nc] == 1:
+                break
             Q.append((nr, nc, d))
             arr[nr][nc] = arr[r][c]
-    # print(arr[r][c])
+    # print(arr[r][c] - 9)
 
 
 N, M = map(int, input().split())

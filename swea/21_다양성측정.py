@@ -11,6 +11,6 @@ for tc in range(T):
     #     else:
     #         continue
     # print("#{} {}".format(tc+1, len(L)))
-    
+
     # 한 줄로 풀기
     print("#{} {}".format(tc+1, len(set(N))))

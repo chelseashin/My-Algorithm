@@ -15,7 +15,7 @@ def dfs(sr, sc):
         for i in range(4):
             nr = r + dr[i]
             nc = c + dc[i]
-            if not (0 <= nr < N and 0 <= nc <N):
+            if not (0 <= nr < N and 0 <= nc < N):
                 continue
             if arr[nr][nc] == 0:
                 continue

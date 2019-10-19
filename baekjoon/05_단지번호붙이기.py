@@ -6,6 +6,8 @@ dc = [0, 0, -1, 1]
 
 def bfs(sr, sc):
     global arr, N, cnt
+    cnt += 1
+    arr[sr][sc] = 0
     Q = [(sr, sc)]
     while Q:
         r, c = Q.pop(0)

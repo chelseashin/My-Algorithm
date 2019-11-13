@@ -8,3 +8,11 @@ for tc in range(T):
     # print(L)
 
     D = {i:L.count(i) for i in set(L)}
+    Max = float('-inf')
+    answer = 0
+    for key, value in D.items():
+        if Max < value:
+            Max = value
+            answer = key
+
+    print("#{} {}".format(tc+1, answer))

@@ -15,13 +15,14 @@ def dfs(depth):
     #     return
     if depth == 10:
         # check(result)
+        print('result', result)
+        print("hello")
         return
     for i in range(1, 10):
         result.append(i)
         dfs(depth + 1)
         result.pop()
 
-print(result)
 
 
 

@@ -34,7 +34,7 @@ L = []
 count = 0
 for i in range(N):
     for j in range(N):
-        if arr[i][j] == 1 and visited[i][j] == 0:
+        if arr[i][j] and visited[i][j] == 0:
             dfs(i, j)
             count += 1
 

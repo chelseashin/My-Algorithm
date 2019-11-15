@@ -24,8 +24,6 @@ def dfs(sr, sc):
         arr[nr][nc] = 1
         dfs(nr, nc)
 
-
-
 for tc in range(10):
     N = int(input())
     arr = [list(map(int, input())) for _ in range(16)]

@@ -27,8 +27,6 @@ def dfs(sr, sc):
             S.append((nr, nc))
             visited[nr][nc] = 1
 
-
-
 for tc in range(10):
     N = int(input())
     arr = [list(map(int, input())) for _ in range(16)]

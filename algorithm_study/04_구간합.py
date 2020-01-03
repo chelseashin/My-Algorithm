@@ -10,8 +10,7 @@ for tc in range(T):
     for i in range(N-M+1):
         SUM = 0
         for n in range(M):
-            SUM += numbers[i + n]
-            # print(SUM)
+            SUM += numbers[i+n]
         if SUM > MAX:
             MAX = SUM
         if SUM < MIN:

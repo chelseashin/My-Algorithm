@@ -8,14 +8,13 @@ def binarySearch(P, S):
 
     while l <= r:
         cnt += 1
-        c = (l+r) // 2
-
-        if S == c:
-            return cnt
-        elif S <= c:
+        c = int((l+r)/2)
+        if c < S:
+            l = c
+        elif c > S:
             r = c
         else:
-            l = c
+            return cnt
 
 T = int(input())
 for tc in range(T):

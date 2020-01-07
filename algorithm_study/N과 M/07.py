@@ -7,12 +7,11 @@ def dfs(depth):
         print(*order)
         return
     for i in range(N):
-        if visited[i] == 0:
-            visited[i] = 1
-            order.append(A[i])
-            dfs(depth+1)
-            order.pop()
-            visited[i] = 0
+        visited[i] = 1
+        order.append(A[i])
+        dfs(depth+1)
+        order.pop()
+        visited[i] = 0
 
 N, M = map(int, input().split())
 A = sorted(list(map(int, input().split())))

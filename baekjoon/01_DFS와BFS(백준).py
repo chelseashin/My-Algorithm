@@ -30,13 +30,13 @@ def bfs(v):
 
 N, M, V = map(int, input().split())
 A = [[0] * (N+1) for _ in range(N+1)]
-visited = [0] * (N+1)
-
 for m in range(M):
     start, end = map(int, input().split())
     A[start][end] = 1
     A[end][start] = 1
-
-# dfs(V)
+visited = [0] * (N+1)
+dfs(V)
+print()
+visited = [0] * (N+1)
 bfs(V)
 

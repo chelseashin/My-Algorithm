@@ -6,20 +6,13 @@ def dfs(depth):
     if depth == M:
         print(*order)
         return
-
     for i in range(N):
-        if visited[i]:
-            continue
-        if i > 0 and visited[i-1] == 0 and A[i-1] == A[i]:
-            continue
-        visited[i] = 1
         order.append(A[i])
         dfs(depth+1)
         order.pop()
-        visited[i] = 0
 
 N, M = map(int, input().split())
-A = sorted(list(map(int, input().split())))
+A = sorted(list(set(list(map(int, input().split())))))
+N = len(A)
 order = []
-visited = [0] * N
 dfs(0)

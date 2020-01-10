@@ -2,7 +2,6 @@ import sys
 sys.stdin = open("input.txt")
 
 # 순열공식
-
 def dfs(depth):
     if depth == M:
         print(*order)

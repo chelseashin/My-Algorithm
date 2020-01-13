@@ -5,7 +5,6 @@ sys.stdin = open("1244_input.txt")
 def perm(N, k):
     global chance, visited, ans
     if visited[k][int("".join(num))]:
-        print(visited)
         return
     else: visited[k][int("".join(num))] = 1
 
@@ -27,9 +26,8 @@ for tc in range(T):
     num = [n for n in str(num)]
     chance = int(chance)
     # 방문관리, 상태관리
-    visited = [[0] * 1000 for _ in range(chance + 1)]
+    visited = [[0] * 1000000 for _ in range(chance + 1)]
     # print(visited)
     ans = 0
     perm(len(num), 0)
     print("#{} {}".format(tc+1, ans))
-    print(visited)

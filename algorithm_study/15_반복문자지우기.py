@@ -10,7 +10,7 @@ for tc in range(T):
             stack.append(i)
         else:
             if stack[-1] == i:
-                stack.pop(-1)
+                stack.pop()
             else:
                 stack.append(i)
     print("#{} {}".format(tc+1, len(stack)))

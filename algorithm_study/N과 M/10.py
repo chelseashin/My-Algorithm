@@ -2,12 +2,12 @@ import sys
 sys.stdin = open("input2.txt")
 
 def comb(depth, k):
-    global N, M, A, S, visited
+    global N, M, A, visited
     if depth == M:
         print(*order)
         return
     for i in range(k, N):
-        if visited[i]:
+        if visited[i]:   # 방문했던 것 또 방문 X
             continue
         if i > 0 and visited[i-1] == 0 and A[i-1] == A[i]:
             continue
@@ -20,5 +20,5 @@ def comb(depth, k):
 N, M = map(int, input().split())
 A = sorted(list(map(int, input().split())))
 order = []
-visited = [0] * (N)
+visited = [0] * N
 comb(0, 0)

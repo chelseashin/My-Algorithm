@@ -15,10 +15,10 @@ def check(S):
             S.append(g)
         else:
             if S[-1] == "(":
-                if g == ")": S.pop(-1)
+                if g == ")": S.pop()
                 else: S.append(g)
             elif S[-1] == "{":
-                if g == "}": S.pop(-1)
+                if g == "}": S.pop()
                 else: S.append(g)
 
     if len(S): ans = 0

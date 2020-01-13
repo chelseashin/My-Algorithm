@@ -26,6 +26,7 @@ def dfs(s):
 # Queue
 def bfs(s):
     global N, visited, arr
+    visited = [0] * (N + 1)
     Q = [s]
     visited[s] = 1
     while Q:
@@ -44,5 +45,4 @@ for _ in range(M):
 visited = [0] * (N+1)
 dfs(V)
 print()
-visited = [0] * (N+1)
 bfs(V)

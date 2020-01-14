@@ -1,3 +1,4 @@
+# 실패한 코드 -- 비효율적임
 import sys
 sys.stdin = open("17822_input.txt")
 
@@ -68,7 +69,7 @@ def remove(A):
     if not flag:
         control(A)
     return
-#
+
 def control(A):
     global N, M
     plus = 0

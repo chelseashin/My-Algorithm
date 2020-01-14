@@ -5,7 +5,7 @@ sys.stdin = open("17_input.txt")
 dr = (-1, 1, 0, 0)
 dc = (0, 0, -1, 1)
 
-def dfs(sr, sc):
+def bfs(sr, sc):
     global maze, visited, ans
     visited[sr][sc] = 1
     Q = [(sr, sc)]
@@ -36,5 +36,5 @@ for tc in range(1, T+1):
     for i in range(N):
         for j in range(N):
             if maze[i][j] == 2:
-                dfs(i, j)
+                bfs(i, j)
     print("#{} {}".format(tc, ans))

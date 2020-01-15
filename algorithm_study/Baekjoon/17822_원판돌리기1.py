@@ -24,7 +24,7 @@ def control(A):
                 plus += A[i][j]
                 cnt += 1
     avg = plus / cnt
-
+    print(avg)
     for i in range(N):
         for j in range(M):
             if A[i][j]:
@@ -41,6 +41,8 @@ dc = (0, 0, -1, 1)
 def remove(sr, sc):
     global A, flag
     S = [(sr, sc)]
+    key = A[sr][sc]
+    pr, pc = sr, sc
     while S:
         r, c = S.pop(-1)
         for i in range(4):
@@ -50,21 +52,25 @@ def remove(sr, sc):
                 continue
             if not A[nr][nc]:
                 continue
-            if A[r][c] != A[nr][nc]:
+            if A[nr][nc] != key:
                 continue
             flag = 1
-            A[r][c] = 0
+            # A[r][c] = 0
             A[nr][nc] = 0
+            pr, pc = nr, nc
             S.append((nr, nc))
+    A[r][c] = key
     return
+
 
 N, M, T = map(int, input().split())
 A = [deque(map(int, input().split())) for _ in range(N)]
-
+print(A)
 for _ in range(T):
     x, d, k = map(int, input().split())
 
     rotate(x, d, k)
+    print(A)
     flag = 0
     for i in range(N):
         for j in range(M):
@@ -73,7 +79,7 @@ for _ in range(T):
         # 인접하면서 수가 같은 것이 없다.
     if flag == 0:
         control(A)
-print(A)
+
 
 # 최종 배열 A의 모든 원소 합
 total = 0

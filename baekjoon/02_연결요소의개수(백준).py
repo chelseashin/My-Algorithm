@@ -22,7 +22,7 @@ for i in range(M):
     u, v = map(int, input().split())
     A[u].append(v)
     A[v].append(u)
-# print(A)
+print(A)
 
 for j in range(1, N+1):
     if visited[j] == 1:

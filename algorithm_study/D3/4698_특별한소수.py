@@ -1,6 +1,7 @@
 import sys
 sys.stdin = open("4698_input.txt")
 
+# 제한시간 초과(O(n^2))
 def check_special(N):
     global D, flag
     S = str(N)

@@ -1,7 +1,7 @@
 import sys
 sys.stdin = open("2814_input.txt")
 
-# 재귀로 풀기
+# 재귀로 풀기(성공)
 def dfs(s, temp):
     global A, MAX, visited
     if temp > MAX:

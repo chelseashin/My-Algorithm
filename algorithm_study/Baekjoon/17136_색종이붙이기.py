@@ -1,42 +1,50 @@
 import sys
 sys.stdin = open("17136_input.txt")
-# 우, 하
-dr = (1, 0)
-dc = (0, 1)
 
-def dfs(sr, sc):
-    global paper, N, rdis
-    S = [(sr, sc)]
-    paper[sr][sc] = 0
-    rdis = 0
-    while S:
-        r, c = S.pop()
 
-        for i in range(2):
-            nr = r + dr[i]
-            nc = c + dc[i]
-            if not (0 <= nr < N and 0 <= nc < N):
+def dfs(sr, sc, size):
+    global P, N, MIN, total, temp
+    if temp > 5:
+        total = -1
+        return
+    cnt = 0
+    for i in range(size):
+        for j in range(size):
+            if not (0 <= sr+i < N and 0 <= sc+j < N):
                 continue
-            if not paper[nr][nc]:
-                continue
-            S.append((nr, nc))
-            paper[nr][nc] = 0
+            if P[sr+i][sc+j] == 0:
+                return
+            if P[sr+i][sc+j]:
+                cnt += 1
+    if cnt == size * size:
+        temp += 1
+        for i in range(size):
+            for j in range(size):
+                P[sr+i][sc+j] = 0
     return
 
-    # for i in range(5, 0, -1):
-
-
 N = 10
-paper = [list(map(int, input().split())) for _ in range(N)]
-visited = [[0] * N  for _ in range(N)]
+P = [list(map(int, input().split())) for _ in range(N)]
 MIN = float('inf')
-cnt = 0
+check = [0] * 6
+total = 0
 for i in range(N):
     for j in range(N):
-        if paper[i][j]:
-            dfs(i, j)
-            cnt += 1
-            # if cnt < MIN:
-            #     MIN = cnt
+        if P[i][j]:
+            for x in range(5, 0, -1):
+                if check[x] < 5:
+                    temp = 0
+                    dfs(i, j, x)
+                    check[x] += temp
+                    total += temp
+                else:
+                    if x != 1:
+                        continue
+                    else: MIN = -1
+# total = sum(check)
+if total < MIN:
+    MIN = total
+if MIN == float('inf'):
+    MIN = 0
 
-print(cnt)
+print(MIN)

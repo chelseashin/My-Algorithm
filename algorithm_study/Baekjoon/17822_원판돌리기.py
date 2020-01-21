@@ -1,75 +1,19 @@
-# 실패한 코드 -- 비효율적임
 import sys
 sys.stdin = open("17822_input.txt")
 
 from collections import deque
 
 # 원판 회전 함수
-def rotate(X, D, K):
+def rotate_plate(X, D, K):
     global N, M, A
     for x in range(X-1, N, X):  # 회전하는 원판 X의 배수
-        if D:    # 시계방향
+        if D:  # 시계방향
             A[x].rotate(-K)
-        else:    # 반시계방향
+        else:  # 반시계방향
             A[x].rotate(K)
     return
 
-# 인접한 같은 수 지우기
-def remove(A):
-    flag = 0
-    # 가로
-    for i in range(N):
-        S = []
-        temp = 0
-        for j in range(M):
-            if len(S) == 0 and temp != A[i][j]:
-                if A[i][j]:
-                    S.append(A[i][j])
-                    temp = S[-1]
-                    # if temp == A[i][j]:
-                    #     temp = S.pop(-1)
-            else:
-                if temp == A[i][j] and A[i][j]:
-                    S.append(A[i][j])
-                    temp = S.pop(-1)
-                    A[i][j-1], A[i][j] = 0, 0
-                    flag = 1
-                else:
-                    if temp != A[i][j]:
-                        S.append(A[i][j])
-                        temp = S[-1]
-
-        if A[i][0] == A[i][-1]:
-            A[i][0], A[i][-1] = 0, 0
-            flag = 1
-
-    # 세로
-    for j in range(M):
-        S = []
-        temp = 0
-        for i in range(N):
-            if len(S) == 0 and temp != A[i][j]:
-                if A[i][j]:
-                    S.append(A[i][j])
-                    temp = S[-1]
-                    # if temp == A[i][j]:
-                    #     temp = S.pop(-1)
-            else:
-                if temp == A[i][j] and A[i][j]:
-                    S.append(A[i][j])
-                    temp = S.pop(-1)
-                    A[i][j-1], A[i][j] = 0, 0
-                    flag = 1
-                else:
-                    if temp != A[i][j]:
-                        S.append(A[i][j])
-                        temp = S[-1]
-
-    # 인접하면서 수가 같은 것이 없다.
-    if not flag:
-        control(A)
-    return
-
+# flag가 0일 때 호출됨
 def control(A):
     global N, M
     plus = 0
@@ -79,26 +23,72 @@ def control(A):
             if A[i][j]:
                 plus += A[i][j]
                 cnt += 1
-    avg = plus / cnt
-
+    if cnt:
+        avg = plus / cnt
+    else:
+        avg = 0
+    # 이걸로 써도 무관함!
+    # try:
+    #     avg = plus / cnt
+    # except:
+    #     avg = 0
     for i in range(N):
         for j in range(M):
-            if A[i][j] > avg:
-                A[i][j] -= 1
-            elif A[i][j] < avg:
-                A[i][j] += 1
+            if A[i][j] and avg != 0:
+                if A[i][j] > avg:
+                    A[i][j] -= 1
+                elif A[i][j] < avg:
+                    A[i][j] += 1
     return
+
+# 인접한 같은 수 지우기(dfs로 구현)
+dr = (-1, 1, 0, 0)
+dc = (0, 0, -1, 1)
+
+def remove(sr, sc):
+    global A, flag
+    flag2 = 0
+    S = [(sr, sc)]
+    key = A[sr][sc]
+    A[sr][sc] = 0
+    pr, pc = sr, sc
+    while S:
+        r, c = S.pop()
+        for i in range(4):
+            nr = r + dr[i]
+            nc = (c + dc[i]) % M
+            if not (0 <= nr < N):
+                continue
+            if not A[nr][nc]:
+                continue
+            if A[nr][nc] != key:
+                continue
+            flag = 1
+            flag2 = 1
+            A[nr][nc] = 0
+            pr, pc = nr, nc
+            S.append((nr, nc))
+    if flag2 == 0:
+        A[pr][pc] = key
+    return
+
 
 N, M, T = map(int, input().split())
 A = [deque(map(int, input().split())) for _ in range(N)]
-
+# print(A)
 for _ in range(T):
     x, d, k = map(int, input().split())
-    rotate(x, d, k)
-    remove(A)
+    rotate_plate(x, d, k)
+    flag = 0
+    for i in range(N):
+        for j in range(M):
+            if A[i][j]:
+                remove(i, j)
+    # 인접하면서 수가 같은 것이 없다.
+    if flag == 0:
+        control(A)
 
-print(A)
-
+# print(A)
 # 최종 배열 A의 모든 원소 합
 total = 0
 for i in range(N):

@@ -2,22 +2,20 @@ import sys
 sys.stdin = open("16509_input.txt")
 
 # 상이 갈 수 있는 곳
-dr = [-2, 2, 3, 3, 2, -2, -3, -3]
-dc = [3, 3, 2, -2, -3, -3, -2, 2]
+dr = (-2, 2, 3, 3, 2, -2, -3, -3)
+dc = (3, 3, 2, -2, -3, -3, -2, 2)
 
 # 장애물 검사
-wall = [[(0,1),(-1,2)],[(0,1),(1,2)],[(1,0),(2,1)],[(1,0),(2,-1)],
-        [(0,-1),(1,-2)],[(0,-1),(-1,-2)],[(-1,0),(-2,-1)],[(-1,0),(-2,1)]] 
+wall = ([(0,1),(-1,2)],[(0,1),(1,2)],[(1,0),(2,1)],[(1,0),(2,-1)],
+        [(0,-1),(1,-2)],[(0,-1),(-1,-2)],[(-1,0),(-2,-1)],[(-1,0),(-2,1)])
 
 def bfs(sr, sc):
     global arr, rk, ck
-    visited = [[0] * 9 for _ in range(10)]  # 갈 수 있는 곳 몇 번째인지 표시
+    visited = [[0] * 9 for _ in range(10)]
     Q = [(sr, sc)]
     visited[sr][sc] = 1
     while Q:
         r, c = Q.pop(0)
-        if r == rk and c == ck:
-            return visited[r][c] - 1
         for i in range(8):
             nr = r + dr[i]
             nc = c + dc[i]
@@ -33,6 +31,8 @@ def bfs(sr, sc):
                 continue
             Q.append((nr, nc))
             visited[nr][nc] = visited[r][c] + 1
+            if nr == rk and nc == ck:
+                return visited[nr][nc] - 1
     return -1
 
 arr = [[0] * 9 for _ in range(10)]

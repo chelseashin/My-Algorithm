@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a67cc1a6-2a9d-42e4-91d1-1d85e6969e29" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm_study/Baekjoon/16509_장군.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm_study/Baekjoon/16509_장군.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm_study/Baekjoon/16509_장군2.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm_study/Baekjoon/17136_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm_study/Baekjoon/17136_input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm_study/Baekjoon/17136_색종이붙이기.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm_study/Baekjoon/17136_색종이붙이기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm_study/Baekjoon/17822_원판돌리기.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm_study/Baekjoon/17822_원판돌리기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm_study/Baekjoon/17822_원판돌리기1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm_study/D3/1244_최대상금2.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm_study/D3/1244_최대상금2.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,23 +15,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.68536854">
+    <splitter split-orientation="horizontal" split-proportion="0.4973545">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/algorithm_study/Baekjoon/17136_색종이붙이기.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="214">
-                  <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/algorithm_study/Baekjoon/17822_원판돌리기.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1843">
-                  <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
+                <state relative-caret-position="266">
+                  <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -42,8 +30,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/algorithm_study/D3/1244_최대상금1.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="494">
-                  <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+                <state relative-caret-position="190">
+                  <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -60,21 +48,30 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/algorithm_study/Baekjoon/17136_input.txt">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/algorithm_study/D3/1244_input.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="171">
-                  <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+                <state>
+                  <caret column="2" selection-start-column="2" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/algorithm_study/Baekjoon/17136_input.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="95">
+                  <caret line="5" column="2" selection-end-line="9" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/algorithm_study/D3/1244_최대상금2.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="228">
-                  <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+                <state relative-caret-position="266">
+                  <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -130,7 +127,6 @@
         <option value="$PROJECT_DIR$/algorithm_study/Baekjoon/17822_원판돌리기1.py" />
         <option value="$PROJECT_DIR$/algorithm_study/D3/1244_input.txt" />
         <option value="$PROJECT_DIR$/algorithm_study/D3/1244_최대상금1.py" />
-        <option value="$PROJECT_DIR$/algorithm_study/D3/1244_최대상금2.py" />
         <option value="$PROJECT_DIR$/algorithm_study/Baekjoon/11724_연결요소의개수.py" />
         <option value="$PROJECT_DIR$/algorithm_study/Baekjoon/11724_연결요소의개수1.py" />
         <option value="$PROJECT_DIR$/algorithm_study/Baekjoon/11724_input.txt" />
@@ -151,15 +147,16 @@
         <option value="$PROJECT_DIR$/algorithm_study/Baekjoon/14501_input.txt" />
         <option value="$PROJECT_DIR$/algorithm_study/Baekjoon/17822_원판돌리기.py" />
         <option value="$PROJECT_DIR$/algorithm_study/Baekjoon/16509_장군.py" />
-        <option value="$PROJECT_DIR$/algorithm_study/Baekjoon/17136_색종이붙이기.py" />
         <option value="$PROJECT_DIR$/algorithm_study/Baekjoon/17136_input.txt" />
+        <option value="$PROJECT_DIR$/algorithm_study/Baekjoon/17136_색종이붙이기.py" />
+        <option value="$PROJECT_DIR$/algorithm_study/D3/1244_최대상금2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="670" />
-    <option name="width" value="1259" />
-    <option name="height" value="1048" />
+    <option name="x" value="-4" />
+    <option name="width" value="1934" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -344,7 +341,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="536" y="0" width="1007" height="838" extended-state="0" />
+    <frame x="-3" y="0" width="1547" height="839" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.21244209" />
@@ -352,7 +349,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49966997" visible="true" weight="0.31830987" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966997" weight="0.31830987" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42957747" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -407,16 +404,6 @@
           <url>file://$PROJECT_DIR$/algorithm_study/16_Forth.py</url>
           <line>8</line>
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm_study/Baekjoon/17136_색종이붙이기.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm_study/Baekjoon/17136_색종이붙이기.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -579,13 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_study/D3/1244_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm_study/Baekjoon/11724_연결요소의개수2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -731,45 +711,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_study/Baekjoon/17822_원판돌리기1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="18" selection-end-line="97" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_study/Baekjoon/16509_장군2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="20" column="26" lean-forward="true" selection-end-line="41" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_study/Baekjoon/16509_장군.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm_study/Baekjoon/17822_원판돌리기1.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm_study/Baekjoon/16509_장군2.py" />
     <entry file="file://$PROJECT_DIR$/algorithm_study/D3/1244_최대상금.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_study/D3/1244_최대상금2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_study/D3/1244_최대상금1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -780,24 +727,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_study/Baekjoon/17822_원판돌리기.py">
+    <entry file="file://$PROJECT_DIR$/algorithm_study/Baekjoon/16509_장군.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1843">
-          <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_study/Baekjoon/17136_색종이붙이기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        <state relative-caret-position="779">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm_study/Baekjoon/17136_input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="95">
+          <caret line="5" column="2" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm_study/D3/1244_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm_study/Baekjoon/17822_원판돌리기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm_study/D3/1244_최대상금1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm_study/Baekjoon/17136_색종이붙이기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm_study/D3/1244_최대상금2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
         </state>
       </provider>
     </entry>

@@ -14,6 +14,7 @@ for tc in range(T):
     
     # Queue 채우기
     Q = new[:N]
+    print(Q)
 
     idx = N
     while Q:

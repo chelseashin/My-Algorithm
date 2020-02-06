@@ -14,10 +14,10 @@ for tc in range(T):
             # 땅 높이가 전의 높이와 같을 때
             if land[i][j] == land[i][j-1]:
                 cnt += 1
-            # 땅이 1만큼 솟아 있을 때
+            # 땅이 1만큼 내려갈 때
             elif land[i][j-1] == land[i][j]+1 and cnt >= 0:
                 cnt = -X+1
-            # 땅이 1만큼 내려갈 때
+            # 땅이 1만큼 올라갈 때
             elif land[i][j-1]+1 == land[i][j] and cnt >= X:
                 cnt = 1
             else:

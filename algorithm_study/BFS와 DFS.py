@@ -4,6 +4,7 @@ sys.stdin = open("sample_input.txt")
 # Stack
 def dfs(s):
     global N, visited, arr
+    visited = [0] * (N + 1)
     S = [s]
     while S:
         start = S.pop()
@@ -42,7 +43,6 @@ arr = [[0] * (N+1) for _ in range(N+1)]
 for _ in range(M):
     S, G = map(int, input().split())
     arr[S][G], arr[G][S] = 1, 1
-visited = [0] * (N+1)
 dfs(V)
 print()
 bfs(V)

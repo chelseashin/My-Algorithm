@@ -1,60 +1,58 @@
 import sys
 sys.stdin = open("2105_input.txt")
 
-# 좌하, 우하, 우상, 좌상
-dr = [1, 1, -1, -1]
-dc = [-1, 1, 1, -1]
 
-def check(r, c):
-    global result, cafe
-    result_arr = []
-    r_range = parr[0]
-    c_range = parr[1]
+def check(y, x):
+    global mmax
+    resultarray = []
+    dy = [1, 1, -1, -1]
+    dx = [-1, 1, 1, -1]
+    lrange = parr[0]
+    rrange = parr[1]
     for i in range(4):
         if i % 2:
-            for x in range(1, r_range):
-                nr = r + dr[x]
-                nc = c + dc[x]
-                if not (0 <= nr < N and 0 <= nc < N):
-                    return
-                if cafe[nr][nc] in result_arr:
-                    return
-                result_arr.append(cafe[nr][nc])
+            for r in range(1, lrange):
+                y = y + dy[i]
+                x = x + dx[i]
+                if x < 0 or y < 0 or x >= N or y >= N: return
+                if maparr[y][x] in resultarray: return
+                resultarray.append(maparr[y][x])
         else:
-            for j in range(1, c_range):
-                nr = r + dr[j]
-                nc = c + dc[j]
-                if not (0 <= nr < N and 0 <= nc < N):
-                    return
-                if cafe[nr][nc] in result_arr:
-                    return
-                result_arr.append(cafe[nr][nc])
-    if result < len(result_arr):
-        result = len(result_arr)
+            for c in range(1, rrange):
+                y = y + dy[i]
+                x = x + dx[i]
+                if x < 0 or y < 0 or x >= N or y >= N: return
+                if maparr[y][x] in resultarray: return
+                resultarray.append(maparr[y][x])
+    if mmax < len(resultarray):
+        mmax = len(resultarray)
 
-def perm(n, r, c):
+
+def perm(n, y, x):
     if n == 2:
         flag = 1
         for z in parr:
             flag *= z
-        if flag <= result:
+        if flag <= mmax:
             return
         else:
-            check(r, c)
+            print(parr)
+            check(y, x)
     else:
         for i in range(2, N):
             parr[n] = i
-            perm(n+1, r, c)
-            # parr[n] = 0
+            perm(n + 1, y, x)
+            parr[n] = 0
+
 
 T = int(input())
-for tc in range(T):
+for tc in range(1, T + 1):
     N = int(input())
-    cafe = [list(map(int, input().split())) for _ in range(N)]
-    result = -1
+    maparr = [list(map(int, input().split())) for _ in range(N)]
+    mmax = -1
     parr = [0] * 2
-    for r in range(N):
-        for c in range(N):
-            perm(0, r, c)
+    for y in range(N):
+        for x in range(N):
+            perm(0, y, x)
 
-    print("#{} {}".format(tc+1, result))
+    print('#{} {}'.format(tc, mmax))

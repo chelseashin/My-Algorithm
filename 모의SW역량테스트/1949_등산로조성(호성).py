@@ -46,7 +46,7 @@ for test_case in range(1, T+1):
             if top < data[i][j]:
                 top = data[i][j]
 
-    max_distance = float('-int')
+    max_distance = float('-inf')
     for i in range(N):
         for j in range(N):
             if data[i][j] == top:

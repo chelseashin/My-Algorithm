@@ -4,8 +4,8 @@ sys.stdin = open("1949_input.txt")
 dr = (-1, 1, 0, 0)
 dc = (0, 0, -1, 1)
 
-def dfs(r, c, temp, n):
-    global san, N, K, max_dis
+def dfs(r, c, n):
+    global san, N, K, dis, max_dis
     for i in range(4):
         nr = r + dr[i]
         nc = c + dc[i]
@@ -18,20 +18,24 @@ def dfs(r, c, temp, n):
             n = 0
             for k in range(1, K+1):
                 san[nr][nc] -= k
-                if san[nr][nc] < san[r][c]:
+                if san[nr][nc] < san[r][c] and visited[nr][nc] == 0:
                     visited[nr][nc] = 1
-                    if max_dis <= temp+1:
-                        max_dis = temp+1
-                    dfs(nr, nc, temp+1, n)
+                    dis += 1
+                    if max_dis <= dis:
+                        max_dis = dis
+                    dfs(nr, nc, n)
+                    dis -= 1
                     visited[nr][nc] = 0
                 san[nr][nc] += k
             n = 1
         # 산 안 깎아도 원래 낮을 때
         if san[nr][nc] < san[r][c] and visited[nr][nc] == 0:
             visited[nr][nc] = 1
-            if max_dis <= temp+1:
-                max_dis = temp+1
-            dfs(nr, nc, temp+1, n)
+            dis += 1
+            if max_dis <= dis:
+                max_dis = dis
+            dfs(nr, nc, n)
+            dis -= 1
             visited[nr][nc] = 0
 
 T = int(input())
@@ -48,9 +52,11 @@ for tc in range(T):
     for i in range(N):
         for j in range(N):
             if san[i][j] == top:
-
+                dis = 0
                 visited[i][j] = 1
-                dfs(i, j, 1, 1)
+                dis += 1
+                dfs(i, j, 1)
+                dis -= 1
                 visited[i][j] = 0
 
     print("#{} {}".format(tc+1, max_dis))

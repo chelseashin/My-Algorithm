@@ -39,3 +39,14 @@ for tc in range(T):
             dfs(sr, sc, 0)
             visited[cafe[i][j]] = 0
     print("#{} {}".format(tc+1, res))
+
+#1 6
+#2 -1
+#3 4
+#4 4
+#5 8
+#6 6
+#7 14
+#8 12
+#9 18
+#10 30

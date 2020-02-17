@@ -55,3 +55,14 @@ for test_case in range(1, T+1):
                 visited[i][j] = 0
 
     print('#{} {}'.format(test_case, max_distance))
+
+#1 6
+#2 3
+#3 7
+#4 4
+#5 2
+#6 12
+#7 6
+#8 7
+#9 10
+#10 19

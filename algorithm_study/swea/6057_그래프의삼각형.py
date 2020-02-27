@@ -7,4 +7,3 @@ for tc in range(T):
     G = [[]]
     for _ in range(M):
         x, y = map(int, input().split())
-        

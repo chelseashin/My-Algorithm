@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a67cc1a6-2a9d-42e4-91d1-1d85e6969e29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/programmers/Lotto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programmers/소수찾기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programmers/콜라츠 추측.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swea/summer/1226_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swea/summer/1226_미로.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swea/summer/1249_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swea/summer/1249_보급로.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swea/summer/2805_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swea/summer/2805_농작물수확하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swea/summer/2105_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swea/summer/2105_디저트카페.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swea/summer/5658_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swea/summer/5658_보물상자비밀번호.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
@@ -36,15 +31,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/swea/summer/1249_보급로.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="988">
-              <caret line="52" column="34" lean-forward="true" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swea/summer/1249_input.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,8 +48,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swea/study/19_수영장.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="-95">
               <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swea/summer/1249_보급로.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swea/summer/2105_디저트카페.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/swea/summer/5658_보물상자비밀번호.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swea/summer/5658_input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swea/summer/2105_input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -94,10 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithm_study/모의SW역량테스트/1949_등산로조성.py" />
-        <option value="$PROJECT_DIR$/algorithm_study/모의SW역량테스트/1249_input.txt" />
-        <option value="$PROJECT_DIR$/algorithm_study/모의SW역량테스트/1249_보급로1.py" />
-        <option value="$PROJECT_DIR$/algorithm_study/모의SW역량테스트/1249_보급로.py" />
         <option value="$PROJECT_DIR$/algorithm_study/모의SW역량테스트/1953_탈주범검거.py" />
         <option value="$PROJECT_DIR$/algorithm_study/swea/6057_input.txt" />
         <option value="$PROJECT_DIR$/algorithm_study/swea/6057_그래프의삼각형.py" />
@@ -145,14 +172,18 @@
         <option value="$PROJECT_DIR$/programmers/Lotto.py" />
         <option value="$PROJECT_DIR$/swea/summer/1249_input.txt" />
         <option value="$PROJECT_DIR$/swea/summer/1249_보급로.py" />
+        <option value="$PROJECT_DIR$/swea/summer/2105_디저트카페.py" />
+        <option value="$PROJECT_DIR$/swea/summer/2105_input.txt" />
+        <option value="$PROJECT_DIR$/swea/summer/5658_input.txt" />
+        <option value="$PROJECT_DIR$/swea/summer/5658_보물상자비밀번호.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="585" />
-    <option name="y" value="-27" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -249,28 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1249_보급로">
-    <configuration name="1226_미로" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="My-Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/summer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/summer/1226_미로.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.5658_보물상자비밀번호">
     <configuration name="1249_보급로" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -313,7 +323,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2805_농작물수확하기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2105_디저트카페" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -325,7 +335,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/summer/2805_농작물수확하기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/summer/2105_디저트카페.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5658_보물상자비밀번호" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="My-Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/summer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/summer/5658_보물상자비밀번호.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -377,19 +408,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.1226_미로" />
-      <item itemvalue="Python.2805_농작물수확하기" />
       <item itemvalue="Python.Lotto" />
       <item itemvalue="Python.19_수영장" />
       <item itemvalue="Python.1249_보급로" />
+      <item itemvalue="Python.2105_디저트카페" />
+      <item itemvalue="Python.5658_보물상자비밀번호" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5658_보물상자비밀번호" />
+        <item itemvalue="Python.2105_디저트카페" />
         <item itemvalue="Python.1249_보급로" />
         <item itemvalue="Python.19_수영장" />
         <item itemvalue="Python.Lotto" />
-        <item itemvalue="Python.2805_농작물수확하기" />
-        <item itemvalue="Python.1226_미로" />
       </list>
     </recent_temporary>
   </component>
@@ -424,8 +455,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49966997" visible="true" weight="0.3084507" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38732395" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49966997" visible="true" weight="0.30422536" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39173788" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32957748" />
@@ -555,14 +586,9 @@
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/swea/summer/1249_보급로.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/swea/summer/1249_보급로.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="56" />
+          <url>file://$PROJECT_DIR$/swea/summer/2105_디저트카페.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -570,11 +596,17 @@
       <configuration name="PythonConfigurationType">
         <watch expression="arr" language="Python" />
         <watch expression="visited" language="Python" />
+        <watch expression="result" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>result</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>visited</expression-string>
         <language-id>Python</language-id>
@@ -620,41 +652,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>L</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithm_study/N과 M/02_조합.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_study/순열연습.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_study/조합연습.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_study/programmers/가장 큰 수.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="42" />
-          <folding>
-            <marker date="1591323867701" expanded="true" signature="218:245" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm_study/programmers/탑.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -878,13 +878,6 @@
     <entry file="file://$PROJECT_DIR$/programmers/input.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/07_일곱난쟁이.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="6" column="53" selection-start-line="5" selection-end-line="6" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/swea/summer/1226_미로.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
@@ -899,13 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swea/study/19_수영장.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -924,8 +910,12 @@
     <entry file="file://$PROJECT_DIR$/swea/study/08_미로.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/swea/study/12_BFS.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/baekjoon/07_일곱난쟁이.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="6" column="53" selection-start-line="5" selection-end-line="6" selection-end-column="53" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/swea/summer/1249_input.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -934,10 +924,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/swea/study/12_BFS.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/study/19_수영장.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/swea/summer/1249_보급로.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="52" column="34" lean-forward="true" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+        <state relative-caret-position="19">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/summer/2105_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/summer/2105_디저트카페.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/summer/5658_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/summer/5658_보물상자비밀번호.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
         </state>
       </provider>
     </entry>

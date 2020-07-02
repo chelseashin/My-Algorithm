@@ -19,6 +19,7 @@ for tc in range(T):
         s, e = map(int, input().split())
         G[s].append(e)
         G[e].append(s)
+    # print(G)
     count = 0
     for i in range(1, N+1):
         if visited[i]:

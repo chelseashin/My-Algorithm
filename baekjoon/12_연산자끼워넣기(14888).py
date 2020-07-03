@@ -5,7 +5,7 @@ def dfs(depth, k):
     global Max, Min
     if depth == S:
         # 연산자 순서 출력
-        # print(result)
+        print(result)
         ans = numbers[0]
         for i in range(len(result)):
             if result[i] == 0:

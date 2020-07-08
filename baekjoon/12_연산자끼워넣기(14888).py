@@ -1,13 +1,13 @@
 import sys
 sys.stdin = open('12_input.txt')
 
-def dfs(depth, k):
+def dfs(depth):
     global Max, Min
     if depth == S:
         # 연산자 순서 출력
-        print(result)
+        # print(result)
         ans = numbers[0]
-        for i in range(len(result)):
+        for i in range(S):
             if result[i] == 0:
                 ans += numbers[i+1]
             elif result[i] == 1:
@@ -25,12 +25,12 @@ def dfs(depth, k):
         if ans < Min:
             Min = ans
         return
-    for i in range(k, 4):
+    for i in range(4):
         if not operators[i]:
             continue
-        operators[i] -= 1
         result.append(i)
-        dfs(depth+1, k)
+        operators[i] -= 1
+        dfs(depth+1)
         operators[i] += 1
         result.pop()
 
@@ -41,7 +41,7 @@ S = sum(operators)
 Max = float('-inf')
 Min = float('inf')
 result = []
-dfs(0, 0)
+dfs(0)
 
 print(Max)
 print(Min)

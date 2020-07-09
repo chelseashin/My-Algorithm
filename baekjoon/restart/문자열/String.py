@@ -98,3 +98,21 @@ for words in L:
         else:
             cnt += 1
 print(cnt)
+
+# 다른 방법
+# def checker(word):
+#     stack = []
+#     for i, c in enumerate(word):
+#         if c not in stack:
+#             stack.append(c)
+#         else:
+#             if i != 0 and word[i] != word[i-1]:
+#                 return 0
+#     return 1
+#
+# N = int(input())
+# words = [str(input()) for i in range(N)]
+# cnt = 0
+# for w in words:
+#     cnt += checker(w)
+# print(cnt)

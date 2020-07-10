@@ -1,4 +1,5 @@
 N = 10
+# N = int(input())
 # ans = 1
 # for i in range(1, N+1):
 #     ans *= i
@@ -10,5 +11,4 @@ def factorial(n):
         return 1
     return n * factorial(n-1)
 
-# N = int(input())
 print(factorial(N))

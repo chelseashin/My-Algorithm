@@ -13,11 +13,12 @@ def check(n):
 
 N = int(input())
 for num in range(1, N+1):
-    if num == N:
-        ans = 0
+    if num + check(num) == N:
+    # 함수 만들지 않고 성공
+    # if num + sum(list(map(int, str(num)))) == N:
+        ans = num
+        break
     else:
-        if num + check(num) == N:
-        # if num + sum(list(map(int, str(num)))) == N:
-            ans = num
-            break
+        ans = 0
+
 print(ans)

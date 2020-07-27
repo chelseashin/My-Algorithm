@@ -3,11 +3,11 @@ N = 2
 six = 666
 
 # 방법 1
-cnt = 0
+num = 0
 while True:
-    if '666'in str(six):
-        cnt += 1
-    if cnt == N:
+    if '666' in str(six):
+        num += 1
+    if num == N:
         print(six)
         break
     six += 1

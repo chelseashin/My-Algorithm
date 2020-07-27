@@ -20,7 +20,7 @@ def perm(depth, n):
     if depth == N:
         return
     if n == half:
-        # print(team)
+        print(team)
         dfs()
         return
     team[depth] = 1

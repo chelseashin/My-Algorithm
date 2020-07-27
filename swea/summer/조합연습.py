@@ -8,6 +8,7 @@ N, M = 4, 2
 # for x in list(combinations(range(1, N+1), M)):
 #     print(*x)
 
+# 조합
 def comb(depth, k):
     global N, M
     if depth == M:
@@ -18,5 +19,21 @@ def comb(depth, k):
         comb(depth+1, i+1)
         order.pop()
 
+order = []
+comb(0, 1)
+
+
+# 중복조합
+def comb(depth, k):
+    global N, M
+    if depth == M:
+        print(*order)
+        return
+    for i in range(k, N+1):
+        order.append(i)
+        comb(depth+1, i)
+        order.pop()
+
+# N, M = map(int, input().split())
 order = []
 comb(0, 1)

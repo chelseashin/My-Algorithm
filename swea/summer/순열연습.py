@@ -26,7 +26,6 @@ def perm(depth):
         order.pop()
         visited[i] = 0
 
-
 visited = [0] * (N+1)
 order = []
 perm(0)

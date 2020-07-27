@@ -1,3 +1,5 @@
+# 실패 코드
+
 import sys
 sys.stdin = open('18_input.txt')
 

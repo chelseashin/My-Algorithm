@@ -1,14 +1,13 @@
 import sys
-sys.stdin = open('05_input.txt')
+sys.stdin = open('2667_input.txt')
 
 dr = (-1, 1, 0, 0)
 dc = (0, 0, -1, 1)
 
 def bfs(sr, sc):
-    global visited, arr, N
-    cnt = 1
+    global cnt, temp
     Q = [(sr, sc)]
-    visited[sr][sc] = 1
+    arr[sr][sc] = 0
     while Q:
         r, c = Q.pop(0)
         for i in range(4):
@@ -16,28 +15,22 @@ def bfs(sr, sc):
             nc = c + dc[i]
             if not (0 <= nr < N and 0 <= nc < N):
                 continue
-            if visited[nr][nc]:
+            if not arr[nr][nc]:
                 continue
-            if arr[nr][nc] == 0:
-                continue
+            arr[nr][nc] = 0
+            temp += 1
             Q.append((nr, nc))
-            visited[nr][nc] = 1
-            cnt += 1
-    L.append(cnt)
-    return
-
 
 N = int(input())
 arr = [list(map(int, input())) for _ in range(N)]
-visited = [[0] * N for _ in range(N)]
-L = []
+total = []
 for i in range(N):
     for j in range(N):
-        if arr[i][j] and visited[i][j] == 0:
+        if arr[i][j]:
+            temp = 1
             bfs(i, j)
+            total.append(temp)
 
-print(len(L))
-for i in sorted(L):
-    print(i)
-
-# print(visited)
+print(len(total))
+for t in sorted(total):
+    print(t)

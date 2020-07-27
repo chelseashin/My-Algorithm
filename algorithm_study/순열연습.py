@@ -27,27 +27,27 @@ N = 5
 M = 2
 order = []
 visit = [0] * (N+1)
-# dfs(0)
+dfs(0)
 
 # 다른 방법
-def myprint(q):
-    while(q):
-        q -= 1
-        print("{}".format(t[q]), end=" ")
-    print()
-
-def perm(n, r, q):
-    global A, t
-    if r == 0:
-        myprint(q)
-    else:
-        for i in range(n-1, -1, -1):
-            A[i], A[n-1] = A[n-1], A[i]
-            t[r-1] = A[n-1]
-            perm(n-1, r-1, q)
-            A[i], A[n-1] = A[n-1], A[i]
-
-A = [1, 2, 3, 4]
-t = [0] * 4
-
-perm(4, 2, 2)
+# def myprint(q):
+#     while(q):
+#         q -= 1
+#         print("{}".format(t[q]), end=" ")
+#     print()
+#
+# def perm(n, r, q):
+#     global A, t
+#     if r == 0:
+#         myprint(q)
+#     else:
+#         for i in range(n-1, -1, -1):
+#             A[i], A[n-1] = A[n-1], A[i]
+#             t[r-1] = A[n-1]
+#             perm(n-1, r-1, q)
+#             A[i], A[n-1] = A[n-1], A[i]
+#
+# A = [1, 2, 3, 4]
+# t = [0] * 4
+#
+# perm(4, 2, 2)

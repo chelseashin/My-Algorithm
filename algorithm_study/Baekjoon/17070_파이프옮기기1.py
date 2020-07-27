@@ -1,6 +1,7 @@
 import sys
 sys.stdin = open('17070_input.txt')
 
+# 시작좌표, 방향
 def dfs(r, c, d):
     global N, A, ans
     # 도착 조건

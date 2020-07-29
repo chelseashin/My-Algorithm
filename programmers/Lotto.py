@@ -28,9 +28,10 @@ for week in L:
         if i[0] == "(":
             i = i[1:-1]
             bonusLst[int(i)] += 1
-            continue
         else:
             numLst[int(i)] += 1
+# print(numLst)
+# print(bonusLst)
 for n in range(1, len(numLst)):
     numDict[numLst[n]].append(n)
     bonusDict[bonusLst[n]].append(n)
@@ -43,7 +44,7 @@ for d in numDict.values():
         break
     for i in d:
         result.append(i)
-
+# print(result)
 bonusnum = 0
 for b in bonusDict.values():
     if bonusnum:
@@ -61,6 +62,6 @@ for s in sorted(result):
         answer.append("(" + str(s) + ")")
     else:
         answer.append(str(s))
-# print(answer)
+# print(*answer)
 print(' '.join(answer))
 

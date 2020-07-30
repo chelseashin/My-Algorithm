@@ -7,12 +7,12 @@ def solution(progresses, speeds):
     answer = []
     days = [ceil((100 - a) / b) for a, b in zip(progresses, speeds)]
     # print(days)
-    front = 0
+    end = 0
     for idx in range(len(days)):
-        if days[front] < days[idx]:
-            answer.append(idx-front)
-            front = idx
-    answer.append(len(days)-front)
+        if days[end] < days[idx]:
+            answer.append(idx-end)
+            end = idx
+    answer.append(len(days)-end)
     return answer
 
 print(solution(progresses, speeds))

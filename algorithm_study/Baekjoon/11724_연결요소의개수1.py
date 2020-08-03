@@ -1,20 +1,19 @@
 import sys
 sys.stdin = open("11724_input.txt")
 
-# 런타임 에러
+# 드디어 성공
 def dfs(s):
     global visited, G, N
     visited[s] = 1
     for i in G[s]:
         if visited[i] == 0:
-            visited[i] = 1
             dfs(i)
     return
 
 N, M = map(int, input().split())
 G = [[] for _ in range(N+1)]
-
 cnt = 0
+
 for _ in range(M):
     u, v = map(int, input().split())
     G[u].append(v)

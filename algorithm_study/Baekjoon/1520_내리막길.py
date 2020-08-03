@@ -1,3 +1,5 @@
+# https://chldkato.tistory.com/114
+# https://suri78.tistory.com/4
 import sys
 sys.stdin = open('1520_input.txt')
 

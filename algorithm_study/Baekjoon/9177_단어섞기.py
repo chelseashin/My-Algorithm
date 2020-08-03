@@ -1,6 +1,7 @@
 import sys
 sys.stdin = open('9177_input.txt')
 
+# 다시 해보기
 from itertools import combinations
 
 T = int(input())

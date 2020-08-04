@@ -1,4 +1,4 @@
-N = 5
+N = 50
 # N = int(input())
 # fibonacci(n-1) + fibonacci(n-2)
 def fibonacci(n):
@@ -7,12 +7,13 @@ def fibonacci(n):
     return memo[n]
 
 memo = [0, 1]
-# print(fibonacci(N))
+print(fibonacci(N))
+print(memo)
 
-def fibo2(n) :
-    f = [0, 1]
-    for i in range(2, n + 1) :
-        f.append(f[i-1] + f[i-2])
-    return f[n]
-
-print(fibo2(10))
+# def fibo2(n) :
+#     f = [0, 1]
+#     for i in range(2, n + 1) :
+#         f.append(f[i-1] + f[i-2])
+#     return f[n]
+#
+# print(fibo2(10))

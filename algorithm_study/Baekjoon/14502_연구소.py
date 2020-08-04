@@ -8,6 +8,7 @@ import copy
 dr = (-1, 1, 0, 0)
 dc = (0, 0, -1, 1)
 
+# 바이러스 퍼트리기
 def bfs():
     global q, A, MAX
     Q = deque()
@@ -23,7 +24,7 @@ def bfs():
             if C[nr][nc] == 0:
                 C[nr][nc] = 2
                 Q.append((nr, nc))
-
+    # 최대 안전영역 찾기
     safeArea = 0
     for i in range(N):
         for j in range(M):
@@ -32,7 +33,7 @@ def bfs():
     if MAX < safeArea:
         MAX = safeArea
 
-
+# 벽 3개 세울 수 있는 모든 경우의 수
 def dfs(depth):
     if depth == 3:
         bfs()
@@ -49,6 +50,7 @@ N, M = map(int, input().split())
 A = [list(map(int, input().split())) for _ in range(N)]
 MAX = 0
 
+# 미리 바이러스 있는 위치 q에 담기
 q = deque()
 for i in range(N):
     for j in range(M):

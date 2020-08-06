@@ -6,7 +6,7 @@ def cal(n1, op, n2):
     if op == '+': return n1 + n2
     if op == '-': return n1 - n2
     if op == '*': return n1 * n2
-#
+
 def calculate():
     global S
     Q = deque()
@@ -24,16 +24,16 @@ def calculate():
         if len(Q) == 1:
             break
         Q.appendleft(cal(int(Q.popleft()), Q.popleft(), int(Q.popleft())))
-    return Q[0]
+
+    return int(Q[0])
 
 def dfs(pos):
     global MAX
     if pos >= N:
-        # print(check)
-        temp = calculate()
-        # print(temp)
-        if temp > MAX:
-            MAX = temp
+        # MAX = max(MAX, calculate())
+        # 위와 큰 차이 없음!
+        if calculate() > MAX:
+            MAX = calculate()
         return
     check[pos] = 1
     dfs(pos+4)
@@ -47,4 +47,3 @@ check = [0] * N
 
 dfs(1)
 print(MAX)
-# print(MAX)

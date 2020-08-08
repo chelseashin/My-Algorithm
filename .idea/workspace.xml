@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a67cc1a6-2a9d-42e4-91d1-1d85e6969e29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/baekjoon/삼성A형기출문제/17070_파이프옮기기2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm_study/Baekjoon/1753_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm_study/Baekjoon/1753_최단경로.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm_study/Baekjoon/2170_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm_study/Baekjoon/2170_선긋기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm_study/재귀연습.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/삼성A형기출문제/17135_다른풀이.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon/restart/DFS&amp;BFS/4179_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/restart/DFS&amp;BFS/4179_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm_study/Baekjoon/2468_안전영역.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm_study/Baekjoon/2468_안전영역.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/삼성A형기출문제/17135_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/삼성A형기출문제/17135_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/삼성A형기출문제/17135_캐슬디펜스.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/삼성A형기출문제/17135_캐슬디펜스.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,53 +28,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithm_study/baekjoon/1520_내리막길.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="-200">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baekjoon/삼성A형기출문제/17135_캐슬디펜스.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/baekjoon/삼성A형기출문제/17070_파이프옮기기2.py">
+        <entry file="file://$PROJECT_DIR$/baekjoon/삼성A형기출문제/17135_다른풀이.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+            <state relative-caret-position="228">
+              <caret line="21" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/삼성A형기출문제/17070_input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="6" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/삼성A형기출문제/17070_파이프옮기기1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="30" column="55" lean-forward="true" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm_study/baekjoon/2468_안전영역.py">
+        <entry file="file://$PROJECT_DIR$/baekjoon/삼성A형기출문제/17135_input.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm_study/baekjoon/2468_input.txt">
+        <entry file="file://$PROJECT_DIR$/algorithm_study/재귀연습.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            <state relative-caret-position="130">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -97,6 +95,7 @@
       <find>min</find>
       <find>print</find>
       <find>27</find>
+      <find>G</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,15 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/swea/summer/1249_input.txt" />
-        <option value="$PROJECT_DIR$/swea/summer/1249_보급로1.py" />
-        <option value="$PROJECT_DIR$/swea/summer/1249_보급로.py" />
-        <option value="$PROJECT_DIR$/algorithm_study/toss/3n+1.py" />
-        <option value="$PROJECT_DIR$/algorithm_study/toss/03_괄호짝맞추기.py" />
-        <option value="$PROJECT_DIR$/programmers/Greedy/조이스틱.py" />
-        <option value="$PROJECT_DIR$/programmers/DFS&amp;BFS/네트워크.py" />
-        <option value="$PROJECT_DIR$/programmers/DFS&amp;BFS/단어변환.py" />
-        <option value="$PROJECT_DIR$/swea/summer/5188_input.txt" />
         <option value="$PROJECT_DIR$/swea/summer/5188_최소합.py" />
         <option value="$PROJECT_DIR$/algorithm_study/baekjoon/1339_단어섞기.py" />
         <option value="$PROJECT_DIR$/algorithm_study/baekjoon/9177_input.txt" />
@@ -137,7 +127,6 @@
         <option value="$PROJECT_DIR$/algorithm_study/baekjoon/14502_input.txt" />
         <option value="$PROJECT_DIR$/algorithm_study/baekjoon/1062_가르침.py" />
         <option value="$PROJECT_DIR$/algorithm_study/baekjoon/2468_input.txt" />
-        <option value="$PROJECT_DIR$/algorithm_study/baekjoon/2468_안전영역.py" />
         <option value="$PROJECT_DIR$/algorithm_study/baekjoon/14502_연구소.py" />
         <option value="$PROJECT_DIR$/baekjoon/restart/Recursion/10870_피보나치수5.py" />
         <option value="$PROJECT_DIR$/baekjoon/삼성A형기출문제/16637_txt" />
@@ -156,12 +145,22 @@
         <option value="$PROJECT_DIR$/baekjoon/restart/DFS&amp;BFS/4179_input.txt" />
         <option value="$PROJECT_DIR$/baekjoon/삼성A형기출문제/17070_input.txt" />
         <option value="$PROJECT_DIR$/baekjoon/삼성A형기출문제/17070_파이프옮기기2.py" />
+        <option value="$PROJECT_DIR$/algorithm_study/baekjoon/2468_안전영역.py" />
+        <option value="$PROJECT_DIR$/algorithm_study/baekjoon/2170_선긋기.py" />
+        <option value="$PROJECT_DIR$/algorithm_study/baekjoon/2170_input.txt" />
+        <option value="$PROJECT_DIR$/algorithm_study/baekjoon/1753_input.txt" />
+        <option value="$PROJECT_DIR$/algorithm_study/baekjoon/1753_최단경로.py" />
+        <option value="$PROJECT_DIR$/../TIL/algorithm/day07/재귀호출.py" />
+        <option value="$PROJECT_DIR$/algorithm_study/재귀연습.py" />
+        <option value="$PROJECT_DIR$/baekjoon/삼성A형기출문제/17135_input.txt" />
+        <option value="$PROJECT_DIR$/baekjoon/삼성A형기출문제/17135_캐슬디펜스.py" />
+        <option value="$PROJECT_DIR$/baekjoon/삼성A형기출문제/17135_다른풀이.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="876" />
-    <option name="width" value="1053" />
+    <option name="x" value="967" />
+    <option name="width" value="962" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -169,47 +168,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="My-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-Algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm_study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm_study" type="462c0819:PsiDirectoryNode" />
-              <item name="baekjoon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="baekjoon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="baekjoon" type="462c0819:PsiDirectoryNode" />
-              <item name="삼성A형기출문제" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="swea" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -233,8 +192,71 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.17070_파이프옮기기2">
-    <configuration name="1697_숨바꼭질" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.17135_다른풀이">
+    <configuration name="재귀호출" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="My-Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../TIL/algorithm/day07" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../TIL/algorithm/day07/재귀호출.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="17135_캐슬디펜스" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="My-Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon/삼성A형기출문제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/삼성A형기출문제/17135_캐슬디펜스.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="17135_다른풀이" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="My-Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon/삼성A형기출문제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/삼성A형기출문제/17135_다른풀이.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1753_최단경로" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,7 +268,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm_study/baekjoon/1697_숨바꼭질.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm_study/baekjoon/1753_최단경로.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,7 +277,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="17070_파이프옮기기1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="재귀연습" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,95 +285,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon/삼성A형기출문제" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm_study" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/삼성A형기출문제/17070_파이프옮기기1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="17070_파이프옮기기2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="My-Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon/삼성A형기출문제" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/삼성A형기출문제/17070_파이프옮기기2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="4179_불!" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="My-Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon/restart/DFS&amp;BFS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/restart/DFS&amp;BFS/4179_불!.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5427_불" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="My-Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon/restart/DFS&amp;BFS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/restart/DFS&amp;BFS/5427_불.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="구명보트" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="My-Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programmers/Greedy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programmers/Greedy/구명보트.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm_study/재귀연습.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -466,19 +404,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.4179_불!" />
-      <item itemvalue="Python.1697_숨바꼭질" />
-      <item itemvalue="Python.5427_불" />
-      <item itemvalue="Python.17070_파이프옮기기2" />
-      <item itemvalue="Python.17070_파이프옮기기1" />
+      <item itemvalue="Python.17135_캐슬디펜스" />
+      <item itemvalue="Python.1753_최단경로" />
+      <item itemvalue="Python.재귀호출" />
+      <item itemvalue="Python.재귀연습" />
+      <item itemvalue="Python.17135_다른풀이" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.17070_파이프옮기기2" />
-        <item itemvalue="Python.17070_파이프옮기기1" />
-        <item itemvalue="Python.5427_불" />
-        <item itemvalue="Python.4179_불!" />
-        <item itemvalue="Python.1697_숨바꼭질" />
+        <item itemvalue="Python.17135_다른풀이" />
+        <item itemvalue="Python.17135_캐슬디펜스" />
+        <item itemvalue="Python.재귀연습" />
+        <item itemvalue="Python.재귀호출" />
+        <item itemvalue="Python.1753_최단경로" />
       </list>
     </recent_temporary>
   </component>
@@ -505,7 +443,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="701" y="0" width="842" height="830" extended-state="0" />
+    <frame x="678" y="0" width="864" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49867374" weight="0.3048433" />
@@ -513,15 +451,15 @@
       <window_info id="Favorites" order="2" sideWeight="0.50132626" side_tool="true" weight="0.051813472" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49966997" visible="true" weight="0.39601138" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38732395" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49966997" visible="true" weight="0.46011397" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38169014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32957748" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4990099" weight="0.32957748" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50033003" side_tool="true" weight="0.3366197" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49966997" weight="0.32957748" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50033003" side_tool="true" weight="0.3366197" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49966997" weight="0.32905984" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4990099" weight="0.32905984" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -684,12 +622,17 @@
           <line>13</line>
           <option name="timeStamp" value="98" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm_study/baekjoon/2170_선긋기.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="A" language="Python" />
-        <watch expression="memo" language="Python" />
+        <watch expression="e" />
+        <watch expression="s" />
       </configuration>
     </watches-manager>
   </component>
@@ -748,83 +691,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/swea/summer/5189_전기카트.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swea/summer/5189_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/restart/DFS&amp;BFS/7562_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_study/baekjoon/11724_연결요소의개수1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_study/baekjoon/11724_연결요소의개수2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-142">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/restart/DFS&amp;BFS/7562_나이트의이동.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/restart/DFS&amp;BFS/2583_영역구하기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/restart/DFS&amp;BFS/2583_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/restart/DFS&amp;BFS/2644_촌수계산.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_study/baekjoon/9177_단어섞기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/restart/DFS&amp;BFS/2644_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/restart/Problem_Solving/6603_로또.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -969,13 +835,7 @@
         <state relative-caret-position="-231" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_study/baekjoon/17135_캐슬디펜스.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm_study/baekjoon/17135_캐슬디펜스.py" />
     <entry file="file://$PROJECT_DIR$/algorithm_study/baekjoon/17136_색종이붙이기.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1035,20 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_study/baekjoon/2468_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_study/baekjoon/2468_안전영역.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/삼성A형기출문제/16637_괄호추가하기.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1056,17 +902,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_study/baekjoon/1520_내리막길.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/python37/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="292" selection-start-line="292" selection-end-line="292" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/삼성A형기출문제/17070_파이프옮기기2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1084,10 +930,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/삼성A형기출문제/17070_파이프옮기기2.py">
+    <entry file="file://$PROJECT_DIR$/algorithm_study/baekjoon/17822_원판돌리기.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+        <state relative-caret-position="1805">
+          <caret line="95" column="19" lean-forward="true" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm_study/baekjoon/2468_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm_study/baekjoon/2468_안전영역.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm_study/baekjoon/2170_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm_study/baekjoon/2170_선긋기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="33" column="10" lean-forward="true" selection-start-line="7" selection-end-line="33" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm_study/baekjoon/1753_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm_study/baekjoon/1753_최단경로.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TIL/algorithm/day07/재귀호출.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm_study/순열연습.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm_study/재귀연습.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/삼성A형기출문제/17135_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm_study/baekjoon/1520_내리막길.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/삼성A형기출문제/17135_캐슬디펜스.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/삼성A형기출문제/17135_다른풀이.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
         </state>
       </provider>
     </entry>

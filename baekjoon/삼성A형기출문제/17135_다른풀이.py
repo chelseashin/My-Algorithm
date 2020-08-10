@@ -1,6 +1,10 @@
 import sys
 sys.stdin = open('17135_input.txt')
 
+# 참고
+# https://www.acmicpc.net/problem/17135
+# https://home-body.tistory.com/587
+
 from itertools import combinations
 from collections import deque
 
@@ -14,6 +18,7 @@ def set_archer(pos):
     for i in pos:
         t[i] = 2
     field.append(t)
+    print(field)
     return [[N, p] for p in pos]
 
 # 적 아래로 한칸씩 이동
@@ -29,7 +34,8 @@ def attack(archer_pos):
         pos = bfs(r, c)
         if pos:
             enemy_pos.add(pos)
-            field[r][c] = 0
+    for r, c in enemy_pos:
+        field[r][c] = 0
     print(field)
     print(enemy_pos)
     print(len(enemy_pos))

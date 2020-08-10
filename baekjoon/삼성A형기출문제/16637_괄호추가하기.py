@@ -2,6 +2,7 @@ import sys
 sys.stdin = open('16637_input.txt')
 from collections import deque
 
+# 종혁님 코드 참고
 def cal(n1, op, n2):
     if op == '+': return n1 + n2
     if op == '-': return n1 - n2

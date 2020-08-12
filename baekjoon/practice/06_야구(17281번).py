@@ -1,55 +1,38 @@
 import sys
 sys.stdin = open('06_input.txt')
 
-import itertools
+from itertools import permutations
 
-# 2
-# 4 0 0 0 1 1 1 0 0
-# 0 0 0 0 0 0 0 0 0
+def play(lineup):
+    score = 0
+    hitter_idx = 0
+    for inning in innings:
+        out, b1, b2, b3 = 0, 0, 0, 0
+        while out <= 2:
+            if inning[lineup[hitter_idx]] == 0:
+                out += 1
+            elif inning[lineup[hitter_idx]] == 1:
+                score += b3
+                b1, b2, b3 = 1, b1, b2
+            elif inning[lineup[hitter_idx]] == 2:
+                score += (b2 + b3)
+                b1, b2, b3 = 0, 1, b1
+            elif inning[lineup[hitter_idx]] == 3:
+                score += (b1 + b2 + b3)
+                b1, b2, b3 = 0, 0, 1
+            elif inning[lineup[hitter_idx]] == 4:
+                score += (b1 + b2 + b3 + 1)
+                b1, b2, b3 = 0, 0, 0
+            hitter_idx = (hitter_idx + 1) % 9
+    return score
 
 N = int(input())
-arr = []
-for ining in range(N):
-    arr.append(list(map(int, input().split())))
-# print(arr)
+innings = [list(map(int, input().split())) for _ in range(N)]
+
 max_score = 0
-order = list(itertools.permutations(range(1, 9)))
-for o in order:
-    new = list(o)
-    new = new[0:3] + [0] + new[3:]
-    # print(new)
-    score = 0
-    for a in range(N):
-        A = []
-        for n in new:
-            A.append(arr[a][n])
-        # print(A)
-
-
-    if score > max_score:
-        max_score = score
+for order in list(permutations(range(1, 9))):
+    lineup = list(order[0:3]) + [0] + list(order[3:])
+    # print(lineup)
+    max_score = max(max_score, play(lineup))
 
 print(max_score)
-
-
-# 순열 함수 - DFS
-# result = []
-# visited = [0] * 9
-# def dfs(depth):
-#     if depth == 9:
-#         print(result)
-#         return
-#     if depth == 3:
-#         result.append(0)
-#         dfs(depth + 1)
-#         result.pop()
-#     else:
-#         for i in range(1, 9):
-#             if visited[i]:
-#                 continue
-#             result.append(i)
-#             visited[i] = 1
-#             dfs(depth + 1)
-#             result.pop()
-#             visited[i] = 0
-# dfs(0)

@@ -30,9 +30,9 @@ def game(order):
     return score
 
 def perm(depth):
-    global result, total_count, cnt, MAX
+    global result, total_count, MAX
     if depth == 9:
-        MAX = max(MAX, game(order))
+        # MAX = max(MAX, game(order))
         # print(order)
         return MAX
     if depth == 3:
@@ -54,6 +54,7 @@ inning = [list(map(int, input().split())) for _ in range(N)]
 MAX = float('-inf')
 
 # 방법 1
+
 visited = [0] * 9
 order = []
 # perm(0)

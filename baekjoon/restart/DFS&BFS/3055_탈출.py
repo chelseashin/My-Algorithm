@@ -7,6 +7,7 @@ from collections import deque
 dr = (-1, 1, 0, 0)
 dc = (0, 0, -1, 1)
 
+# 다음에 고슴도치 움직이기
 def Gbfs():
     while GQ:
         r, c = GQ.popleft()
@@ -22,7 +23,7 @@ def Gbfs():
             if go[r][c] + 1 < water[nr][nc] or water[nr][nc] == -1:
                 go[nr][nc] = go[r][c] + 1
                 GQ.append((nr, nc))
-
+# 물 먼저 퍼트리기
 def Wbfs():
     while WQ:
         r, c = WQ.popleft()
@@ -38,7 +39,7 @@ def Wbfs():
             water[nr][nc] = water[r][c] + 1
             WQ.append((nr, nc))
 
-
+# main
 R, C = map(int, input().split())
 raw = [list(input()) for _ in range(R)]
 
@@ -60,11 +61,7 @@ for r in range(R):
             br, bc = r, c
 
 Wbfs()
-# print('water', water)
-
-# print('전', go)
 Gbfs()
-# print('후', go)
 
 if go[br][bc] == -1:
     print("KAKTUS")

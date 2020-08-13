@@ -1,16 +1,18 @@
 import sys
 sys.stdin = open('17417_input.txt')
 
+from collections import deque
+
 def bfs(population):
     global result
     visited = [0] * N
     for i in range(len(selected)):
         if selected[i] == 1:
-            q = [i]
+            q = deque([i])
             visited[i] = 1
             break
     while q:
-        start = q.pop(0)
+        start = q.popleft()
         for end in range(N):
             if visited[end] == 1:
                 continue
@@ -25,11 +27,11 @@ def bfs(population):
     visited = [0] * N
     for i in range(len(selected)):
         if selected[i] == 0:
-            q = [i]
+            q = deque([i])
             visited[i] = 1
             break
     while q:
-        start = q.pop(0)
+        start = q.popleft()
         for end in range(N):
             if visited[end] == 1:
                 continue
@@ -43,7 +45,6 @@ def bfs(population):
     result = population
     return
 
-
 def dfs(depth, k, goal):
     global result
     if depth == goal:
@@ -54,6 +55,7 @@ def dfs(depth, k, goal):
                 A += L[i]
         B = max_pop - A
         temp = abs(A - B)
+        # print(temp)
         if temp < result:
             bfs(temp)
         return
@@ -72,7 +74,6 @@ for n in range(N):
     info = list(map(int, input().split()))
     for m in info[1:]:
         arr[n][m-1] = 1
-        arr[m-1][n] = 1
 
 for i in range(1, N):
     selected = [0] * N

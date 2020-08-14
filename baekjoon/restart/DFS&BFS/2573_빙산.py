@@ -70,7 +70,7 @@ while True:
     # print(iceberg)
     # 종료조건은 빙산이 아예 없어지거나 2개 이상일 때
     if iceberg == 0:
-        years = 0
+        print(0)
         break
     if iceberg >= 2:
         print(years)

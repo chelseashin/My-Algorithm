@@ -22,6 +22,7 @@ def dfs(sr, sc):
             V[sr][sc] += dfs(nr, nc)
     return V[sr][sc]
 
+# main
 M, N = map(int, input().split())
 A = [list(map(int, input().split())) for i in range(M)]
 V = [[-1] * N for _ in range(M)]

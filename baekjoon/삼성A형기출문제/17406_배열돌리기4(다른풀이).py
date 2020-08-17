@@ -49,6 +49,7 @@ def rotate(Q):
         r, c, s = Q.popleft()
         # 왼쪽 상단 좌표, 오른쪽 하단 좌표 저장
         sr, sc, er, ec = r-s, c-s, r+s, c+s
+        # print(sr, sc, er, ec)
         while True:
             # 시작점, 끝점 위치 만나면 break
             if sr >= er or sc >= ec:

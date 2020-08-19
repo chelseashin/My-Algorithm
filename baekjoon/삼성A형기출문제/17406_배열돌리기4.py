@@ -1,8 +1,9 @@
 import sys
 sys.stdin = open('17406_input.txt')
 
+# Optimization
+
 from itertools import permutations
-from copy import deepcopy
 
 # 우, 하, 좌, 상
 dr = (0, 1, 0, -1)
@@ -18,8 +19,7 @@ def check(arr):
     return
 
 def rotate(order):
-    # raw는 바뀌면 안 되기 때문에 copy 해서 돌려보기
-    A = deepcopy(raw)
+    A = [x[:] for x in raw]
     for cal in order:
         # 왼쪽 상단 좌표, 오른쪽 하단 좌표 저장
         sr, sc = cal[0] - cal[2], cal[1] - cal[2]
@@ -34,15 +34,12 @@ def rotate(order):
             while True:
                 nr = r + dr[dir]
                 nc = c + dc[dir]
-                # 범위 벗어나면 방향 바꾸기
-                if not (sr <= nr <= er and sc <= nc <= ec):
-                    dir += 1
+                if not (sr <= nr <= er and sc <= nc <= ec):  # 범위 벗어나면
+                    dir += 1  # 방향 바꾸기
                     continue
-                temp = A[nr][nc]
-                A[nr][nc] = prev
-                prev = temp
+                prev, A[nr][nc] = A[nr][nc], prev
                 r, c = nr, nc
-                # 한 바퀴 돌아서 시작점까지 왔을 때(4방향 회전 완료하면)
+                # 한 바퀴 돌아서 시작점까지 왔을 때
                 if r == sr and c == sc:
                     sr += 1
                     sc += 1

@@ -23,21 +23,35 @@
 # for x in list(permutations(range(1, N+1), M)):
 #     print(*x)
 
+# def perm(depth):
+#     if depth == 6:
+#         print(order)
+#         return
+#     for i in [0, 1]:
+#         if visited[i] != 4:
+#             visited[i] += 1
+#             order.append(i)
+#             perm(depth+1)
+#             order.pop()
+#             visited[i] -= 1
+
+
 def perm(depth):
-    if depth == 6:
-        print(order)
+    if depth == M:
+        print(*order)
         return
-    for i in [0, 1]:
-        if visited[i] != 4:
-            visited[i] += 1
-            order.append(i)
-            perm(depth+1)
-            order.pop()
-            visited[i] -= 1
+    for i in range(1, N+1):
+        if visited[i]:
+            continue
+        visited[i] = 1
+        order[depth] = i
+        perm(depth+1)
+        order[depth] = 0
+        visited[i] = 0
 
 
-N, M = 5, 3
+N, M = 4, 3
 # N, M = map(int, input().split())
-order = []
+order = [0] * M
 visited = [0] * (N+1)
 perm(0)

@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a67cc1a6-2a9d-42e4-91d1-1d85e6969e29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14888_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14888_연산자끼워넣기(Backtracking).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14888_연산자끼워넣기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14889_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14889_스타트와링크.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/restart/Problem_Solving/18883_NM찍기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14889_스타트와링크(Module).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swea/모의SW역량테스트/1767_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swea/모의SW역량테스트/1767_프로세서연결하기.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14501_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14501_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14889_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14889_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14889_스타트와링크.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14889_스타트와링크.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,19 +23,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14889_스타트와링크.py">
+        <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14889_스타트와링크(Module).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+            <state relative-caret-position="665">
+              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14889_input.txt">
+        <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/1767_프로세서연결하기.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <state relative-caret-position="1209">
+              <caret line="64" column="16" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/1767_input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -86,11 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/baekjoon/restart/DFS&amp;BFS/2146_다리만들기(Optimization).py" />
-        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/3190_input.txt" />
-        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/3190_뱀.py" />
-        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/3190_뱀(다시풀기).py" />
-        <option value="$PROJECT_DIR$/baekjoon/restart/Recursion/거듭제곱연습.py" />
         <option value="$PROJECT_DIR$/baekjoon/restart/Recursion/1629_거듭제곱.py" />
         <option value="$PROJECT_DIR$/baekjoon/삼성A형기출문제/17406_배열돌리기4(다른풀이).py" />
         <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17142_연구소3.py" />
@@ -135,16 +139,20 @@
         <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14888_연산자끼워넣기.py" />
         <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14888_input.txt" />
         <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14888_연산자끼워넣기(Backtracking).py" />
+        <option value="$PROJECT_DIR$/baekjoon/restart/Backtracking/14889_스타트와링크.py" />
         <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14889_input.txt" />
         <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14889_스타트와링크.py" />
+        <option value="$PROJECT_DIR$/baekjoon/restart/Problem_Solving/18883_NM찍기.py" />
+        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14889_스타트와링크(Module).py" />
+        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/1767_input.txt" />
+        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/1767_프로세서연결하기.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="812" />
-    <option name="y" value="-13" />
-    <option name="width" value="1054" />
-    <option name="height" value="1039" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -176,70 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.14888_연산자끼워넣기(Backtracking)">
-    <configuration name="14501_퇴사 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="My-Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14501_퇴사.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="14501_퇴사" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="My-Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm_study/baekjoon" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm_study/baekjoon/14501_퇴사.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="14888_연산자끼워넣기" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="My-Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14888_연산자끼워넣기.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.1767_프로세서연결하기">
     <configuration name="14888_연산자끼워넣기(Backtracking)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -261,7 +206,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="14891_톱니바퀴(다른풀이)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="14889_스타트와링크 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="My-Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon/restart/Backtracking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/restart/Backtracking/14889_스타트와링크.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="14889_스타트와링크" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,7 +239,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14891_톱니바퀴(다른풀이).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14889_스타트와링크.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1767_프로세서연결하기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="My-Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/모의SW역량테스트" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/모의SW역량테스트/1767_프로세서연결하기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="18883_NM찍기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="My-Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon/restart/Problem_Solving" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/restart/Problem_Solving/18883_NM찍기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,19 +291,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.14891_톱니바퀴(다른풀이)" />
-      <item itemvalue="Python.14501_퇴사" />
-      <item itemvalue="Python.14501_퇴사 (1)" />
-      <item itemvalue="Python.14888_연산자끼워넣기" />
       <item itemvalue="Python.14888_연산자끼워넣기(Backtracking)" />
+      <item itemvalue="Python.14889_스타트와링크" />
+      <item itemvalue="Python.14889_스타트와링크 (1)" />
+      <item itemvalue="Python.18883_NM찍기" />
+      <item itemvalue="Python.1767_프로세서연결하기" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1767_프로세서연결하기" />
+        <item itemvalue="Python.18883_NM찍기" />
+        <item itemvalue="Python.14889_스타트와링크" />
+        <item itemvalue="Python.14889_스타트와링크 (1)" />
         <item itemvalue="Python.14888_연산자끼워넣기(Backtracking)" />
-        <item itemvalue="Python.14888_연산자끼워넣기" />
-        <item itemvalue="Python.14501_퇴사 (1)" />
-        <item itemvalue="Python.14501_퇴사" />
-        <item itemvalue="Python.14891_톱니바퀴(다른풀이)" />
       </list>
     </recent_temporary>
   </component>
@@ -322,14 +330,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49867374" weight="0.23320659" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50132626" side_tool="true" weight="0.051813472" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33190882" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.32112676" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.32051283" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43661973" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -568,45 +577,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../algorithmStudyDaejeon/chelseashin/모의SW역량테스트/5658_보물상자비밀번호.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/5658_보물상자비밀번호.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-257">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/restart/Recursion/16505_별.py" />
-    <entry file="file://$PROJECT_DIR$/baekjoon/restart/Backtracking/15649_N과 M(1).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/restart/Backtracking/15650_N과 M(2).py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/restart/Backtracking/15651_N과 M(3).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/restart/Backtracking/15652_N과 M(4).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/restart/Backtracking/9663_N-Queen.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -858,13 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14889_스타트와링크.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm_study/baekjoon/14501_퇴사.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -874,8 +837,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14889_input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="114">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/restart/Backtracking/14889_스타트와링크.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/restart/Problem_Solving/6603_로또.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/restart/Problem_Solving/18883_NM찍기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/5658_보물상자비밀번호.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14889_스타트와링크.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14889_스타트와링크(Module).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/1767_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/1767_프로세서연결하기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1209">
+          <caret line="64" column="16" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
         </state>
       </provider>
     </entry>

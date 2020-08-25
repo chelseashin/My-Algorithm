@@ -5,6 +5,7 @@ sys.stdin = open('1767_input.txt')
 dr = (-1, 1, 0, 0)
 dc = (0, 0, -1, 1)
 
+# 프로세서 연결하기
 def runProcessor(pr, pc, d, depth):
     cnt = 0
     while True:
@@ -17,6 +18,7 @@ def runProcessor(pr, pc, d, depth):
         cnt += 1
         raw[pr][pc] = 10 + depth
 
+# 연결한 전선 지우기
 def cleanLine(pr, pc, d, depth):
     while True:
         pr += dr[d]
@@ -27,41 +29,39 @@ def cleanLine(pr, pc, d, depth):
             return
         raw[pr][pc] = 0
 
-def dfs(depth, length, core):
-    global core_cnt, max_cores, min_length
-    if depth == core_cnt:
-        if core == max_cores:
-            min_length = min(min_length, length)
-        elif core > max_cores:
-            max_cores = core
-            min_length = length
+# 연결 확인한 코어, 현재 전선의 길이, 실제 연결한 코어의 수
+def dfs(depth, length, K):
+    global minLength, maxCore, N, count
+    if depth == count:
+        if K == maxCore:
+            minLength = min(minLength, length)
+        elif K > maxCore:
+            maxCore = K
+            minLength = length
         return
+
     r, c = cores[depth]
-    for i in range(4):      # 같은 depth에서 4방향 탐색
-        line_cnt = runProcessor(r, c, i, depth)
-        if line_cnt:        # 전원에 연결하면 다음 코어 연결 시도
-            dfs(depth+1, length+line_cnt, core+1)
-        cleanLine(r, c, i, depth) # 연결 못했다면 시도하던 연결선 제거
-    dfs(depth+1, length, core)
+    for i in range(4):       # 같은 depth에서 4방향 탐색
+        lineCount = runProcessor(r, c, i, depth)
+        if lineCount:        # 전원에 연결하면 다음 코어 연결 시도
+            dfs(depth+1, length+lineCount, K+1)
+        cleanLine(r, c, i, depth)   # 연결선 제거
+    dfs(depth+1, length, K)
 
 # main
 T = int(input())
 for tc in range(T):
     N = int(input())
     raw = [list(map(int, input().split())) for _ in range(N)]
-    max_cores = float('-inf')
-    min_length = float('inf')
+    maxCore = 0
+    minLength = float('inf')
 
     cores = []
-    core_cnt = 0
+    count = 0
     for i in range(1, N-1):
         for j in range(1, N-1):
             if raw[i][j]:
                 cores.append((i, j))
-                core_cnt += 1
-
-
-    # 연결 확인한 코어, 현재 전선의 길이, 코어의 수
+                count += 1
     dfs(0, 0, 0)
-    # print(raw)
-    print("#{} {}".format(tc+1, min_length))
+    print("#{} {}".format(tc+1, minLength))

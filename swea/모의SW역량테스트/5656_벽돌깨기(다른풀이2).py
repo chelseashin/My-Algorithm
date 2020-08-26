@@ -16,9 +16,10 @@ def down(depth):
 
 # 벽돌 깨기
 def boom(depth, sr, sc):
-    boom_count = 0
     # 현재 depth에 작업하기 전에 전 depth의 결과를 복사해온다.
     raw_data[depth+1] = [R[:] for R in raw_data[depth]]
+
+    boom_count = 0
     stack = [(sr, sc)]
     while stack:
         r, c = stack.pop()
@@ -64,6 +65,7 @@ for tc in range(T):
     for i in range(H):
         raw_data[0][i] = list(map(int, input().split()))
         brick += sum(1 for j in raw_data[0][i] if j)
+    # print(raw_data)
     total = 0
     dfs(0, 0)
     print("#{} {}".format(tc+1, brick-total))

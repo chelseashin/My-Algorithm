@@ -7,4 +7,6 @@ for tc in range(T):
     touch_num = list(map(int, input().split()))
     touch_op = list(map(int, input().split()))
     W = int(input())
-    
+    MIN = float('inf')
+
+    print('#{} {}'.format(tc+1, MIN))

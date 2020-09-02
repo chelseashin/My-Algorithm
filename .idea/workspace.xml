@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a67cc1a6-2a9d-42e4-91d1-1d85e6969e29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_아기상어.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17144_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17144_미세먼지안녕!.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swea/summer/1952_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swea/summer/1952_수영장.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swea/모의SW역량테스트/2382_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리(improve).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리(다시).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_아기상어(다른풀이).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_아기상어(다른풀이2).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swea/모의SW역량테스트/2112_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swea/모의SW역량테스트/2112_무선충전.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리(다른풀이1).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swea/study/19_수영장.py" beforeDir="false" afterPath="$PROJECT_DIR$/swea/study/19_수영장.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swea/모의SW역량테스트/2117_홈방범서비스(다른풀이).py" beforeDir="false" afterPath="$PROJECT_DIR$/swea/모의SW역량테스트/2117_홈방범서비스(다른풀이).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_아기상어.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_아기상어.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리(improve).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리(다시).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리.py" beforeDir="false" afterPath="$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,37 +27,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리.py">
+        <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_아기상어(다른풀이2).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리(다시).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="209">
+              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리(improve).py">
+        <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/15686_치킨배달.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/2382_input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            <state relative-caret-position="-19">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -67,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_아기상어.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="-836">
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -76,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            <state relative-caret-position="76">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -115,13 +95,14 @@
       <find>deepco</find>
       <find>PP</find>
       <find>times</find>
-      <find>print</find>
       <find>q</find>
       <find>print(</find>
       <find>min</find>
       <find>[[0, 0, 0, 0, 1], [0, 0, 0, 0, 1], [0, 0, 0, 0, 1], [0, 0, 0, 0, 1]]</find>
       <find>A</find>
       <find>bfs</find>
+      <find>print</find>
+      <find>fish</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -130,12 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14889_input.txt" />
-        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14889_스타트와링크(Module).py" />
-        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/5656_벽돌깨기(다른풀이).py" />
-        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/5658_보물상자비밀번호.py" />
-        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/1767_프로세서연결하기.py" />
-        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/5653_줄기세포배양.py" />
         <option value="$PROJECT_DIR$/swea/모의SW역량테스트/5653_input.txt" />
         <option value="$PROJECT_DIR$/../algorithmStudyDaejeon/chelseashin/모의SW역량테스트/5658_보물상자비밀번호.py" />
         <option value="$PROJECT_DIR$/swea/모의SW역량테스트/5656_벽돌깨기(다른풀이2).py" />
@@ -175,18 +150,24 @@
         <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17144_input.txt" />
         <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17144_미세먼지안녕!(Optimization).py" />
         <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17144_미세먼지안녕!.py" />
-        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_아기상어.py" />
-        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_input.txt" />
-        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리.py" />
-        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리(다시).py" />
-        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/2382_input.txt" />
         <option value="$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리(improve).py" />
+        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리(다시).py" />
+        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리.py" />
+        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리(다른풀이1).py" />
+        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리(다른풀이).py" />
+        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/2382_input.txt" />
+        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/2112_input.txt" />
+        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/2112_무선충전.py" />
+        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_아기상어(다른풀이).py" />
+        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_아기상어.py" />
+        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_아기상어(다른풀이2).py" />
+        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_input.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="771" />
-    <option name="width" value="1158" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -219,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2382_미생물격리(improve)">
+  <component name="RunManager" selected="Python.16236_아기상어(다른풀이2)">
     <configuration name="16236_아기상어" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,7 +222,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="17144_미세먼지안녕!" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="16236_아기상어(다른풀이2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,7 +234,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17144_미세먼지안녕!.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_아기상어(다른풀이2).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,7 +243,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2117_홈방범서비스(다른풀이)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="16236_아기상어(다른풀이)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="My-Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_아기상어(다른풀이).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2112_무선충전" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -274,7 +276,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/모의SW역량테스트/2117_홈방범서비스(다른풀이).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/모의SW역량테스트/2112_무선충전.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,7 +285,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2382_미생물격리" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2382_미생물격리(다른풀이)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -295,49 +297,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2382_미생물격리(다시)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="My-Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/모의SW역량테스트" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리(다시).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2382_미생물격리(improve)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="My-Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/모의SW역량테스트" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리(improve).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리(다른풀이).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -347,19 +307,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.17144_미세먼지안녕!" />
+      <item itemvalue="Python.2382_미생물격리(다른풀이)" />
+      <item itemvalue="Python.2112_무선충전" />
       <item itemvalue="Python.16236_아기상어" />
-      <item itemvalue="Python.2382_미생물격리" />
-      <item itemvalue="Python.2382_미생물격리(다시)" />
-      <item itemvalue="Python.2382_미생물격리(improve)" />
+      <item itemvalue="Python.16236_아기상어(다른풀이)" />
+      <item itemvalue="Python.16236_아기상어(다른풀이2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.2382_미생물격리(improve)" />
-        <item itemvalue="Python.2382_미생물격리(다시)" />
-        <item itemvalue="Python.2382_미생물격리" />
+        <item itemvalue="Python.16236_아기상어(다른풀이2)" />
         <item itemvalue="Python.16236_아기상어" />
-        <item itemvalue="Python.17144_미세먼지안녕!" />
+        <item itemvalue="Python.16236_아기상어(다른풀이)" />
+        <item itemvalue="Python.2112_무선충전" />
+        <item itemvalue="Python.2382_미생물격리(다른풀이)" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +346,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="617" y="0" width="926" height="830" extended-state="0" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49867374" weight="0.23293173" />
@@ -394,8 +354,8 @@
       <window_info id="Favorites" order="2" sideWeight="0.50132626" side_tool="true" weight="0.051813472" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33190882" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.4680851" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.51332396" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.33520338" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.46241134" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
@@ -586,25 +546,53 @@
           <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/swea/모의SW역량테스트/1953_탈주범검거.py</url>
-          <line>54</line>
-          <option name="timeStamp" value="119" />
+          <url>file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_아기상어.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/swea/모의SW역량테스트/1953_탈주범검거.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="120" />
+          <url>file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_아기상어(다른풀이2).py</url>
+          <line>70</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_아기상어(다른풀이2).py</url>
+          <line>9</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_아기상어(다른풀이2).py</url>
+          <line>18</line>
+          <option name="timeStamp" value="128" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="A" language="Python" />
+        <watch expression="S" language="Python" />
+        <watch expression="S[nr][nc]" language="Python" />
+        <watch expression="Q" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>Q</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>S[nr][nc]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>S</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>A</expression-string>
         <language-id>Python</language-id>
@@ -631,11 +619,6 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>S</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
         <expression-string>raw[row][col]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -645,71 +628,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>MAX</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cafe[nr][nc]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/swea/summer/1953_탈주범검거.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-436" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/1953_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/모의SW역량테스트/1953_탈주범검거.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/1953_탈주범검거.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/1949_등산로조성.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_study/모의SW역량테스트/2105_디저트카페1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="845">
-          <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swea/summer/2105_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/모의SW역량테스트/2105_디저트카페.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/swea/summer/2105_디저트카페.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="530">
@@ -741,13 +662,6 @@
     <entry file="file://$PROJECT_DIR$/algorithm_study/baekjoon/14502_연구소.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-490" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/15683_감시.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/2105_디저트카페.py">
@@ -793,13 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/15686_치킨배달.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="62" column="18" lean-forward="true" selection-start-line="54" selection-end-line="62" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/15686_input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -814,13 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
           <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/2117_홈방범서비스.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -906,13 +806,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/17144_미세먼지안녕!(Optimization).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="36" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/17144_미세먼지안녕!(Optimization).py" />
     <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17144_input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -920,13 +814,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17144_미세먼지안녕!(Optimization).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17144_미세먼지안녕!(Optimization).py" />
     <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17144_미세먼지안녕!.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1444">
@@ -937,17 +825,101 @@
     <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17144_미세먼지안녕!(다른풀이).py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_input.txt">
+    <entry file="file://$PROJECT_DIR$/../algorithmStudyDaejeon/chelseashin/모의SW역량테스트/2117_홈방범서비스.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리(improve).py" />
+    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리(다시).py" />
+    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/2117_홈방범서비스.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/1953_탈주범검거.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/모의SW역량테스트/1953_탈주범검거.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/15683_감시.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리(다른풀이1).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리(다른풀이).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/2112_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/2112_무선충전.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/2382_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_아기상어(다른풀이).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-684">
+          <caret selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_아기상어.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-836">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -958,38 +930,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/2382_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리(다시).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../algorithmStudyDaejeon/chelseashin/모의SW역량테스트/2117_홈방범서비스.py">
+    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_아기상어(다른풀이2).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리(improve).py">
+    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/15686_치킨배달.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        <state relative-caret-position="-19">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
         </state>
       </provider>
     </entry>

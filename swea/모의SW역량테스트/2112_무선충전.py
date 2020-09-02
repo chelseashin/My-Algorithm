@@ -7,4 +7,4 @@ for tc in range(T):
     film = [list(map(int, input().split())) for _ in range(D)]
     MIN = 0
 
-    print("#{} {}".format(tc+1, MIN)
+    print("#{} {}".format(tc+1, MIN))

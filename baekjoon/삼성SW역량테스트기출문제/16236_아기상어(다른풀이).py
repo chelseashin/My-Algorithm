@@ -1,13 +1,14 @@
 import sys
 sys.stdin = open('16236_input.txt')
 
+# 참고 블로그 - https://hongsj36.github.io/2020/02/12/BOJ_16236/
+# 내 스타일은 아니지만 다른 방법으로 상 > 좌 우선 순으로 잡을 물고기를 탐색한 것이 참신하다고 생각.
+
 from collections import deque
 
 # 상 좌 하 우
-# dr = (-1, 0, 1, 0)
-# dc = (0, -1, 0, 1)
-dr = (-1, 1, 0, 0)
-dc = (0, 0, -1, 1)
+dr = (-1, 0, 1, 0)
+dc = (0, -1, 0, 1)
 
 # main
 N = int(input())
@@ -31,7 +32,6 @@ while True:
     visited[shark_pos[0]][shark_pos[1]] = 1
     Q = deque()
     Q.append((*shark_pos, 0))
-    # print(Q)
 
     fish = (N, N)
     min_dis = float('inf')
@@ -43,7 +43,7 @@ while True:
 
         # 우선순위에 따른 먹잇감 예약
         if S[r][c] and S[r][c] < size:
-            if r < fish[0] or (r == fish[0] and c < fish[1]): # 상 좌 구역
+            if r < fish[0] or (r == fish[0] and c < fish[1]):   # 상 좌 구역
                 fish = (r, c)
                 min_dis = cnt
 

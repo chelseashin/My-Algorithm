@@ -20,7 +20,7 @@ ex) from itertools import permutations 선언
 ### product()
 
 ```python
-import itertools
+.import itertools
  
 itertools.product('ABCD', repeat=2)
 # 결과: AA AB AC AD BA BB BC BD CA CB CC CD DA DB DC DD

@@ -28,7 +28,6 @@ for tc in range(T):
             idx += 1
             if not cnt:
                 continue
-
             # 이동
             nr = r + dr[d]
             nc = c + dc[d]

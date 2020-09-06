@@ -17,6 +17,29 @@ sys.stdin = open('17140_input.txt')
 
 from collections import Counter
 
+
+# R 연산과 C 연산 로직이 똑같기 때문에 하나의 함수로 처리
+def calculation(A):
+    new_A = []  # 새로운 배열 A에 채우기
+    max_col = 0
+    for row in A:
+        new_row = []
+        L = Counter(row).items()
+        count_table = sorted(L, key=lambda x: (x[1], x[0]))
+        for num, cnt in count_table:
+            if num == 0:  # 0이면 무시
+                continue
+            new_row.append(num)
+            new_row.append(cnt)
+        max_col = max(max_col, len(new_row))
+        new_A.append(new_row)
+    
+    # 가장 긴 열의 길이에 맞춰 0으로 채우기
+    for row in new_A:
+        if len(row) < max_col:
+            row += [0] * (max_col - len(row))
+    return new_A
+
 # main
 r, c, k = map(int, input().split())
 A = [list(map(int, input().split())) for _ in range(3)]
@@ -40,44 +63,13 @@ while True:
 
     # 매 초마다 조건에 따라 R 또는 C 연산을 수행함
     # R 연산
-    new_A = []      # 새로운 배열 A에 채우기
-    max_col = 0
     if len(A) >= len(A[0]):     # 행의 개수 >= 열의 개수일 때
-        for row in A:
-            new_row = []
-            L = Counter(row).items()
-            count_table = sorted(L, key=lambda x: (x[1], x[0]))
-            for num, cnt in count_table:
-                if num == 0:        # 0이면 무시
-                    continue
-                new_row.append(num)
-                new_row.append(cnt)
-            max_col = max(max_col, len(new_row))
-            new_A.append(new_row)
-
-        for row in new_A:
-            if len(row) < max_col:
-                row += [0] * (max_col - len(row))
-        A = new_A
+        A = calculation(A)
         continue
 
     # C 연산
     elif len(A) < len(A[0]):    # 행의 개수 < 열의 개수일 때
         A = list(map(list, zip(*A)))
-        for row in A:
-            new_row = []
-            L = Counter(row).items()
-            count_table = sorted(L, key=lambda x: (x[1], x[0]))
-            for num, cnt in count_table:
-                if num == 0:
-                    continue
-                new_row.append(num)
-                new_row.append(cnt)
-            max_col = max(max_col, len(new_row))
-            new_A.append(new_row)
-
-        for row in new_A:
-            if len(row) < max_col:
-                row += [0] * (max_col - len(row))
+        new_A = calculation(A)
         A = list(map(list, zip(*new_A)))
         continue

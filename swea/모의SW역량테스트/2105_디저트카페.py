@@ -5,7 +5,7 @@ sys.stdin = open('2105_input.txt')
 dr = (1, 1, -1, -1)
 dc = (1, -1, -1, 1)
 
-# 시작 좌표, 방향, 들린 카페 리스트, 우하향, 좌하향
+# 시작 좌표, 방향, 우하향, 좌하향, 들린 카페 리스트
 def dfs(row, col, dir, dis1, dis2, cafe):
     global MAX
     if dir == 4:

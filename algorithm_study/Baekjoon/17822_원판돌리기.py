@@ -88,7 +88,9 @@ for _ in range(T):
     if flag == 0:
         control(A)
 
-# print(A)
+    # for a in A:
+    #     print(a)
+    # print(_)
 # 최종 배열 A의 모든 원소 합
 total = 0
 for i in range(N):

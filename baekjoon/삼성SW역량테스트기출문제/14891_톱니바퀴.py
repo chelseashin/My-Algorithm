@@ -11,7 +11,7 @@ def dfs(pos, dir):
     if pos < 3:
         if gears[pos][2] != gears[pos+1][6] and not turn[pos+1]:
             dfs(pos+1, -dir)
-    if (pos > 0):
+    if pos > 0:
         if gears[pos][6] != gears[pos-1][2] and not turn[pos-1]:
             dfs(pos-1, -dir)
       # 1: 시계방향, -1: 반시계방향

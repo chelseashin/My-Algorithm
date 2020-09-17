@@ -1,6 +1,8 @@
 import sys
 sys.stdin = open('17143_input.txt')
 
+input = sys.stdin.readline
+
 # 상 하 우 좌
 dr = (0, -1, 1, 0, 0)
 dc = (0, 0, 0, 1, -1)

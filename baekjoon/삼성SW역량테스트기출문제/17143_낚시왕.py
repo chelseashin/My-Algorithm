@@ -1,63 +1,69 @@
 import sys
 sys.stdin = open('17143_input.txt')
 
-# 상 하 좌 우
+input = sys.stdin.readline
+
+# 상 하 우 좌
 dr = (0, -1, 1, 0, 0)
-dc = (0, 0, 0, -1, 1)
+dc = (0, 0, 0, 1, -1)
 
 # 방향 바꾸기
 rev = (0, 2, 1, 4, 3)
 
-def shark(sr, sc, speed, dir, size):
-
-    for _ in speed:
-        sr += dr[dir]
-        sc += dc[dir]
-        if not (0 <= sr < R and 0 <= sc < C):
-            dir = rev[dir]
-            sr += dr[dir]
-            sc += dc[dir]
-        # A에 값이 있을 때 크기 비교 해주기
-        if A[sr][sc]:
-            if A[sr][sc][2] > size:
-                return A[sr][sc]
-            else:
-                A[sr][sc] = (speed, dir, size)
-                return [sr, sc, speed, dir, size]
-
+def move():
+    check = [[0] * C for _ in range(R)]
+    temp = []
+    cnt = 0
+    for nr in range(R):
+        for nc in range(C):
+            r, c = nr, nc
+            if A[r][c]:
+                cnt += 1
+                speed, dir, size = A[r][c]
+                A[r][c] = 0
+                for _ in range(speed):  # 속도만큼
+                    r += dr[dir]
+                    c += dc[dir]
+                    if not (0 <= r < R and 0 <= c < C):
+                        dir = rev[dir]
+                        if dir == 1:
+                            r += dr[dir] - 1
+                            c += dc[dir]
+                        elif dir == 2:
+                            r += dr[dir] + 1
+                            c += dc[dir]
+                        elif dir == 3:
+                            r += dr[dir]
+                            c += dc[dir] + 1
+                        elif dir == 4:
+                            r += dr[dir]
+                            c += dc[dir] - 1
+                if not check[r][c]:    # 없으면 새로 등록
+                    temp.append((r, c))
+                    check[r][c] = (speed, dir, size)
+                else:   # 있으면 크기 비교
+                    if check[r][c][2] < size:
+                        check[r][c] = (speed, dir, size)
+    for y, x in temp:
+        A[y][x] = check[y][x]
 
 # main
 R, C, M = map(int, input().split())
-A = [[[] for _ in range(C)] for _ in range(R)]
-
-catch = 0
-movement = []
+if M == 0:
+    print(0)
+    exit()
+A = [[0] * C for _ in range(R)]
 for _ in range(M):
-    r, c, s, d, z = map(int, input().split())
-    A[r-1][c-1].append((s, d, z))
-    movement.append((r, c, s, d, z))
-    # print(r, c, s, d, z)
+    r, c, speed, dir, size = map(int, input().split())
+    A[r-1][c-1] = (speed, dir, size)
 
-for a in A:
-    print(a)
-print(movement)
-
-for col in range(C):
-    # 땅과 제일 가까운 상어 낚시
-    for row in range(R):
-        if A[row][col]:
-            A[row][col] = []
+res = 0
+for i in range(C):
+    for j in range(R):
+        if A[j][i]:
+            res += A[j][i][2]   # 상어 낚시
+            A[j][i] = 0
             break
     # 상어 이동
-
-    for i in range(len(movement)):
-        r, c, s, d, z = movement
-        movement[i] = shark(r, c, s, d, z)
-
-
-
-    for a in A:
-        print(a)
-    print()
-
-print(catch)
+    move()
+print(res)

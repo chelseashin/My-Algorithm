@@ -9,73 +9,78 @@ dc = (0, 0, 1, 0, -1)
 
 # BC 설치, 범위와 성능 표시
 def install(idx, sr, sc, coverage, performance):
-    raw[sr][sc].append((idx, performance))
-    visited = [[-1] * 10 for _ in range(10)]
-    visited[sr][sc] = 0
+    visited = [[0] * 10 for _ in range(10)]
+    visited[sr][sc] = 1
+    raw[sr][sc].append((performance, idx))
     Q = deque([(sr, sc)])
-    while Q:
-        r, c = Q.popleft()
-        if visited[r][c] == coverage:
-            break
-        for i in range(1, 5):
-            nr = r + dr[i]
-            nc = c + dc[i]
-            if not (0 <= nr < 10 and 0 <= nc < 10):
-                continue
-            if visited[nr][nc] >= 0:
-                continue
-            visited[nr][nc] = visited[r][c] + 1
-            raw[nr][nc].append((idx, performance))
-            Q.append((nr, nc))
-
-
-def dfs(depth, total, user):
-    global N, each
-    temp = 0
-    if depth == 2:
-        # each = max(each, total)
-        return total
-    r, c = user[depth][0], user[depth][1]
-    for i in range(N):
-        if selected[i]:
-            continue
-        # 해당 좌표에 BC 있으면
-        for j in range(len(raw[r][c])):
-            selected[i] = 1
-            temp = max(temp, dfs(depth+1, total + raw[r][c][j][1], user))
-            selected[i] = 0
-    # 없으면
-    temp = max(temp, dfs(depth+1, total, user))
-    return temp
+    for _ in range(coverage):
+        lq = len(Q)
+        for __ in range(lq):
+            r, c = Q.popleft()
+            for dir in range(1, 5):
+                nr = r + dr[dir]
+                nc = c + dc[dir]
+                if not (0 <= nr < 10 and 0 <= nc < 10):
+                    continue
+                if visited[nr][nc]:
+                    continue
+                visited[nr][nc] = 1
+                raw[nr][nc].append((performance, idx))
+                Q.append((nr, nc))
 
 # main
 T = int(input())
 for tc in range(T):
     M, N = map(int, input().split())    # 이동정보 수, 설치된 BC 수
-    info = [list(map(int, input().split())) + [0] for _ in range(2)]
+    A = list(map(int, input().split()))
+    B = list(map(int, input().split()))
     raw = [[[] for _ in range(10)] for _ in range(10)]
-    MAX = 0
+    result = 0
     # BC 정보 저장
     for i in range(N):
         x, y, C, P = map(int, input().split())
         install(i, y-1, x-1, C, P)
-    for r in raw:
-        print(r)
+    
+    for i in range(10):
+        for j in range(10):
+            raw[i][j].sort(reverse=True)    # 내림차순
 
-    user = [[0, 0], [9, 9]]
-    # print(info)
+    # 사용자 A, B 좌표
+    ar, ac = 0, 0
+    br, bc = 9, 9
     for i in range(M+1):
-        selected = [0] * N
-        each = 0
-        dfs(0, 0, user)
-        MAX += each
-        # 사용자 A, B 동시에 이동 처리
-        for j in range(2):
-            user[j][0] += dr[info[j][i]]
-            user[j][1] += dc[info[j][i]]
-        print(i, user, each)
+        # a 없고 b만 있으면 b만 더함
+        if not raw[ar][ac]:
+            if raw[br][bc]:
+                result += raw[br][bc][0][0]
+        # b 없고 a만 있으면 a만 더함
+        elif not raw[br][bc]:
+            if raw[ar][ac]:
+                result += raw[ar][ac][0][0]
+        # a, b 가장 큰 충전량의 번호가 다르면 가장 큰 거 두개 더함
+        elif raw[ar][ac][0][1] != raw[br][bc][0][1]:
+            result += raw[ar][ac][0][0] + raw[br][bc][0][0]
+        # a, b 가장 큰 충전량의 번호가 같으면 중복이기 때문에
+        # 가장 큰 값 + 두 번째로 큰 값들끼리 비교해서 큰 값을 더해줌
+        else:
+            temp = 0
+            if len(raw[ar][ac]) > 1:
+                temp = raw[ar][ac][1][0]
+            if len(raw[br][bc]) > 1:
+                temp = max(temp, raw[br][bc][1][0])
+            result += raw[ar][ac][0][0] + temp
+        if i == M:
+            break
+        # 사용자 이동
+        dir = A[i]
+        ar += dr[dir]
+        ac += dc[dir]
+        dir = B[i]
+        br += dr[dir]
+        bc += dc[dir]
+        # print(i, (ar, ac), (br, bc), result)
 
-    print("#{} {}".format(tc+1, MAX))
+    print("#{} {}".format(tc+1, result))
 
     # 1 1200
     # 2 3290

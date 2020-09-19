@@ -81,9 +81,7 @@ for i in range(N):
     for j in range(M):
         if B[i][j] == "R":
             rr, rc = i, j
-            B[i][j] = "."
         elif B[i][j] == "B":
             br, bc = i, j
-            B[i][j] = "."
 
 bfs(rr, rc, br, bc, 0)

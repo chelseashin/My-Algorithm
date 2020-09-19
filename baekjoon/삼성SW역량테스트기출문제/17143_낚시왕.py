@@ -16,11 +16,11 @@ def move():
     cnt = 0
     for nr in range(R):
         for nc in range(C):
-            r, c = nr, nc
+            r, c = nr, nc   # 기존 위치 기억
             if A[r][c]:
                 cnt += 1
                 speed, dir, size = A[r][c]
-                A[r][c] = 0
+                A[r][c] = 0             # 맵에서 지워주기(맵 재사용을 위해)
                 for _ in range(speed):  # 속도만큼
                     r += dr[dir]
                     c += dc[dir]

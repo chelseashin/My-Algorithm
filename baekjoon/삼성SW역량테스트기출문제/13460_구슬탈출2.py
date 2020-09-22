@@ -20,7 +20,7 @@ def bfs(rr, rc, br, bc, cnt):
         if cnt > 10:
             print(-1)
             return
-        while qlen:
+        for _ in range(qlen):
             rr, rc, br, bc = Q.popleft()
             # 빨간 구슬이 구멍에 빠지면
             if B[rr][rc] == 'O':
@@ -61,11 +61,10 @@ def bfs(rr, rc, br, bc, cnt):
                     else:   # 파란 구슬의 이동 길이가 더 길면
                         nbr -= dr[d]
                         nbc -= dc[d]
-
+                # 방문 체크
                 if (nrr, nrc, nbr, nbc) not in visited:
                     visited.append((nrr, nrc, nbr, nbc))
                     Q.append((nrr, nrc, nbr, nbc))
-            qlen -= 1
         cnt += 1
     print(-1)
     return

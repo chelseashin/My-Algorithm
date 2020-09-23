@@ -48,6 +48,7 @@ for tc in range(T):
                     while True:
                         # 시작점이거나 블랙홀이면 종료
                         if (nr == r and nc == c) or B[nr][nc] == -1:
+                            result = max(score, result)
                             break
                         # 1 ~ 5 블럭이면 방향 전환, 득점
                         elif 1 <= B[nr][nc] <= 5:
@@ -59,7 +60,6 @@ for tc in range(T):
                         # 한칸 전진
                         nr += dr[d]
                         nc += dc[d]
-                    result = max(score, result)
 
     print("#{} {}".format(tc+1, result))
 

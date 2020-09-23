@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a67cc1a6-2a9d-42e4-91d1-1d85e6969e29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17837_새로운게임2(다른풀이).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/재귀연습.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이1).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이2).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swea/모의SW역량테스트/5648_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swea/모의SW역량테스트/5648_원자소멸시뮬레이션.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/13460_구슬탈출2.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/13460_구슬탈출2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17837_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17837_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이).py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/모의SW역량테스트/5650_핀볼게임(다른풀이).py" beforeDir="false" afterPath="$PROJECT_DIR$/swea/모의SW역량테스트/5650_핀볼게임(다른풀이).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/모의SW역량테스트/5650_핀볼게임.py" beforeDir="false" afterPath="$PROJECT_DIR$/swea/모의SW역량테스트/5650_핀볼게임.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,37 +24,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이.py">
+        <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/5650_핀볼게임(다른풀이).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-676">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="266">
+              <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이).py">
+        <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/5648_원자소멸시뮬레이션.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="190">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/재귀연습.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/5648_input.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_input.txt">
+        <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/5650_핀볼게임.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-end-column="19" />
+            <state relative-caret-position="342">
+              <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -108,10 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14890_경사로(다른풀이).py" />
-        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14890_경사로.py" />
-        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14890_경사로(다른풀이1).py" />
-        <option value="$PROJECT_DIR$/programmers/Problem Solving/KAKAO_1.py" />
         <option value="$PROJECT_DIR$/programmers/Problem Solving/KAKAO_2.py" />
         <option value="$PROJECT_DIR$/programmers/Problem Solving/KAKAO_#.py" />
         <option value="$PROJECT_DIR$/programmers/Problem Solving/KAKAO_3.py" />
@@ -148,24 +140,29 @@
         <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/13460_구슬탈출2(다른풀이1).py" />
         <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/12100_2048(Easy).py" />
         <option value="$PROJECT_DIR$/swea/모의SW역량테스트/5650_input.txt" />
-        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/5650_핀볼게임.py" />
         <option value="$PROJECT_DIR$/../algorithmStudyDaejeon/chelseashin/모의SW역량테스트/5650_핀볼게임.py" />
-        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/5650_핀볼게임(다른풀이).py" />
         <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17837_input.txt" />
-        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17837_새로운게임2.py" />
         <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17837_새로운게임2(다른풀이).py" />
         <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/13460_구슬탈출2.py" />
-        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_input.txt" />
         <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이.py" />
         <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/재귀연습.py" />
         <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이).py" />
+        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17837_새로운게임2.py" />
+        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이1).py" />
+        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_input.txt" />
+        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이2).py" />
+        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/5650_핀볼게임.py" />
+        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/5650_핀볼게임(다른풀이).py" />
+        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/5648_input.txt" />
+        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/5648_원자소멸시뮬레이션.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="861" />
+    <option name="y" value="-20" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -197,8 +194,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.17825_주사위윷놀이(다른풀이)">
-    <configuration name="재귀연습" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.5648_원자소멸시뮬레이션">
+    <configuration name="17825_주사위윷놀이(다른풀이1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -210,7 +207,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/재귀연습.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이1).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,7 +216,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="13460_구슬탈출2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="17825_주사위윷놀이(다른풀이2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -231,7 +228,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/13460_구슬탈출2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이2).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -240,7 +237,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="13460_구슬탈출2(다른풀이)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5648_원자소멸시뮬레이션" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -248,11 +245,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/모의SW역량테스트" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/13460_구슬탈출2(다른풀이).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/모의SW역량테스트/5648_원자소멸시뮬레이션.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,7 +258,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="17825_주사위윷놀이" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5650_핀볼게임" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -269,11 +266,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/모의SW역량테스트" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/모의SW역량테스트/5650_핀볼게임.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,7 +279,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="17825_주사위윷놀이(다른풀이)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5650_핀볼게임(다른풀이)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -290,11 +287,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/모의SW역량테스트" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/모의SW역량테스트/5650_핀볼게임(다른풀이).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -304,19 +301,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.13460_구슬탈출2" />
-      <item itemvalue="Python.13460_구슬탈출2(다른풀이)" />
-      <item itemvalue="Python.17825_주사위윷놀이" />
-      <item itemvalue="Python.재귀연습" />
-      <item itemvalue="Python.17825_주사위윷놀이(다른풀이)" />
+      <item itemvalue="Python.17825_주사위윷놀이(다른풀이1)" />
+      <item itemvalue="Python.17825_주사위윷놀이(다른풀이2)" />
+      <item itemvalue="Python.5650_핀볼게임" />
+      <item itemvalue="Python.5650_핀볼게임(다른풀이)" />
+      <item itemvalue="Python.5648_원자소멸시뮬레이션" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.17825_주사위윷놀이(다른풀이)" />
-        <item itemvalue="Python.재귀연습" />
-        <item itemvalue="Python.17825_주사위윷놀이" />
-        <item itemvalue="Python.13460_구슬탈출2(다른풀이)" />
-        <item itemvalue="Python.13460_구슬탈출2" />
+        <item itemvalue="Python.5648_원자소멸시뮬레이션" />
+        <item itemvalue="Python.5650_핀볼게임(다른풀이)" />
+        <item itemvalue="Python.5650_핀볼게임" />
+        <item itemvalue="Python.17825_주사위윷놀이(다른풀이2)" />
+        <item itemvalue="Python.17825_주사위윷놀이(다른풀이1)" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +340,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49867374" weight="0.2542153" />
@@ -351,8 +348,8 @@
       <window_info id="Favorites" order="2" sideWeight="0.50132626" side_tool="true" weight="0.051813472" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33190882" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.44680852" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44192636" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.26928473" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44179523" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
@@ -543,14 +540,23 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="a[pos]" language="Python" />
-        <watch expression="res" language="Python" />
-        <watch expression="score" language="Python" />
+        <watch expression="Q" language="Python" />
+        <watch expression="result" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>result</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Q</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>score</expression-string>
         <language-id>Python</language-id>
@@ -591,47 +597,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>mag</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>checked</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14890_경사로.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/4014_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_study/모의SW역량테스트/4014_활주로건설.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14890_경사로(다른풀이1).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14890_경사로(다른풀이).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -808,13 +776,6 @@
     <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/2112_보호필름.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/5650_핀볼게임.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/5650_input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-790">
@@ -826,13 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/5650_핀볼게임(다른풀이).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -858,13 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17837_새로운게임2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="31" column="65" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/13460_구슬탈출2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1197">
@@ -876,13 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17837_새로운게임2(다른풀이).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
@@ -900,10 +840,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17837_새로운게임2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="56" column="31" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17837_새로운게임2(다른풀이).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-676">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="570">
+          <caret line="49" column="38" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이1).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이2).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -914,10 +889,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이).py">
+    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/5650_핀볼게임.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="342">
+          <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/5650_핀볼게임(다른풀이).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/5648_input.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/5648_원자소멸시뮬레이션.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
         </state>
       </provider>
     </entry>

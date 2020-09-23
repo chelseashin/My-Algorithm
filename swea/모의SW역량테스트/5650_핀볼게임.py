@@ -44,6 +44,7 @@ for tc in range(T):
             while True:
                 # 시작점 또는 블랙홀에 도착하면 탈출
                 if (r, c) == (sr, sc) or B[r][c] == -1:
+                    MAX = max(MAX, score)
                     break
                 if 1 <= B[r][c] <= 5:
                     d = change[B[r][c]][d]
@@ -52,6 +53,5 @@ for tc in range(T):
                     r, c = wormhole[(r, c)]
                 r += dr[d]
                 c += dc[d]
-            MAX = max(MAX, score)
 
     print("#{} {}".format(tc+1, MAX))

@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a67cc1a6-2a9d-42e4-91d1-1d85e6969e29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/baekjoon/samsung2020/16637_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/samsung2020/16637_괄호추가하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/samsung2020/16637_다른풀이.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/samsung2020/17070_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/samsung2020/17070_다른풀이.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/samsung2020/17070_파이프옮기기1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/samsung2020/17135_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/samsung2020/17135_다른풀이.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/samsung2020/17135_캐슬디펜스.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swea/모의SW역량테스트/5648_원자소멸시뮬레이션(다시풀기).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/samsung2020/17281_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/samsung2020/17281_야구.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swea/모의SW역량테스트/5648_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/swea/모의SW역량테스트/5648_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swea/모의SW역량테스트/5648_원자소멸시뮬레이션.py" beforeDir="false" afterPath="$PROJECT_DIR$/swea/모의SW역량테스트/5648_원자소멸시뮬레이션.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,38 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/17135_캐슬디펜스.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/17135_다른풀이.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/17135_input.txt">
+        <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/17281_야구.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/16637_input.txt">
+        <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/17281_input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            <state relative-caret-position="38">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -113,8 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/14891_톱니바퀴.py" />
-        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/4013_특이한자석.py" />
         <option value="$PROJECT_DIR$/swea/모의SW역량테스트/4013_input.txt" />
         <option value="$PROJECT_DIR$/swea/모의SW역량테스트/4013_특이한자석(다른풀이).py" />
         <option value="$PROJECT_DIR$/swea/모의SW역량테스트/4014_input.txt" />
@@ -164,44 +134,22 @@
         <option value="$PROJECT_DIR$/baekjoon/samsung2020/17135_다른풀이1.py" />
         <option value="$PROJECT_DIR$/baekjoon/samsung2020/17135_캐슬디펜스.py" />
         <option value="$PROJECT_DIR$/baekjoon/samsung2020/17135_다른풀이.py" />
+        <option value="$PROJECT_DIR$/baekjoon/samsung2020/17281_야구.py" />
+        <option value="$PROJECT_DIR$/baekjoon/samsung2020/17281_input.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="My-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-Algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="baekjoon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="baekjoon" type="462c0819:PsiDirectoryNode" />
-              <item name="samsung2020" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="restartRequiresConfirmation" value="false" />
@@ -226,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.17135_캐슬디펜스">
+  <component name="RunManager" selected="Python.17281_야구">
     <configuration name="16637_괄호추가하기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -332,19 +280,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="17281_야구" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="My-Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon/samsung2020" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/samsung2020/17281_야구.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.16637_괄호추가하기" />
-      <item itemvalue="Python.16637_다른풀이" />
       <item itemvalue="Python.17135_캐슬디펜스" />
-      <item itemvalue="Python.17135_다른풀이" />
       <item itemvalue="Python.17135_다른풀이1" />
+      <item itemvalue="Python.17281_야구" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.17281_야구" />
         <item itemvalue="Python.17135_캐슬디펜스" />
         <item itemvalue="Python.17135_다른풀이1" />
-        <item itemvalue="Python.17135_다른풀이" />
-        <item itemvalue="Python.16637_다른풀이" />
         <item itemvalue="Python.16637_괄호추가하기" />
       </list>
     </recent_temporary>
@@ -372,7 +339,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="761" y="0" width="782" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49867374" weight="0.25301206" />
@@ -380,7 +347,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.50132626" side_tool="true" weight="0.051813472" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33190882" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.28368795" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.28328612" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44179523" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -632,20 +599,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17144_미세먼지안녕!.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-475">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/2382_미생물격리.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="72" lean-forward="true" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/5644_무선충전(다른풀이).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-152">
@@ -928,10 +881,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/17135_다른풀이1.py" />
+    <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/17135_다른풀이.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/16637_input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/17135_캐슬디펜스.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -942,24 +910,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/17135_다른풀이1.py">
+    <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/17281_input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="51" column="13" lean-forward="true" selection-start-line="6" selection-end-line="51" selection-end-column="13" />
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/17135_캐슬디펜스.py">
+    <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/17281_야구.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/17135_다른풀이.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="114">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
         </state>
       </provider>
     </entry>

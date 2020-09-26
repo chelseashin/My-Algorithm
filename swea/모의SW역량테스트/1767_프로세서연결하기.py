@@ -31,7 +31,7 @@ def cleanLine(pr, pc, d, depth):
 
 # 연결 확인한 코어, 현재 전선의 길이, 실제 연결한 코어의 수
 def dfs(depth, length, K):
-    global minLength, maxCore, N, count
+    global minLength, maxCore, count
     if depth == count:
         if K == maxCore:
             minLength = min(minLength, length)

@@ -12,7 +12,7 @@ def dfs(cnt, n, G, Q, answer):
 
     if len(Q) == 0:
         answer[0] = min(answer[0], cnt)
-        return
+        return answer[0]
 
     for i in Q:
         for j in range(n):
@@ -24,7 +24,7 @@ def dfs(cnt, n, G, Q, answer):
         s, e = nextGoal[i]
 
         G[s][e] = 0
-        dfs(cnt, n, G, nextQ[:i] + nextQ[i + 1:], answer)
+        dfs(cnt, n, G, nextQ[:i] + nextQ[i+1:], answer)
         G[s][e] = 1
 
 
@@ -36,3 +36,5 @@ def solution(n, edges):
     answer = dfs(0, n, G, [0], answer)
 
     return answer[0]
+
+print(solution(n, edges))

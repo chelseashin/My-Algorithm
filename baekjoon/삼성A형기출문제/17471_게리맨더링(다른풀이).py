@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('17471_input.txt')
-
+input = sys.stdin.readline
 from collections import deque
 
 def bfs():
@@ -49,7 +49,7 @@ def bfs():
 
 # 0과 1로 구역 나누기
 def dfs(depth, k, goal):
-    global MIN
+    global MIN, cnt
     if depth == goal:
         # print(selected)
         if bfs():
@@ -78,8 +78,8 @@ total_population = sum(population)
 MIN = float('inf')
 
 # 각 선거구는 적어도 하나의 구역을 포함해야하기 때문에, 1부터 돌리기
-for i in range(1, N):
-    selected = [0] * N
+selected = [0] * N
+for i in range(1, N//2+1):
     dfs(0, 0, i)
 
 if MIN == float('inf'):

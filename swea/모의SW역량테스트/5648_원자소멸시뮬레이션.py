@@ -48,9 +48,3 @@ for tc in range(T):
     # print(Q)
     bfs()
     print("#{} {}".format(tc+1, result))
-
-# for i in range(4, -1, -1):
-#     print(i)
-# print()
-# for i in reversed(range(5)):
-#     print(i)

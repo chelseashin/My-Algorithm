@@ -4,6 +4,10 @@ from collections import deque
 
 # Simulation
 
+# 상하좌우
+dr = (0, -1, 1, 0, 0)
+dc = (0, 0, 0, -1, 1)
+
 def bfs():
     global A, Q
     time = 0
@@ -44,9 +48,7 @@ def bfs():
         time += 1
     return time
 
-# 상하좌우
-dr = (0, -1, 1, 0, 0)
-dc = (0, 0, 0, -1, 1)
+
 
 # main
 # 맵 크기, 상어 수, 냄새 없어지는 시간

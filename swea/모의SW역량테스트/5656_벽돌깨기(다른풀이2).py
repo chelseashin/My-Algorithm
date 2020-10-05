@@ -69,3 +69,8 @@ for tc in range(T):
     total = 0
     dfs(0, 0)
     print("#{} {}".format(tc+1, brick-total))
+    # 1 12
+    # 2 27
+    # 3 4
+    # 4 8
+    # 5 0

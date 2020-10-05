@@ -1,12 +1,10 @@
 import sys
 sys.stdin = open('5656_input.txt')
-
-# 종혁님 코드 참고
+from collections import deque
 
 # 상하좌우
 dr = (-1, 1, 0, 0)
 dc = (0, 0, -1, 1)
-
 
 def gravity(chk):
     cnt = 0         # chk에 담긴 정보로 터트린 갯수
@@ -28,20 +26,27 @@ def gravity(chk):
             row -= 1
     return cnt
 
-# 지우기
-def bomb(sr, sc, dis, check):
-    check[sr][sc] = 1
-    for d in range(4):
-        for power in range(1, dis):
-            nr = sr + dr[d] * power
-            nc = sc + dc[d] * power
-            if not (0 <= nr < H and 0 <= nc < W):
-                continue
-            if not A[nr][nc]:
-                continue
-            if check[nr][nc]:
-                continue
-            bomb(nr, nc, A[nr][nc], check)
+# 지울 영역 check에 표시
+def bfs(sr, sc, check):
+    Q = deque([(sr, sc)])
+    while Q:
+        r, c = Q.popleft()
+        power = A[r][c]
+        if power == 0:
+            continue
+        check[r][c] = 1
+        for d in range(4):
+            for p in range(1, power):
+                nr = r + dr[d] * p
+                nc = c + dc[d] * p
+                if not (0 <= nr < H and 0 <= nc < W):
+                    continue
+                if not A[nr][nc]:
+                    continue
+                if check[nr][nc]:
+                    continue
+                Q.append((nr, nc))
+                check[nr][nc] = 1
 
 # 사용한 구슬 갯수, 깬 벽돌 갯수
 def dfs(depth, bricks):
@@ -55,7 +60,7 @@ def dfs(depth, bricks):
             if A[r][c]:
                 # bomb 함수에서 깰 수 있는 벽돌 갯수 리턴
                 check = [[0] * W for _ in range(H)]
-                bomb(r, c, A[r][c], check)
+                bfs(r, c, check)
                 dfs(depth+1, bricks-gravity(check))
                 A = [a[:] for a in arr]
                 break

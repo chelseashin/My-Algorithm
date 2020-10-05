@@ -2,7 +2,7 @@ import sys
 sys.stdin = open('19237_input.txt')
 input = sys.stdin.readline
 
-# Simulation + BFS
+# Simulation
 # 알고리즘 구현 과정
 # 1. 상어들은 현재 위치에 냄새를 뿌림
 # 2. 상어 이동 - 이동하는 과정에서 상어 번호 작은 것이 큰 것을 쫓아냄
@@ -14,7 +14,7 @@ input = sys.stdin.readline
 dr = (-1, 1, 0, 0)
 dc = (0, 0, -1, 1)
 
-def bfs():
+def solve():
     time = -1
     while True:
         if time > 1000:
@@ -77,14 +77,13 @@ def bfs():
                         A[i][j] = 0
         time += 1
 
-
 # main
 # 맵 크기, 상어 수, 냄새 없어지는 시간
 N, M, K = map(int, input().split())
 A = [list(map(int, input().split())) for _ in range(N)]
 
 first_pos = list(map(int, input().split()))
-shark = {}  # 상어의 정보 dict 형태로 저장
+shark = dict()  # 상어의 정보 dict 형태로 저장
 for i in range(N):
     for j in range(N):
         if A[i][j]:
@@ -93,8 +92,6 @@ for i in range(N):
             A[i][j] = 0
 
 # 상어 이동방향 우선순위 정보
-shark_dir = [[[] for _ in range(4)] for _ in range(M)]
-for i in range(M):
-    for j in range(4):
-        shark_dir[i][j] = list(map(int, input().split()))
-bfs()
+shark_dir = [[list(map(int, input().split())) for _ in range(4)] for _ in range(M)]
+
+solve()

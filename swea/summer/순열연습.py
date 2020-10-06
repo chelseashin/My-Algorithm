@@ -6,7 +6,7 @@ from itertools import permutations
 
 # print(list(permutations(range(1, 5), 2)))
 
-N, M = 4, 2
+N, M = 4, 4
 # N, M = map(int, input().split())
 # for x in list(permutations(range(1, N+1), M)):
 #     print(*x)
@@ -18,8 +18,8 @@ def perm(depth):
         return
     for i in range(1, N+1):
         # 중복순열 할라면! 밑에 두줄 주석
-        # if visited[i]:
-        #     continue
+        if visited[i]:
+            continue
         visited[i] = 1
         order.append(i)
         perm(depth+1)

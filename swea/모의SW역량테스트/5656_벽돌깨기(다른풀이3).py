@@ -23,12 +23,6 @@ def DFS(depth, count):
                 DFS(depth - 1, count - boom_count)
                 break
 
-
-def cpy(depth):
-    for i in range(H):
-        data[depth - 1][i] = data[depth][i][:]
-
-
 def boom(depth, stack):
     cnt = 1
     while stack:

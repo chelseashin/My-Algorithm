@@ -9,7 +9,7 @@ def synergy(S):
                 each[S[i]] += flavor[i][j]
     return abs(each[0] - each[1])
 
-
+# 기본 조합 코드
 # def comb(depth, k):
 #     if depth == N//2:
 #         print(selected)
@@ -28,12 +28,11 @@ def comb(depth, k):
     if MIN == 0:
         return
     if depth == N:
-        print(selected)
         MIN = min(MIN, synergy(selected))
         return
     if k == N//2:
         # print(selected)
-        # MIN = min(MIN, synergy(selected))
+        MIN = min(MIN, synergy(selected))
         return
     selected[depth] = 1
     comb(depth + 1, k+1)

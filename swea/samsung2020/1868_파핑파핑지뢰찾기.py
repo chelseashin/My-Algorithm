@@ -8,91 +8,72 @@ dc = (0, 0, -1, 1, -1, -1, 1, 1)
 
 def bfs(sr, sc):
     cnt = 0
-    visited = [[0] * 10 for _ in range(N)]
-    visited[sr][sc] = 1
-    for v in visited:
-        print(v)
     Q = deque([(sr, sc)])
     while Q:
         r, c = Q.popleft()
         bomb = 0
-        flag = False
-        visited[r][c] = 1
-        for i in range(8):
-            nr = r + dr[i]
-            nc = c + dc[i]
-            if not (0 <= nr < N and 0 <= nc < 10):
+        flag = 0
+        for d in range(8):
+            nr = r + dr[d]
+            nc = c + dc[d]
+            if not (0 <= nr < N and 0 <= nc < N):
                 continue
-            if raw[nr][nc] == "*":
-                bomb += 1
-                flag = True
-                print((nr, nc))
-                continue
-            if visited[nr][nc]:
-                continue
-            if raw[nr][nc].isdigit():
-                continue
-            visited[nr][nc] = 1
-            Q.append((nr, nc))
-
+            if A[nr][nc] != '.':
+                if A[nr][nc] == "*":
+                    bomb += 1
+                    flag = 1
+                    continue
+                else:
+                    continue
         if flag:
-            raw[r][c] = bomb
+            A[r][c] = bomb
+            cnt += 1
             continue
-        else:
-            raw[r][c] = 0
-            for i in range(8):
-                nr = r + dr[i]
-                nc = c + dc[i]
-                if not (0 <= nr < N and 0 <= nc < 10):
-                    continue
-                if visited[nr][nc]:
-                    continue
-                if raw[nr][nc].isdigit():
-                    continue
-                Q.append((nr, nc))
-    print('bomb', bomb)
-    for v in visited:
-        print(v)
-    for r in raw:
-        print('new', r)
-        # break
+            # 8방향 모두 지뢰가 없다면
+        # else:
+        A[r][c] = 0
+        cnt += 1
+        for d in range(8):
+            nr = r + dr[d]
+            nc = c + dc[d]
+            if not (0 <= nr < N and 0 <= nc < N):
+                continue
+            Q.append((nr, nc))
+    # for a in A:
+    #     print(a)
+    # print(cnt)
     return cnt
 
 
-# def dfs(depth, blanks):
-#     global MIN, A
-#     if blanks == 0:
-#         MIN = min(MIN, depth)
-#         return
-#     copyA = [x[:] for x in A]
-#     for r in range(N):
-#         for c in range(N):
-#             if A[r][c] == '.':
-#                 temp = bfs(r, c)
-#                 dfs(depth+1, blanks-temp)
-#                 A = [x[:] for x in copyA]
-#                 break
+def dfs(depth, blanks):
+    global MIN, A
+    if not blanks:
+        MIN = min(MIN, depth)
+        return
+    copyA = [x[:] for x in A]
+    for r in range(N):
+        for c in range(N):
+            if A[r][c] == '.':
+                temp = bfs(r, c)
+                dfs(depth+1, blanks-temp)
+                A = [x[:] for x in copyA]
+                break
+                # return
 
 T = int(input())
 for tc in range(T):
     N = int(input())
-    raw = []
+    A = []
     b = 0
     for i in range(N):
-        raw.append(list(input()))
+        A.append(list(input()))
         for j in range(N):
-            if raw[i][j] == ".":
+            if A[i][j] == ".":
                 b += 1
-        # 지뢰 없는 칸 수
-    # for r in raw:
-    #     print('raw', r)
     MIN = float('inf')
-    # dfs(0, b)
-    bfs(2, 2)
-    print("#{} {}".format(tc+1, N))
-
-    # AA = [['*', '3', '*'], ['.', '.', '*'], ['*', '*', '.']]
-    # print(type(0), type(5), AA[0][1].isdigit())
+    dfs(0, b)
+    # bfs(0, 0)
+    print("#{} {}".format(tc+1, MIN))
 
     # 1 1990
     # 2 1574

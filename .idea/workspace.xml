@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a67cc1a6-2a9d-42e4-91d1-1d85e6969e29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/swea/samsung2020/1868_다른풀이.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swea/samsung2020/5650_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swea/samsung2020/5650_핀볼게임.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/samsung2020/19238_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/samsung2020/19238_스타트택시.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swea/samsung2020/1686_다른풀이.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/swea/samsung2020/1868_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/swea/samsung2020/1868_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swea/samsung2020/1868_파핑파핑지뢰찾기.py" beforeDir="false" afterPath="$PROJECT_DIR$/swea/samsung2020/1868_파핑파핑지뢰찾기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swea/samsung2020/5650_핀볼게임.py" beforeDir="false" afterPath="$PROJECT_DIR$/swea/samsung2020/5650_핀볼게임.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,55 +20,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/swea/samsung2020/1868_파핑파핑지뢰찾기.py">
+        <entry file="file://$PROJECT_DIR$/swea/samsung2020/5650_input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="77" column="4" selection-start-line="77" selection-start-column="4" selection-end-line="96" selection-end-column="14" />
+            <state relative-caret-position="114">
+              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/swea/samsung2020/1868_다른풀이.py">
+        <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/19237_어른상어.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="133">
+              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/19238_스타트택시.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/swea/samsung2020/5650_핀볼게임.py">
+        <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/19238_input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="32" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/swea/samsung2020/5650_input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1121">
-              <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/swea/samsung2020/1868_input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="3621" lean-forward="true" selection-start-line="3621" selection-end-line="3621" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/swea/samsung2020/5656_벽돌깨기.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1387">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="190">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -125,8 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/baekjoon/samsung2020/17136_다른풀이.py" />
-        <option value="$PROJECT_DIR$/baekjoon/samsung2020/17136_input.txt" />
         <option value="$PROJECT_DIR$/baekjoon/samsung2020/17136_색종이붙이기.py" />
         <option value="$PROJECT_DIR$/baekjoon/samsung2020/17471_색종이붙이기.py" />
         <option value="$PROJECT_DIR$/baekjoon/삼성A형기출문제/17471_input.txt" />
@@ -174,14 +151,16 @@
         <option value="$PROJECT_DIR$/swea/samsung2020/1868_파핑파핑지뢰찾기.py" />
         <option value="$PROJECT_DIR$/swea/samsung2020/1868_input.txt" />
         <option value="$PROJECT_DIR$/swea/samsung2020/1868_다른풀이.py" />
-        <option value="$PROJECT_DIR$/swea/samsung2020/5650_핀볼게임.py" />
         <option value="$PROJECT_DIR$/swea/samsung2020/5650_input.txt" />
+        <option value="$PROJECT_DIR$/swea/samsung2020/5650_핀볼게임.py" />
+        <option value="$PROJECT_DIR$/baekjoon/samsung2020/19238_스타트택시.py" />
+        <option value="$PROJECT_DIR$/baekjoon/samsung2020/19238_input.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="917" />
-    <option name="width" value="1010" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -214,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1868_다른풀이">
+  <component name="RunManager" selected="Python.5650_핀볼게임">
     <configuration name="1686_다른풀이" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -299,6 +278,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="5650_핀볼게임" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="My-Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/samsung2020" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/samsung2020/5650_핀볼게임.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="5656_벽돌깨기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -346,11 +346,11 @@
       <item itemvalue="Python.1868_파핑파핑지뢰찾기" />
       <item itemvalue="Python.5656_벽돌깨기" />
       <item itemvalue="Python.1686_다른풀이" />
-      <item itemvalue="Python.1868_다른풀이" />
+      <item itemvalue="Python.5650_핀볼게임" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1868_다른풀이" />
+        <item itemvalue="Python.5650_핀볼게임" />
         <item itemvalue="Python.1868_파핑파핑지뢰찾기" />
         <item itemvalue="Python.1686_다른풀이" />
         <item itemvalue="Python.5656_벽돌깨기" />
@@ -381,14 +381,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="734" y="0" width="808" height="830" extended-state="0" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49867374" weight="0.21104185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50132626" side_tool="true" weight="0.051813472" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33190882" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.31205675" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.3617021" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43197757" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -643,27 +644,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/2529_부등호.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-106">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/16236_아기상어.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swea/samsung2020/1767_프로세서연결하기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/swea/samsung2020/5658_보물상자비밀번호.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -729,13 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/19237_어른상어.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -894,23 +867,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swea/samsung2020/5656_벽돌깨기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/17471_색종이붙이기.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/17136_다른풀이.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/17471_색종이붙이기.py" />
+    <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/17136_다른풀이.py" />
     <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/17471_다른풀이.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -918,25 +876,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swea/samsung2020/1686_다른풀이.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/samsung2020/1686_다른풀이.py" />
     <entry file="file://$PROJECT_DIR$/swea/samsung2020/1868_파핑파핑지뢰찾기.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="1463">
           <caret line="77" column="4" selection-start-line="77" selection-start-column="4" selection-end-line="96" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/swea/samsung2020/1868_input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="3621" lean-forward="true" selection-start-line="3621" selection-end-line="3621" />
+        <state relative-caret-position="395">
+          <caret line="3621" selection-start-line="3621" selection-end-line="3621" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swea/samsung2020/5650_핀볼게임.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../algorithmStudyDaejeon/chelseashin/모의SW역량테스트/5650_핀볼게임.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/swea/samsung2020/1868_다른풀이.py">
@@ -946,17 +910,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swea/samsung2020/5650_input.txt">
+    <entry file="file://$PROJECT_DIR$/swea/samsung2020/5656_벽돌깨기.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+        <state relative-caret-position="196">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swea/samsung2020/5650_핀볼게임.py">
+    <entry file="file://$PROJECT_DIR$/swea/samsung2020/5650_input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="32" />
+        <state relative-caret-position="114">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/19237_어른상어.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/19238_스타트택시.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/samsung2020/19238_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>

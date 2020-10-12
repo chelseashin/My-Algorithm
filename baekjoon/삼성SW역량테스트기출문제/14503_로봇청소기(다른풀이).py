@@ -4,7 +4,7 @@ sys.stdin = open('14503_input.txt')
 # 로봇청소기의 움직임을 bfs로 구현
 # 이동 경로를 거리로 표시하면서 움직임
 # 2부터 시작하기 때문에 마지막 거리에서 -1 해줌
-# 방향 잘 넘겨주 기
+# 방향 잘 넘겨주기
 
 from collections import deque
 

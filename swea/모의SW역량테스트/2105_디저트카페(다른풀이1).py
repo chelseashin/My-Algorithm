@@ -54,6 +54,6 @@ for tc in range(T):
     for i in range(N-2):
         for j in range(1, N-1):
             sr, sc = i, j
-            dfs(0, i, j)
+            dfs(0, sr, sc)
 
     print("#{} {}".format(tc + 1, MAX))

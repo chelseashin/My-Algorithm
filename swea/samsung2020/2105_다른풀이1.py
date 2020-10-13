@@ -1,6 +1,9 @@
 import sys
 sys.stdin = open('2105_input.txt')
 
+# 디저트카페
+# backtracking
+
 dr = (1, 1, -1, -1)
 dc = (1, -1, -1, 1)
 

@@ -13,7 +13,7 @@ for test_case in range(1, 1 + T):
     N, M, K, A, B = map(int, input().split())
     a = list(map(int, input().split()))
     b = list(map(int, input().split()))
-    t = list(map(int, input().split()))
+    t = list(map(int, input().split()))     # 손님 방문한 시간
 
     A, B = A - 1, B - 1     # 지갑 분실한 사람의 이용 창구 번호
     waiting1 = []  # A 대기열
@@ -33,7 +33,7 @@ for test_case in range(1, 1 + T):
             t.pop(0)
             waiting1.append(idx)    # A 대기열에 손님 번호 추가
             idx += 1                # 도착하는 순으로 번호 부여
-
+        # print(waiting1)
         # A 대기열 -> A창구 -> B 대기열
         for i in range(N):
             # 창구에 손님 있으면

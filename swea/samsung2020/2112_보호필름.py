@@ -2,8 +2,10 @@ import sys
 sys.stdin = open('2112_input.txt')
 from itertools import combinations
 
+# 시간초과
+
 def test(F):
-    global K
+    check = 0
     for c in range(W):
         cnt = 1
         temp = F[0][c]
@@ -14,23 +16,20 @@ def test(F):
                 temp = F[r][c]
                 cnt = 1
             if cnt >= K:
+                check += 1
                 break
-        if cnt < K:
+        if (c+1) != check:
             return False
     return True
 
-def dfs(depth, K, comb):
+def dfs(depth, k):
     global MIN, flag
-    # if depth > MIN:
-    #     return
-    if depth == K:
+    if depth > MIN or flag or depth > K:
+        return
+    if depth == k:
         if test(film):
             flag = 1
             MIN = min(MIN, depth)
-        # for f in film:
-        #     print(f)
-        # print('flag', flag, comb, depth, MIN)
-
         return
     for c in comb:
         for i in range(2):
@@ -38,7 +37,7 @@ def dfs(depth, K, comb):
                 continue
             selected[c] = 1
             film[c] = drug[i]
-            dfs(depth+1, K, comb)
+            dfs(depth+1, k)
             film[c] = raw[c]
             selected[c] = 0
 
@@ -54,15 +53,12 @@ for tc in range(T):
     else:
         film = [r[:] for r in raw]
         drug = [[0] * W, [1] * W]
-        # print(film)
         flag = 0
-        for i in range(1, D+1):
+        for i in range(1, K+1):
             for comb in combinations(range(D), i):
                 selected = [0] * D
-                # print(comb)
-                dfs(0, i, comb)
+                dfs(0, i)
                 if flag: break
             if flag: break
 
-        # solve(film)
     print("#{} {}".format(tc+1, MIN))

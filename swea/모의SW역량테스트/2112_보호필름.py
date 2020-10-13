@@ -3,7 +3,7 @@ sys.stdin = open('2112_input.txt')
 
 # 성능 테스트
 def test(F):
-    check = 0
+    global K
     for c in range(W):
         cnt = 1
         temp = F[0][c]
@@ -14,16 +14,15 @@ def test(F):
                 temp = F[r][c]
                 cnt = 1
             if cnt >= K:
-                check += 1
                 break
-        if (c+1) != check:
+        if cnt < K:
             return False
     return True
 
 # 현재 약물 투입 횟수, 시작 행 위치, 최대 투입 횟수
 def dfs(depth, pos, K):
     global MIN, flag
-    if depth >= MIN:    # 가지치기
+    if depth >= MIN or flag:    # 가지치기
         return
     if depth == K:
         if test(film):
@@ -45,14 +44,15 @@ T = int(input())
 for tc in range(T):
     D, W, K = map(int, input().split())
     raw = [list(map(int, input().split())) for _ in range(D)]
-    film = [r[:] for r in raw]
-    drug = [[0] * W, [1] * W]
-    selected = [0] * D
     MIN = float('inf')
-    flag = 0
-    if test(film):
+
+    if test(raw):
         MIN = 0
     else:
+        film = [r[:] for r in raw]
+        drug = [[0] * W, [1] * W]
+        selected = [0] * D
+        flag = 0
         for i in range(1, K+1):  # 약물 투여 최대 횟수 K까지 할 수 있음
             dfs(0, 0, i)
             if flag:

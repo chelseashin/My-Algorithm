@@ -50,7 +50,7 @@ def shark_move(A, r, c):
         nr = r + dr[dir] * i
         nc = c + dc[dir] * i
         if not (0 <= nr < 4 and 0 <= nc < 4):   # 맵 벗어나거나
-            continue
+            break
         if not (1 <= A[nr][nc][0] <= 16):   # 먹을 물고기 없으면
             continue
         candidates.append([nr, nc])
@@ -87,7 +87,6 @@ for i in range(4):
     for j in range(0, 7, 2):
         raw[i].append([L[j], L[j+1]-1])
 
-shark = raw[0][0]
 result = float('-inf')
 dfs(raw, 0, 0, 0)
 print(result)

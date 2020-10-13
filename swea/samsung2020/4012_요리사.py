@@ -31,7 +31,7 @@ def comb(depth, k):
         MIN = min(MIN, synergy(selected))
         return
     if k == N//2:
-        # print(selected)
+        print(selected)
         MIN = min(MIN, synergy(selected))
         return
     selected[depth] = 1

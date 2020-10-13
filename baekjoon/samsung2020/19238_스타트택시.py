@@ -75,8 +75,8 @@ for _ in range(M):
     sr, sc, gr, gc = map(int, input().split())
     info[(sr-1, sc-1)] = (gr-1, gc-1)
     A[sr-1][sc-1] = 2
-cnt = 0
 
+cnt = 0
 while fuel:
     if cnt == M:
         print(fuel)
@@ -100,8 +100,7 @@ while fuel:
     # 목적지에 도달하면
     if destination[0] != -1:
         if fuel - destination[0] >= 0:
-            fuel -= destination[0]    # 승객 목적지까지 연료 소모
-            fuel += destination[0] * 2
+            fuel += destination[0]  # 승객 목적지까지 연료 소모
             # 승객 이동 완료되면 정보 지우기
             br, bc = destination[1], destination[2]  # 택시 현재 위치 갱신
             A[r][c] = 0

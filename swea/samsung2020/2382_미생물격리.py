@@ -32,7 +32,7 @@ for tc in range(T):
                 num, size = info[(nr, nc)]
                 # 현재 군집의 크기가 크다면 기존을 흡수
                 if A[row][2] > size:
-                    info[(nr, nc)] = [row, A[row][2]]  # 새로 등록
+                    info[(nr, nc)] = [row, k]  # 새로 등록
                     A[row][2] += A[num][2]
                     A[num][2] = 0  # 기존 군집 제거
                 # 기존 군집의 크기가 크다면 흡수 당함

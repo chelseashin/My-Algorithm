@@ -17,9 +17,6 @@ def bfs():
             nc = c + dc[d]
             if not (0 <= nr < 4001 and 0 <= nc < 4001):
                 continue
-            # if (nr, nc) in collision:
-            #     result += k
-            #     continue
             if (nr, nc) not in visited:
                 visited.append((nr, nc))
                 Q.append((nr, nc, d, k))

@@ -53,7 +53,7 @@ for _ in range(M):
     A[r-1][c-1] = 1
 # print(A)
 
-for maxDepth in range(4):
+for maxDepth in range(1, 4):
     dfs(0, 0, maxDepth)
 
 print(-1)

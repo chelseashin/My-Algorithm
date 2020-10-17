@@ -4,7 +4,7 @@
 
 ### 채원이의 알고리즘 문제풀이 Repository :smile:
 
-Algorithm study for A
+Algorithm study for Coding Test
 
 
 
@@ -16,4 +16,4 @@ Algorithm study for A
 
 내가 믿을 건, 오직 나 자신 뿐
 
-꿈에 그리던 소프트웨어 개발자가 되어보자, 화이팅:happy::blue_heart:
+꿈에 그리던 소프트웨어 개발자가 되어보자, 화이팅:smile::blue_heart:

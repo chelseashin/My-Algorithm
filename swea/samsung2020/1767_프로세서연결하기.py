@@ -26,7 +26,7 @@ def dfs(depth, cnt, length):
             minLength = length
         elif cnt == maxCnt:
             minLength = min(minLength, length)
-        return minLength
+        return
 
     r, c = coreLst[depth]
     R = [x[:] for x in raw]
@@ -44,7 +44,7 @@ for tc in range(T):
     N = int(input())
     raw = [list(map(int, input().split())) for _ in range(N)]
     maxCnt = 0            # 최대 연결한 코어의 수
-    minLength = float('inf')   # 전선 길의 최소 합
+    minLength = float('inf')   # 전선 길이의 최소 합
     coreLst = []
     for r in range(1, N-1):
         for c in range(1, N-1):
@@ -52,3 +52,7 @@ for tc in range(T):
                 coreLst.append((r, c))
 
     print("#{} {}".format(tc+1, dfs(0, 0, 0)))
+
+    # 1 12
+    # 2 10
+    # 3 24

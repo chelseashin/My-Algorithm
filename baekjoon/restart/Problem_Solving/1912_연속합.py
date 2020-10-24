@@ -9,7 +9,7 @@ sys.stdin = open('1912_input.txt')
 
 N = int(input())
 L = list(map(int, input().split()))
-
+print(L)
 temp = [L[0]]   # 새로운 리스트, 비교를 위해 첫 값 넣어줌
 for i in range(N-1):
     # temp의 i번째 인덱스와 L의 i+1번째 인덱스의 숫자를 합한 값과

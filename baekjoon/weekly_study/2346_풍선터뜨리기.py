@@ -8,7 +8,7 @@ Q = deque([(i, P[i-1]) for i in range(1, N+1)])
 # print(Q)
 
 while True:
-    print(Q)
+    # print(Q)
     idx, x = Q.popleft()
     print(idx, end=" ")
     if not Q:

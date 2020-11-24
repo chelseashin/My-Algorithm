@@ -13,4 +13,5 @@ while True:
         break
     belt = [belt[-1]] + belt[:-1]
     zeroCnt += 1
+    
     print(zeroCnt, belt)

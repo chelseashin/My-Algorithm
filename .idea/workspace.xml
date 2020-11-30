@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a67cc1a6-2a9d-42e4-91d1-1d85e6969e29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/baekjoon/weekly_study/20057_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/weekly_study/20057_마법사상어와토네이도.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/weekly_study/20058_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/weekly_study/20058_마법사상어와파이어스톰.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon/weekly_study/20057_다른풀이.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/weekly_study/20056_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/weekly_study/20056_input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baekjoon/weekly_study/20056_마법사상어와파이어볼.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/weekly_study/20056_마법사상어와파이어볼.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/weekly_study/20057_마법사상어와토네이도.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/weekly_study/20057_마법사상어와토네이도.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,78 +21,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/20056_마법사상어와파이어볼.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="988">
-              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/20057_마법사상어와토네이도.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/1406_에디터.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/2346_풍선터뜨리기.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/2840_행운의바퀴.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/1158_요새푸스문제.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/1021_회전하는큐.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/5397_키로거.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/20058_마법사상어와파이어스톰.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
@@ -102,11 +29,29 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/20057_마법사상어와토네이도.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-323">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/20057_다른풀이.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/20055_컨베이어벨트위의로봇.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+            <state relative-caret-position="246">
+              <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -160,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/baekjoon/samsung2020/19236_다른풀이.py" />
         <option value="$PROJECT_DIR$/baekjoon/samsung2020/19237_나의풀이.py" />
         <option value="$PROJECT_DIR$/swea/samsung2020/2382_미생물격리.py" />
         <option value="$PROJECT_DIR$/swea/samsung2020/5644_무선충전.py" />
@@ -204,12 +148,13 @@
         <option value="$PROJECT_DIR$/baekjoon/weekly_study/20055_deque사용.py" />
         <option value="$PROJECT_DIR$/baekjoon/weekly_study/20055_input.txt" />
         <option value="$PROJECT_DIR$/baekjoon/weekly_study/20055_deque사용2.py" />
-        <option value="$PROJECT_DIR$/baekjoon/weekly_study/20055_컨베이어벨트위의로봇.py" />
-        <option value="$PROJECT_DIR$/baekjoon/weekly_study/20056_input.txt" />
         <option value="$PROJECT_DIR$/baekjoon/weekly_study/20057_input.txt" />
         <option value="$PROJECT_DIR$/baekjoon/weekly_study/20058_input.txt" />
         <option value="$PROJECT_DIR$/baekjoon/weekly_study/20058_마법사상어와파이어스톰.py" />
+        <option value="$PROJECT_DIR$/baekjoon/weekly_study/20055_컨베이어벨트위의로봇.py" />
+        <option value="$PROJECT_DIR$/baekjoon/weekly_study/20056_input.txt" />
         <option value="$PROJECT_DIR$/baekjoon/weekly_study/20056_마법사상어와파이어볼.py" />
+        <option value="$PROJECT_DIR$/baekjoon/weekly_study/20057_다른풀이.py" />
         <option value="$PROJECT_DIR$/baekjoon/weekly_study/20057_마법사상어와토네이도.py" />
       </list>
     </option>
@@ -217,7 +162,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -366,10 +311,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.20056_마법사상어와파이어볼" />
+        <item itemvalue="Python.20055_컨베이어벨트위의로봇" />
         <item itemvalue="Python.20058_마법사상어와파이어스톰" />
         <item itemvalue="Python.20057_마법사상어와토네이도" />
         <item itemvalue="Python.20055_deque사용2" />
-        <item itemvalue="Python.20055_컨베이어벨트위의로봇" />
       </list>
     </recent_temporary>
   </component>
@@ -404,7 +349,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.50132626" side_tool="true" weight="0.051813472" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33190882" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4980211" weight="0.14165498" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4980211" visible="true" weight="0.33660588" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43057504" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -418,12 +363,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49867374" weight="0.20976253" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49867374" weight="0.20883535" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50132626" side_tool="true" weight="0.051813472" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33190882" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4980211" visible="true" weight="0.40252453" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4980211" visible="true" weight="0.14165498" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43057504" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -659,13 +604,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/swea/samsung2020/2383_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/swea/모의SW역량테스트/2383_점심식사시간.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
@@ -912,13 +850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/20056_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/20057_input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -933,24 +864,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/20056_마법사상어와파이어볼.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/1406_에디터.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/2346_풍선터뜨리기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -982,6 +899,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/20055_컨베이어벨트위의로봇.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/2346_풍선터뜨리기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/20056_마법사상어와파이어볼.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/20056_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/20058_마법사상어와파이어스톰.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -989,16 +934,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/20055_컨베이어벨트위의로봇.py">
+    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/20057_다른풀이.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        <state relative-caret-position="390">
+          <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/20057_마법사상어와토네이도.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="-323">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>

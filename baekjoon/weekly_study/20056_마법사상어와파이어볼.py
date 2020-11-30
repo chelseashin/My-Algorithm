@@ -31,9 +31,9 @@ for k in range(K):
         nr = (r + dr[d] * s) % N
         nc = (c + dc[d] * s) % N
         if (nr, nc) not in D.keys():
-            D[(nr, nc)] = [[m, s, d]]
+            D[(nr, nc)] = [(m, s, d)]
         else:
-            D[(nr, nc)].append([m, s, d])
+            D[(nr, nc)].append((m, s, d))
     for key, value in D.items():
         tr, tc = key
         vlen = len(value)
@@ -48,7 +48,7 @@ for k in range(K):
                 tm += value[n][0]
                 ts += value[n][1]
                 td.append(value[n][2])
-            tm //= 5        # 질량
+            tm //= 5        # 질량x
             if tm <= 0:     # 질량 0보다 작으면 소멸
                 continue
             ts //= vlen     # 속력

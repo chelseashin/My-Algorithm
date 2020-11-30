@@ -3,6 +3,9 @@ sys.stdin = open("20057_input.txt")
 input = sys.stdin.readline
 sys.setrecursionlimit(10**6)
 
+# 참고 블로그
+# https://m.blog.naver.com/pasdfq/222120109948
+
 # 우 하 좌 상
 dr = (0, 1, 0, -1)
 dc = (1, 0, -1, 0)

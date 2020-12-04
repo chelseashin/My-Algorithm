@@ -45,10 +45,24 @@ move = [[(-1, 1), (1, 1), (-1, 0), (1, 0), (-2, 0), (2, 0), (-1, -1), (1, -1), (
         [(1, -1), (1, 1), (0, -1), (0, 1), (0, -2), (0, 2), (-1, -1), (-1, 1), (-2, 0)]]
 
 # 토네이도 시전
+amount = 0
 for r, c, d in path:
-    sand = A[r][c]
-    print(sand, (r, c), d)
-
+    if A[r][c]:     # 값이 있을 때
+        sand = A[r][c]
+        for i in range(9):
+            nr = r + move[d][i][0]
+            nc = c + move[d][i][1]
+            # 격자 밖으로 나간 경우
+            if not (0 <= nr < N and 0 <= nc < N):
+                amount += int(sand * weight[i])
+                continue
+            # 그렇지 않으면
+            
+            print(weight[i], move[d][i], "=>", (nr, nc))
+        print(sand, (r, c), d)
+print("amount :", amount)
+for a in A:
+    print(a)
 
 later = 0
 for i in range(N):
@@ -57,3 +71,4 @@ for i in range(N):
 print(later)
 
 print(before - later)
+print(amount)

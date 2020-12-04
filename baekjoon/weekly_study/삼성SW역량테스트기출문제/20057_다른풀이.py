@@ -31,7 +31,7 @@ visited = [[0] * N for _ in range(N)]
 path = []
 dfs(0, 0, 0)
 path.reverse()
-# print(path)
+print(path)
 
 # 비율 리스트
 # 우 하 좌 상

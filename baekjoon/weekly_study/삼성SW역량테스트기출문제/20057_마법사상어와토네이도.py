@@ -44,6 +44,9 @@ move = [[(-1, 1), (1, 1), (-1, 0), (1, 0), (-2, 0), (2, 0), (-1, -1), (1, -1), (
         [(-1, -1), (1, -1), (-1, 0), (1, 0), (-2, 0), (2, 0), (-1, 1), (1, 1), (0, 2)],
         [(1, -1), (1, 1), (0, -1), (0, 1), (0, -2), (0, 2), (-1, -1), (-1, 1), (-2, 0)]]
 
+for a in A:
+    print(a)
+
 # 토네이도 시전
 amount = 0
 for r, c, d in path:
@@ -56,13 +59,17 @@ for r, c, d in path:
             if not (0 <= nr < N and 0 <= nc < N):
                 amount += int(sand * weight[i])
                 continue
-            # 그렇지 않으면
-            
+            # 그렇지 않으면 모래 이동
+            A[nr][nc] += int(sand * weight[i])
+            A[r][c] -= int(sand * weight[i])
             print(weight[i], move[d][i], "=>", (nr, nc))
         print(sand, (r, c), d)
+        for a in A:
+            print(a)
+        break
+
 print("amount :", amount)
-for a in A:
-    print(a)
+
 
 later = 0
 for i in range(N):

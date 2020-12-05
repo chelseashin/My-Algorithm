@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a67cc1a6-2a9d-42e4-91d1-1d85e6969e29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/20057_다른풀이2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출 문제/20057_마법사상어와토네이도.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출 문제/20057_마법사상어와토네이도.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/weekly_study/Stack/2304_창고다각형.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/weekly_study/Stack/2304_창고다각형.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,22 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출 문제/20057_마법사상어와토네이도.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="58" column="15" lean-forward="true" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/Stack/2304_창고다각형.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            <state relative-caret-position="169">
+              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -43,33 +32,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
               <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출 문제/20057_input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출 문제/20057_다른풀이.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/Stack/10828_input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="3" selection-end-line="14" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -123,12 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/swea/samsung2020/4013_input.txt" />
-        <option value="$PROJECT_DIR$/swea/samsung2020/4013_특이한자석.py" />
-        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/15684_사다리조작(다른풀이).py" />
-        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/15684_input.txt" />
-        <option value="$PROJECT_DIR$/swea/모의SW역량테스트/2383_점심식사시간.py" />
-        <option value="$PROJECT_DIR$/swea/samsung2020/2383_input.txt" />
         <option value="$PROJECT_DIR$/swea/samsung2020/2383_점심식사시간.py" />
         <option value="$PROJECT_DIR$/swea/samsung2020/5653_input.txt" />
         <option value="$PROJECT_DIR$/swea/samsung2020/5653_줄기세포배양.py" />
@@ -172,8 +128,14 @@
         <option value="$PROJECT_DIR$/baekjoon/weekly_study/Stack/1935_후위표기식2.py" />
         <option value="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출 문제/20057_input.txt" />
         <option value="$PROJECT_DIR$/baekjoon/weekly_study/Stack/2304_input.txt" />
-        <option value="$PROJECT_DIR$/baekjoon/weekly_study/Stack/2304_창고다각형.py" />
         <option value="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출 문제/20057_마법사상어와토네이도.py" />
+        <option value="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/20057_다른풀이.py" />
+        <option value="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/20057_마법사상어와토네이도.py" />
+        <option value="$PROJECT_DIR$/baekjoon/weekly_study/Stack/2841_input.txt" />
+        <option value="$PROJECT_DIR$/baekjoon/weekly_study/Stack/2841_외계인의기타연주.py" />
+        <option value="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/20057_다른풀이2.py" />
+        <option value="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/2003.py" />
+        <option value="$PROJECT_DIR$/baekjoon/weekly_study/Stack/2304_창고다각형.py" />
       </list>
     </option>
   </component>
@@ -187,7 +149,38 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="My-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My-Algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="baekjoon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="baekjoon" type="462c0819:PsiDirectoryNode" />
+              <item name="weekly_study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="baekjoon" type="462c0819:PsiDirectoryNode" />
+              <item name="weekly_study" type="462c0819:PsiDirectoryNode" />
+              <item name="삼성SW역량테스트기출문제" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="restartRequiresConfirmation" value="false" />
@@ -212,8 +205,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.20057_마법사상어와토네이도">
-    <configuration name="1935_후위표기식2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.2304_창고다각형">
+    <configuration name="20057_다른풀이 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,11 +214,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon/weekly_study/Stack" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/weekly_study/Stack/1935_후위표기식2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/20057_다른풀이.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,7 +227,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="20057_다른풀이" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="20057_마법사상어와토네이도 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,11 +235,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출 문제" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출 문제/20057_다른풀이.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/20057_마법사상어와토네이도.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,6 +261,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출 문제/20057_마법사상어와토네이도.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="20057_다른풀이2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="My-Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/20057_다른풀이2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -339,7 +353,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3986_좋은단어" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2841_외계인의기타연주" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -351,7 +365,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/weekly_study/Stack/3986_좋은단어.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/weekly_study/Stack/2841_외계인의기타연주.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -361,19 +375,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.3986_좋은단어" />
-      <item itemvalue="Python.1935_후위표기식2" />
-      <item itemvalue="Python.20057_다른풀이" />
       <item itemvalue="Python.2304_창고다각형" />
       <item itemvalue="Python.20057_마법사상어와토네이도" />
+      <item itemvalue="Python.20057_다른풀이 (1)" />
+      <item itemvalue="Python.2841_외계인의기타연주" />
+      <item itemvalue="Python.20057_다른풀이2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.20057_마법사상어와토네이도" />
         <item itemvalue="Python.2304_창고다각형" />
-        <item itemvalue="Python.20057_다른풀이" />
-        <item itemvalue="Python.1935_후위표기식2" />
-        <item itemvalue="Python.3986_좋은단어" />
+        <item itemvalue="Python.20057_다른풀이2" />
+        <item itemvalue="Python.2841_외계인의기타연주" />
+        <item itemvalue="Python.20057_다른풀이 (1)" />
+        <item itemvalue="Python.20057_마법사상어와토네이도" />
       </list>
     </recent_temporary>
   </component>
@@ -403,12 +417,12 @@
     <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49867374" weight="0.20749666" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49867374" weight="0.20615797" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50132626" side_tool="true" weight="0.051813472" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33190882" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4980211" visible="true" weight="0.3503546" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4980211" visible="true" weight="0.3460993" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43057504" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -663,42 +677,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/15684_사다리조작(다른풀이2).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_study/toss/covid19_data.py" />
-    <entry file="file://$PROJECT_DIR$/swea/samsung2020/5656_다른풀이.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swea/samsung2020/1953_탈주범검거.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swea/samsung2020/2105_디저트카페.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swea/samsung2020/2112_보호필름.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm_study/toss/01_3n+1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -825,20 +803,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출 문제/20057_마법사상어와토네이도.py">
+    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출 문제/20057_마법사상어와토네이도.py" />
+    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출 문제/20057_다른풀이.py" />
+    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출 문제/20057_input.txt" />
+    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/20057_다른풀이.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="58" column="15" lean-forward="true" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
+        <state relative-caret-position="1007">
+          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/Stack/10828_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/Stack/2841_외계인의기타연주.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/Stack/2841_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/2003.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/20057_다른풀이2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/Stack/2304_창고다각형.py">
+    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/20057_마법사상어와토네이도.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state relative-caret-position="95">
+          <caret line="38" selection-start-line="38" selection-end-line="45" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -849,24 +864,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출 문제/20057_input.txt">
+    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/Stack/2304_창고다각형.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출 문제/20057_다른풀이.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/Stack/10828_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="3" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="169">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
         </state>
       </provider>
     </entry>

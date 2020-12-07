@@ -5,22 +5,32 @@ while True:
     code = input()
     if code == "#":
         break
-    result = "legal"
     stack = []
-    # print(code)
     idx = 0
     for i in range(len(code)):
         if code[i] == "<":
-            idx = i + 1
-            temp = "<"
-            # for j in range(idx)
+            tag = ""
+            idx = i+1
             while True:
-                temp += code[idx]
+                if code[idx] not in "</>":
+                    tag += code[idx]
                 idx += 1
                 if code[idx] == ">":
-                    temp += ">"
                     break
-            print(temp)
+            # print(tag)
+            if tag == "br ":
+                continue
+            if tag[0] == "a":
+                tag = "a"
             if not stack:
-                stack.append(temp)
-    break
+                stack.append(tag)
+            else:
+                if stack[-1] == tag:
+                    stack.pop()
+                else:
+                    stack.append(tag)
+    # print(stack)
+    if stack:
+        print("illegal")
+    else:
+        print("legal")

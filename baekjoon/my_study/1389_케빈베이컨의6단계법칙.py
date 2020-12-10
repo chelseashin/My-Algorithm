@@ -28,4 +28,5 @@ for _ in range(M):
 temp = []
 for i in range(N):
     temp.append(bfs(i))
+
 print(temp.index(min(temp)) + 1)

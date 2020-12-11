@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a67cc1a6-2a9d-42e4-91d1-1d85e6969e29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/baekjoon/my_study/2455_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/my_study/2455_지능형기차.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/my_study/3187_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/my_study/3187_양치기꿍.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/my_study/5021_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/my_study/5021_왕위계승.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/20058_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/20058_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/20058_마법사상어와파이어스톰.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/20058_마법사상어와파이어스톰.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/my_study/3187_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/my_study/3187_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/my_study/3187_양치기꿍.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/my_study/3187_양치기꿍.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/baekjoon/my_study/3187_양치기꿍.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="50" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -63,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/my_study/3187_input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="171">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -208,8 +201,8 @@
         <option value="$PROJECT_DIR$/baekjoon/my_study/2163_초콜릿쪼개기.py" />
         <option value="$PROJECT_DIR$/baekjoon/my_study/5021_input.txt" />
         <option value="$PROJECT_DIR$/baekjoon/my_study/5021_왕위계승.py" />
-        <option value="$PROJECT_DIR$/baekjoon/my_study/3187_input.txt" />
         <option value="$PROJECT_DIR$/baekjoon/my_study/3187_양치기꿍.py" />
+        <option value="$PROJECT_DIR$/baekjoon/my_study/3187_input.txt" />
       </list>
     </option>
   </component>
@@ -419,14 +412,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49867374" weight="0.28037384" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50132626" side_tool="true" weight="0.051813472" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33190882" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4980211" visible="true" weight="0.40532959" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4980211" weight="0.40532959" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43057504" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -974,15 +966,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/my_study/3187_input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="171">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/my_study/3187_양치기꿍.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="50" selection-end-column="18" />
         </state>
       </provider>
     </entry>

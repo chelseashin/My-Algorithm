@@ -1,6 +1,7 @@
 import sys
 sys.stdin = open('1520_input.txt')
 input = sys.stdin.readline
+sys.setrecursionlimit(10000)
 
 dr = (-1, 1, 0, 0)
 dc = (0, 0, -1, 1)

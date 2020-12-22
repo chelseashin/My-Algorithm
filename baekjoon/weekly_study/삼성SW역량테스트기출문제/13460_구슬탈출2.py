@@ -20,7 +20,7 @@ def bfs(rr, rc, br, bc):
     Q = deque([(rr, rc, br, bc, 0)])
     while Q:
         rr, rc, br, bc, cnt = Q.popleft()
-        if cnt > 10:
+        if cnt >= 10:
             return -1
         for i in range(4):
             # move 함수 : 좌표, 방향 넘겨주면 이동 후 좌표와 움직인 칸 수 리턴

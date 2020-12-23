@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a67cc1a6-2a9d-42e4-91d1-1d85e6969e29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/12100_2048(Easy).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/12100_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/13460_다른풀이.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon/my_study/13901_로봇.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/my_study/13901_로봇.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/13460_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/13460_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/13460_구슬탈출2.py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/13460_구슬탈출2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/12100_2048(Easy).py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/12100_2048(Easy).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/12100_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/12100_input.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,17 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/my_study/1520_내리막길.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="224">
               <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/13460_구슬탈출2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -52,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/12100_2048(Easy).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="114">
+              <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -61,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/12100_input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            <state relative-caret-position="133">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -206,10 +192,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="612" />
+    <option name="y" value="-17" />
+    <option name="width" value="1199" />
+    <option name="height" value="992" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -387,7 +374,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49867374" weight="0.2797858" />
@@ -395,7 +382,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.50132626" side_tool="true" weight="0.051813472" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33190882" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4980211" visible="true" weight="0.42411348" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4980211" visible="true" weight="0.43758765" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43057504" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -872,13 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/my_study/1520_내리막길.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/3190_뱀.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -930,22 +910,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/13460_구슬탈출2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-399">
           <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon/my_study/1520_내리막길.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/12100_input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/12100_2048(Easy).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="114">
+          <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
         </state>
       </provider>
     </entry>

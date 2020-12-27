@@ -111,24 +111,23 @@ for b in board:
 MAX = 0
 dfs(0)
 print(MAX)
-# move(3)
-# print()
-# for b in board:
-#     print(b)
-# move(1)
-# print()
-# for b in board:
-#     print(b)
-#
-# move(3)
-# print()
-# for b in board:
-#     print(b)
-#
-# move(1)
-# print()
-# for b in board:
-#     print(b)
 
-# for i in range(N-1, -1, -1):
-#     print(i)
+# Debugging
+# move(3)
+# print()
+# for b in board:
+#     print(b)
+# move(1)
+# print()
+# for b in board:
+#     print(b)
+#
+# move(3)
+# print()
+# for b in board:
+#     print(b)
+#
+# move(1)
+# print()
+# for b in board:
+#     print(b)

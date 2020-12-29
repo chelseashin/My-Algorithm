@@ -2,6 +2,9 @@ import sys
 sys.stdin = open("12100_input.txt")
 input = sys.stdin.readline
 
+# 틀린 풀이
+# - 합치는 것은 한 번만 가능한데, 스택을 사용하면 여러 번 합치게 됨
+
 def move(dir, temp):
     global MAX
     if dir == 0:    # 상
@@ -17,8 +20,9 @@ def move(dir, temp):
                             S.append(board[i][j])
                             board[i][j] = 0
                         else:
-                            S.pop()
-                            S.append(2 * board[i][j])
+                            # S.pop()
+                            # S.append(2 * board[i][j])
+                            S.append(2 * S.pop())
                             board[i][j] = 0
             # print(j, "번째 열", S, len(S))
             for k in range(len(S)):
@@ -38,8 +42,9 @@ def move(dir, temp):
                             S.append(board[i][j])
                             board[i][j] = 0
                         else:
-                            S.pop()
-                            S.append(2 * board[i][j])
+                            # S.pop()
+                            # S.append(2 * board[i][j])
+                            S.append(2 * S.pop())
                             board[i][j] = 0
             # print(j, "번째 열", S, len(S))
             for k in range(len(S)):
@@ -60,8 +65,8 @@ def move(dir, temp):
                             S.append(board[i][j])
                             board[i][j] = 0
                         else:
-                            S.pop()
-                            S.append(2 * board[i][j])
+                            # S.pop()
+                            S.append(2 * S.pop())
                             board[i][j] = 0
             for k in range(len(S)):
                 board[i][k] = S[k]
@@ -87,11 +92,11 @@ def move(dir, temp):
             for k in range(len(S)):
                 board[i][N-k-1] = S[k]
                 MAX = max(MAX, S[k])
-    if temp == 5:
-        print(dir, MAX)
-        for b in board:
-            print(b)
-        print()
+    # if temp == 5:
+    #     print(dir, MAX)
+    #     for b in board:
+    #         print(b)
+    #     print()
 
 def dfs(depth):
     global MAX, board

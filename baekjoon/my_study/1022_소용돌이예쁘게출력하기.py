@@ -19,6 +19,7 @@ total -= 1
 direction = 0
 dis = 1
 num = 1
+max_value = 0
 while total:
     for i in range(2):
         for j in range(dis):
@@ -32,13 +33,15 @@ while total:
             if not (0 <= nr < (r2 - r1 + 1) and 0 <= nc < (c2 - c1 + 1)):
                 continue
             A[nr][nc] = num
+            max_value = num
             total -= 1
         direction = (direction + 1) % 4
     dis += 1
 
-for a in A:
-    print(*a)
-# for d in A:
-#     for i in d:
-#         print(i, end=' ')
-#     print()
+# for a in A:
+#     print(*a)
+max_length = len(str(max_value))
+for i in A:
+    for j in i:
+        print(str(j).rjust(max_length), end=" ")
+    print()

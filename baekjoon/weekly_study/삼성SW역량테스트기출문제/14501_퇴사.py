@@ -16,14 +16,14 @@ def backtracking(day, pay):
     if day > N:
         return 0
     if day == N:
-        print(pay)
+        # print(pay)
         return pay
     temp = max(temp, backtracking(day+A[day][0], pay+A[day][1]), backtracking(day+1, pay))
     return temp
 
 N = int(input())
 A = [list(map(int, input().split())) for _ in range(N)]
-# print(N, A)
+print(N, A)
 MAX = 0
 # backtracking(0, 0)
 # print(MAX)

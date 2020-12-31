@@ -28,23 +28,22 @@ def bfs():
     MAX = max(MAX, safeArea - virusCnt)
     return
 
-# 벽 세우기
 def dfs(depth):
     if depth == 3:
-        bfs()
+        bfs()       # 바이러스 퍼트리기
         return
     for i in range(N):
         for j in range(M):
             if A[i][j]:
                 continue
-            A[i][j] = 3
+            A[i][j] = 3     # 벽 세우기
             dfs(depth+1)
-            A[i][j] = 0
+            A[i][j] = 0     # 복원
 
 # main
 N, M = map(int, input().split())
 A = []
-MAX = float('-inf')
+MAX = 0
 safeArea = -3       # 빈 공간
 virus = []     # 초기 바이러스 위치
 for i in range(N):

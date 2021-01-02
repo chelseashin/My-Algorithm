@@ -1,4 +1,4 @@
-# 1h 40m
+# 1h 20m
 import sys
 sys.stdin = open("14503_input.txt")
 input = sys.stdin.readline

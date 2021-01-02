@@ -13,7 +13,7 @@ def dfs(depth):
         # 대각선 검사
         # 인덱스의 합과 차가 같은 대각선상에 있을 때 같다는 것을 이용함
         # for - else 를 이용해보자
-        for r, c  in result:
+        for r, c in result:
             if abs(r-depth) == abs(c-col):
                 break
         else:

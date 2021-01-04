@@ -22,15 +22,15 @@ phone_book = ["12", "123", "1235", "567", "88"]
 #     return True
 
 def solution(phone_book):
-    hashmap = {}
-    for num in phone_book:
-        hashmap[num] = 1
-    print(hashmap)
+    # hashmap = {}
+    # for num in phone_book:
+    #     hashmap[num] = 1
+    # print(hashmap)
     for num in phone_book:
         temp = ""
         for n in num:
             temp += n
-            if temp in hashmap.keys() and temp != num:
+            if temp in phone_book and temp != num:
                 return False
     return True
 

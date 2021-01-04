@@ -1,5 +1,4 @@
 import sys
-from collections import deque
 sys.stdin = open("20057_input.txt")
 input = sys.stdin.readline
 

@@ -1,5 +1,8 @@
 # from 16:10 to 17:50
 # 1h 40m
+# simulation 문제. 알고리즘 기술은 X
+# 어떤 자료구조 사용하여 구현할지 미리 구상한 것이 도움됨
+# 덕분에 메모리, 시간 크게 단축
 
 import sys
 sys.stdin = open("20056_input.txt")
@@ -28,6 +31,7 @@ for k in range(K):
             info[(nr, nc)] = [(sm, sd, ss)]
         else:
             info[(nr, nc)].append((sm, sd, ss))
+    # print(info)
     # 이동 후 처리
     for key, values in info.items():
         if len(values) == 1:    # 값이 한 개라면 그대로 큐에 담기
@@ -53,7 +57,7 @@ for k in range(K):
             dd = [1, 3, 5, 7]
         for cd in dd:               # 큐에 담에 줄 때 이동한 위치를 담아줘서 계속 틀림.. 현 위치를 넣어줘야 위에서 정상적으로 이동 처리됨
             Q.append(key + (tm, cd, ts))
-
+# print(Q)
 fireball = 0
 for qv in Q:
     fireball += qv[2]

@@ -9,6 +9,12 @@ def solution(participant, completion):
         temp += int(hash(part))
     for com in completion:
         temp -= int(hash(com))
+    print(temp)
+    print(D)
     return D[temp]
 
 print(solution(participant, completion))
+
+# print(hash("marina"), hash("nikola"))
+# for i in range(5):
+#     print(hash(participant[i]))

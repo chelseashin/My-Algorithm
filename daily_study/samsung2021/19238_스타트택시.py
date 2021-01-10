@@ -40,7 +40,8 @@ def bfs(sr, sc):
             elif visited[nr][nc] == 999:
                 heapq.heappush(priority, (visited[r][c]+1, nr, nc))
     if priority:
-        return priority[0]      # 먼저 태울 승객까지의 거리, 승객의 위치 리턴
+        return heapq.heappop(priority)      # 우선순위 낮은 순으로 pop, 먼저 태울 승객까지의 거리, 승객의 위치 리턴
+        # return priority[0]                # 위와 같은 코드
     return False
 
 # 승객 택시로 이동

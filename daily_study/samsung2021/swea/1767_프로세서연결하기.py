@@ -5,7 +5,7 @@ sys.stdin = open("1767_input.txt")
 dr = (-1, 1, 0, 0)
 dc = (0, 0, -1, 1)
 
-def connect(r, c, d):
+def connect(r, c, d, num):
     cnt = 0
     while True:
         r += dr[d]
@@ -14,15 +14,20 @@ def connect(r, c, d):
             return cnt
         if A[r][c]:     # 코어에 해당하거나 다른 전선이 연결된 자리라면
             return 0
-        A[r][c] = 2         # 연결하는 부분 2로 표시
+        A[r][c] = num         # 연결하는 부분 2로 표시
         cnt += 1
 
 # 현재 체크한 코어 수, 전선 연결한 코어 수, 연결한 전선 길이의 합
 def dfs(depth, connectedCores, connectedlength):
     global A, minLength, maxCores
+
+    # 현재까지 연결한 코어 수 + 체크할 남은 코어 수와 합한 것이 연결한 최댓값보다 작다면 리턴
+
+
     if depth == coreCnt:
         if connectedCores < maxCores:   # 연결한 갯수가 최대 연결 갯수보다 이미 작으면
             return
+
         # 연결 갯수가 최대 연결 갯수보다 크다면
         if connectedCores > maxCores:
             maxCores = connectedCores
@@ -30,15 +35,16 @@ def dfs(depth, connectedCores, connectedlength):
         # 연결 갯수가 최대 연결 갯수와 같다면 최소 연결 길이 갱신
         elif connectedCores == maxCores:
             minLength = min(minLength, connectedlength)
-        return minLength
+        return
 
     arr = [x[:] for x in A]
     sr, sc = coreLst[depth]
     for d in range(4):
-        temp = connect(sr, sc, d)    # 코어 위치, 방향 넘겨주면
+        temp = connect(sr, sc, d, 2)    # 코어 위치, 방향 넘겨주면
         if temp:    # 연결 가능하면
             dfs(depth+1, connectedCores+1, connectedlength+temp)
         A = [x[:] for x in arr]
+        # connect(sr, sc, d, 0)
     # 연결 실패하면
     dfs(depth+1, connectedCores, connectedlength)
 

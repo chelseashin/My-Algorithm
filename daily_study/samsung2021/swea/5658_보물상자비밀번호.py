@@ -9,8 +9,7 @@ T = int(input())
 for tc in range(T):
     N, K = map(int, input().split())
     A = list(input())
-    turn = N//4
-    result = 0
+    turn = N//4         # 한 변의 길이
     L = []
     for _ in range(turn):
         for i in range(0, N, turn):

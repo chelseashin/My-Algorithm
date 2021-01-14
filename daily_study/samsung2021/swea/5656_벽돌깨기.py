@@ -47,6 +47,7 @@ def dfs(depth, total):
     if depth == N or total == 0:    # 구슬 다 썼거나 모든 벽돌을 깼다면
         MIN = min(MIN, total)       # 최솟값 갱신
         return
+
     R = [x[:] for x in raw]         # 현 상태 저장
     for w in range(W):
         for h in range(H):
@@ -55,6 +56,7 @@ def dfs(depth, total):
                 dfs(depth+1, total-temp)
                 raw = [r[:] for r in R]        # 복원
                 break                          # 해당 열 구슬 작업 끝났다면 나가기
+
 # main
 T = int(input())
 for tc in range(T):
@@ -66,6 +68,6 @@ for tc in range(T):
         for w in range(W):
             if raw[h][w]:
                 bricks += 1
-    MIN = bricks
+    MIN = bricks        # 최솟값 갱신용
     dfs(0, bricks)
     print("#{} {}".format(tc+1, MIN))

@@ -1,6 +1,4 @@
 import sys
-sys.stdin = open("17822_input.txt")
-
 from collections import deque
 
 # 원판 회전 함수
@@ -88,9 +86,6 @@ for _ in range(T):
     if flag == 0:
         control(A)
 
-    # for a in A:
-    #     print(a)
-    # print(_)
 # 최종 배열 A의 모든 원소 합
 total = 0
 for i in range(N):

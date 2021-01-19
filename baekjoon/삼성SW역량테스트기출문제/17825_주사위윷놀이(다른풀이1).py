@@ -19,7 +19,7 @@ A[30:33] = [31, 32, 20]
 # 5, 10, 15번 인덱스에서 안쪽 다음 칸에 해당하는 인덱스를 연결
 move_in = [0] * 16
 move_in[5], move_in[10], move_in[15] = 22, 25, 27
-
+print("move_in", move_in)
 plus = [0] * 33     # 해당 칸에서 더해줄 숫자
 for i in range(1, 21):
     plus[i] = i*2
@@ -27,7 +27,7 @@ plus[22:25] = [13, 16, 19]
 plus[25:27] = [22, 24]
 plus[27:30] = [28, 27, 26]
 plus[30:33] = [25, 30, 35]
-# print('plus', plus)
+print('plus', plus)
 
 def dfs(depth, score):
     global MAX
@@ -42,7 +42,7 @@ def dfs(depth, score):
             nx = move_in[nx]
             move -= 1
 
-        if nx + move <= 21:
+        if nx + move <= 21:     # 이동 후 위치가 도착지점보다 전이라면
             nx += move
         else:
             for _ in range(move):

@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a67cc1a6-2a9d-42e4-91d1-1d85e6969e29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/2798_블랙잭.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/2920_음계.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daily_study/samsung2021/boj/16959_다른풀이.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daily_study/samsung2021/boj/16959_체스판여행.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily_study/samsung2021/boj/20061_모노미노도미노2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이).py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이1).py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이1).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily_study/samsung2021/boj/16959_체스판여행1.py" beforeDir="false" afterPath="$PROJECT_DIR$/daily_study/samsung2021/boj/16959_체스판여행1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily_study/samsung2021/boj/17822_원판돌리기.py" beforeDir="false" afterPath="$PROJECT_DIR$/daily_study/samsung2021/boj/17822_원판돌리기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily_study/samsung2021/boj/17825_주사위윷놀이.py" beforeDir="false" afterPath="$PROJECT_DIR$/daily_study/samsung2021/boj/17825_주사위윷놀이.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이2).py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이2).py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +26,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/17825_주사위윷놀이.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/16959_체스판여행.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/16959_다른풀이.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="912">
+              <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/20061_모노미노도미노2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -39,24 +62,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-627" />
+            <state relative-caret-position="872">
+              <caret line="54" column="35" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="35" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이1).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="786">
-              <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+            <state relative-caret-position="19">
+              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이2).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-95">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="171">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -111,9 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/daily_study/samsung2021/20056_마법사상어와파이어볼.pyi" />
-        <option value="$PROJECT_DIR$/daily_study/samsungds/20056_마법사상어와파이어볼.pyi" />
-        <option value="$PROJECT_DIR$/daily_study/samsung2021/20056_input.txt" />
         <option value="$PROJECT_DIR$/programmers/Hash/전화번호목록.py" />
         <option value="$PROJECT_DIR$/programmers/Hash/위장.py" />
         <option value="$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/20057_마법사상어와토네이도.py" />
@@ -161,6 +183,9 @@
         <option value="$PROJECT_DIR$/daily_study/samsung2021/boj/16959_체스판여행.py" />
         <option value="$PROJECT_DIR$/daily_study/samsung2021/boj/16959_다른풀이.py" />
         <option value="$PROJECT_DIR$/daily_study/samsung2021/boj/17825_주사위윷놀이.py" />
+        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이2).py" />
+        <option value="$PROJECT_DIR$/daily_study/samsung2021/boj/20061_모노미노도미노2.py" />
+        <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이).py" />
         <option value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이1).py" />
       </list>
     </option>
@@ -226,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.17825_주사위윷놀이(다른풀이1)">
+  <component name="RunManager" selected="Python.20061_모노미노도미노2">
     <configuration name="위장" type="PythonConfigurationType" factoryName="Python">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,69 +265,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programmers/Hash/위장.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="16959_체스판여행" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="My-Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/daily_study/samsung2021/boj" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/daily_study/samsung2021/boj/16959_체스판여행.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="16959_체스판여행1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="My-Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/daily_study/samsung2021/boj" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/daily_study/samsung2021/boj/16959_체스판여행1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="16959_다른풀이" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="My-Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/daily_study/samsung2021/boj" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/daily_study/samsung2021/boj/16959_다른풀이.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -353,21 +315,84 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="17825_주사위윷놀이(다른풀이2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="My-Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이2).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="17825_주사위윷놀이(다른풀이)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="My-Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="20061_모노미노도미노2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="My-Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/daily_study/samsung2021/boj" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/daily_study/samsung2021/boj/20061_모노미노도미노2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.위장" />
-      <item itemvalue="Python.16959_체스판여행1" />
-      <item itemvalue="Python.16959_체스판여행" />
-      <item itemvalue="Python.16959_다른풀이" />
       <item itemvalue="Python.17825_주사위윷놀이" />
       <item itemvalue="Python.17825_주사위윷놀이(다른풀이1)" />
+      <item itemvalue="Python.17825_주사위윷놀이(다른풀이2)" />
+      <item itemvalue="Python.17825_주사위윷놀이(다른풀이)" />
+      <item itemvalue="Python.20061_모노미노도미노2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.20061_모노미노도미노2" />
+        <item itemvalue="Python.17825_주사위윷놀이(다른풀이)" />
         <item itemvalue="Python.17825_주사위윷놀이(다른풀이1)" />
+        <item itemvalue="Python.17825_주사위윷놀이(다른풀이2)" />
         <item itemvalue="Python.17825_주사위윷놀이" />
-        <item itemvalue="Python.16959_다른풀이" />
-        <item itemvalue="Python.16959_체스판여행1" />
-        <item itemvalue="Python.16959_체스판여행" />
       </list>
     </recent_temporary>
   </component>
@@ -397,12 +422,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49867374" weight="0.2356091" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49867374" visible="true" weight="0.23548813" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50132626" side_tool="true" weight="0.051813472" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959327" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4980211" visible="true" weight="0.36746144" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4980211" visible="true" weight="0.14025246" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38709676" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -647,7 +672,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/SamsungProblems/20057_마법사상어와토네이도.py" />
     <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/SamsungProblems/20056_마법사상어와파이어볼.py" />
     <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/SamsungProblems/20058_마법사상어와파이어스톰.py" />
     <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/SamsungProblems/20058_input.txt" />
@@ -824,13 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/17822_원판돌리기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/16959_체스판여행1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -838,43 +855,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/16959_다른풀이.py">
+    <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/20061_모노미노도미노2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="89" column="37" lean-forward="true" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
+        <state relative-caret-position="152">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/16959_체스판여행.py">
+    <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/17822_원판돌리기.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="1425">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/17825_주사위윷놀이.py">
+    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이2).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이1).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="786">
-          <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        <state relative-caret-position="171">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627" />
+        <state relative-caret-position="872">
+          <caret line="54" column="35" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="35" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이2).py">
+    <entry file="file://$PROJECT_DIR$/baekjoon/삼성SW역량테스트기출문제/17825_주사위윷놀이(다른풀이1).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="19">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/17825_주사위윷놀이.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/16959_체스판여행.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/16959_다른풀이.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
         </state>
       </provider>
     </entry>

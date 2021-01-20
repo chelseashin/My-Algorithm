@@ -33,9 +33,9 @@ def solve(depth, score):
         x, y, v = horse[i]      # 방향, 인덱스, 점수
         for _ in range(move[depth]):
             y += 1
-            if y == len(score_board[x]):
+            if y == len(score_board[x]):    # 끝 부분
                 # 도착
-                if x == 0 or x == 4:
+                if x == 0 or x == 4:    # 도착
                     y = 0
                     x = 5
                 elif x < 4:
@@ -57,16 +57,15 @@ def solve(depth, score):
         # 이동 마치는 칸에 다른 값 존재하지 않으면 이동 가능
         # 단, 도착지점일 경우 중복 가능
         can_move = True
-        if v != 0:
+        if v != 0:                  # 시작점 아닐 때
             for j in range(4):
-                if i == j:
+                if i == j:          # 같은 위치면
                     continue
                 if horse[j] == [x, y, v]:
                     can_move = False
                     break
         if can_move:
-            x, y, v, horse[i] = horse[i][0], horse[i][1], horse[i][2], [x, y, v]
-
+            x, y, v, horse[i] = horse[i][0], horse[i][1], horse[i][2], [x, y, v]    # 위치 바꾸기
             solve(depth+1, score+horse[i][2])
             horse[i] = [x, y, v]
 

@@ -4,6 +4,10 @@ sys.stdin = open('17825_input.txt')
 # 참고 링크
 # https://calmlife.tistory.com/17
 # 완전 탐색
+# 말 4개로 게임
+# 이동한 후의 위치에 이미 말이 있으면 갈 수 없다.
+# 말이 이동해 있을 수 있는 각 칸의 점수의 합의 최댓값
+# 10, 20, 30번 위치에서는 무조건 안쪽 화살표로 들어가도록
 
 A = [[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40],
      [10, 13, 16, 19],
@@ -16,6 +20,7 @@ def solve(depth, score):
     if depth == 10:
         res = max(res, score)
         return
+
     h = [x[:] for x in horse]
     v = [x[:] for x in visited]
     for i in range(4):
@@ -33,9 +38,9 @@ def solve(depth, score):
             nd = 4
             nx = 3
         if nd in [1, 2, 3] and (len(A[nd]) <= nx):
-            nx = nx - len(A[nd])
             nd = 4
-        if len(A[nd]) <= nx:
+            nx = nx - len(A[nd])
+        if len(A[nd]) <= nx:        # nd가 4이고 길이 넘어가면 도착
             horse[i] = [0, done]
             visited[d][x] = 0
             solve(depth+1, score)   # 도착했으면 더해줄 것 X

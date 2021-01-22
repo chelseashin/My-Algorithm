@@ -4,21 +4,23 @@ import sys
 input = sys.stdin.readline
 
 # 재귀로 자신의 부모를 찾는 함수
-def find(x):
+def find_parent(x):
     if x == parent[x]:
         return x
     else:
-        p = find(parent[x])
-        parent[x] = p
+        root_x = find_parent(parent[x])
+        parent[x] = root_x
         return parent[x]
 
+# y의 Root 노드가 x의 Root 노드와 같지 않으면
+# y의 Root 노드가 x의 Root 노드의 자식이 되도록 하는 함수
 def union(x, y):
-    x = find(x)
-    y = find(y)
+    root_x = find_parent(x)
+    root_y = find_parent(y)
 
-    if x != y:
-        parent[y] = x
-        number[x] += number[y]
+    if root_x != root_y:
+        parent[root_y] = root_x
+        number[root_x] += number[root_y]
 
 T = int(input())
 for _ in range(T):
@@ -33,8 +35,6 @@ for _ in range(T):
         if b not in parent:
             parent[b] = b
             number[b] = 1
-        # print("parent", parent)
-        # print("number", number)
         union(a, b)     # a와 b 연결하기
         
-        print(number[find(a)])
+        print(number[find_parent(a)])

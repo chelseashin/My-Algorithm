@@ -57,5 +57,6 @@ for num in range(1, K+1):
     r, c, d = map(int, input().split())
     A[r-1][c-1] = [num]
     horse_info[num] = [r-1, c-1, d-1]
+
 white, red, blue = 0, 1, 2
 solve()

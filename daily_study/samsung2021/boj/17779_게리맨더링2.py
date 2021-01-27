@@ -14,6 +14,7 @@ def draw(sr, sc, d1, d2):
     check = [[0] * N for _ in range(N)]
     rr, rc = sr+d2, sc+d2   # 오른쪽 꼭지점
     lr, lc = sr+d1, sc-d1   # 왼쪽 꼭지점
+
     # 테두리 5로 채우기
     for i in range(d1+1):
         check[sr+i][sc-i] = 5
@@ -21,6 +22,7 @@ def draw(sr, sc, d1, d2):
     for j in range(1, d2):
         check[sr+j][sc+j] = 5
         check[lr+j][lc+j] = 5
+
     temp = [0] * 5   # 다섯 구역 각각의 인구 수의 합 담기
     # 1 채우기
     for i in range(lr):
@@ -54,6 +56,7 @@ def draw(sr, sc, d1, d2):
             if check[i][j] == 0:
                 check[i][j] = 4
                 temp[3] += raw[i][j]
+
     # 5구역 인구 합 더하기
     temp[4] = (total - sum(temp))
     gap = max(temp) - min(temp)

@@ -39,7 +39,7 @@ def bfs(virus):
 def comb(depth, k):
     global min_time
     if depth == M:
-        print(pick)   # 퍼트릴 바이러스 좌표
+        # print(pick)   # 퍼트릴 바이러스 좌표
         min_time = min(min_time, bfs(pick))
         return
     for i in range(k, virus_cnt):
@@ -71,3 +71,6 @@ else:
         print(-1)
     else:
         print(min_time)
+
+
+# INF = int(1e9)

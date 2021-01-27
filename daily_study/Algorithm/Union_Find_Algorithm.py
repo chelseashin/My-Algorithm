@@ -1,7 +1,6 @@
 # Union-Find 알고리즘 - 합집합 찾기
 # 원소들의 연결여부를 확인
 
-
 # 재귀로 자신의 부모를 찾는 함수
 def find(x):
     if x == parent[x]:

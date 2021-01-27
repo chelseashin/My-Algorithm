@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a67cc1a6-2a9d-42e4-91d1-1d85e6969e29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/daily_study/samsung2021/boj/17142_연구소3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily_study/samsung2021/boj/15684_사다리조작.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily_study/samsung2021/boj/15685_드래곤커브.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily_study/samsung2021/boj/15686_치킨배달.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/4195_친구네트워크.py" beforeDir="false" afterPath="$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/4195_친구네트워크.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daily_study/Algorithm/Union_Find_Algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/daily_study/Algorithm/Union_Find_Algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daily_study/samsung2021/boj/17142_연구소3.py" beforeDir="false" afterPath="$PROJECT_DIR$/daily_study/samsung2021/boj/17142_연구소3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daily_study/samsung2021/boj/17779_게리맨더링2.py" beforeDir="false" afterPath="$PROJECT_DIR$/daily_study/samsung2021/boj/17779_게리맨더링2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daily_study/samsung2021/boj/17837_새로운게임2.py" beforeDir="false" afterPath="$PROJECT_DIR$/daily_study/samsung2021/boj/17837_새로운게임2.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,19 +27,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/4195_친구네트워크.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/daily_study/Algorithm/Union_Find_Algorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="19">
+              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -42,17 +38,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/16959_다른풀이.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="437">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/17142_연구소3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="28" column="70" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/17779_게리맨더링2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="68" column="38" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/17825_주사위윷놀이.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/17142_연구소3.py">
+        <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/17837_새로운게임2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+            <state relative-caret-position="209">
+              <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/15684_사다리조작.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-133">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/15685_드래곤커브.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -107,11 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/daily_study/samsung2021/20057_input.txt" />
-        <option value="$PROJECT_DIR$/daily_study/samsung2021/1767_input.txt" />
-        <option value="$PROJECT_DIR$/daily_study/samsung2021/20056_마법사상어와파이어볼.py" />
-        <option value="$PROJECT_DIR$/daily_study/samsung2021/20057_마법사상어와토네이도.py" />
-        <option value="$PROJECT_DIR$/daily_study/samsung2021/20058_마법사상어와파이어스톰.py" />
         <option value="$PROJECT_DIR$/programmers/Hash/완주하지못한선수.py" />
         <option value="$PROJECT_DIR$/daily_study/samsung2021/14890_input.txt" />
         <option value="$PROJECT_DIR$/daily_study/samsung2021/14890_경사로.py" />
@@ -155,48 +191,29 @@
         <option value="$PROJECT_DIR$/baekjoon/weekly_study/Queue/5397_키로거.py" />
         <option value="$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/10930_SHA-236.py" />
         <option value="$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/1920_수찾기.py" />
-        <option value="$PROJECT_DIR$/daily_study/Algorithm/Union_Find_Algorithm.py" />
         <option value="$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/4195_친구네트워크.py" />
+        <option value="$PROJECT_DIR$/daily_study/samsung2021/boj/15684_사다리조작.py" />
+        <option value="$PROJECT_DIR$/daily_study/samsung2021/boj/15686_치킨배달.py" />
+        <option value="$PROJECT_DIR$/daily_study/Algorithm/Union_Find_Algorithm.py" />
+        <option value="$PROJECT_DIR$/daily_study/samsung2021/boj/15685_드래곤커브.py" />
         <option value="$PROJECT_DIR$/daily_study/samsung2021/boj/17142_연구소3.py" />
+        <option value="$PROJECT_DIR$/daily_study/samsung2021/boj/17779_게리맨더링2.py" />
+        <option value="$PROJECT_DIR$/daily_study/samsung2021/boj/17837_새로운게임2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="895" />
-    <option name="y" value="-35" />
-    <option name="width" value="1335" />
-    <option name="height" value="993" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="My-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-Algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="daily_study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="daily_study" type="462c0819:PsiDirectoryNode" />
-              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="restartRequiresConfirmation" value="false" />
@@ -222,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.17142_연구소3">
+  <component name="RunManager" selected="Python.17837_새로운게임2">
     <configuration name="위장" type="PythonConfigurationType" factoryName="Python">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -244,7 +261,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10930_SHA-236" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="15684_사다리조작" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -252,11 +269,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/daily_study/samsung2021/boj" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/10930_SHA-236.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/daily_study/samsung2021/boj/15684_사다리조작.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="15685_드래곤커브" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="My-Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/daily_study/samsung2021/boj" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/daily_study/samsung2021/boj/15685_드래곤커브.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="15686_치킨배달" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="My-Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/daily_study/samsung2021/boj" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/daily_study/samsung2021/boj/15686_치킨배달.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -286,7 +345,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1920_수찾기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="17837_새로운게임2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -294,53 +353,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/daily_study/samsung2021/boj" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/1920_수찾기.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="4195_친구네트워크" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="My-Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/4195_친구네트워크.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Union_Find_Algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="My-Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/daily_study/Algorithm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/daily_study/Algorithm/Union_Find_Algorithm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/daily_study/samsung2021/boj/17837_새로운게임2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -351,19 +368,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.위장" />
-      <item itemvalue="Python.10930_SHA-236" />
-      <item itemvalue="Python.1920_수찾기" />
-      <item itemvalue="Python.4195_친구네트워크" />
-      <item itemvalue="Python.Union_Find_Algorithm" />
       <item itemvalue="Python.17142_연구소3" />
+      <item itemvalue="Python.15684_사다리조작" />
+      <item itemvalue="Python.15686_치킨배달" />
+      <item itemvalue="Python.15685_드래곤커브" />
+      <item itemvalue="Python.17837_새로운게임2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.17837_새로운게임2" />
         <item itemvalue="Python.17142_연구소3" />
-        <item itemvalue="Python.4195_친구네트워크" />
-        <item itemvalue="Python.Union_Find_Algorithm" />
-        <item itemvalue="Python.1920_수찾기" />
-        <item itemvalue="Python.10930_SHA-236" />
+        <item itemvalue="Python.15685_드래곤커브" />
+        <item itemvalue="Python.15686_치킨배달" />
+        <item itemvalue="Python.15684_사다리조작" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +415,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.50132626" side_tool="true" weight="0.051813472" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959327" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4980211" visible="true" weight="0.40532959" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4980211" visible="true" weight="0.28611502" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38709676" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -643,43 +660,8 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/20058_마법사상어와파이어스톰.py" />
-    <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/19236_input.txt" />
-    <entry file="file://$PROJECT_DIR$/../../chelseashin/baekjoon/19236_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../chelseashin/baekjoon/19236_계속.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/SamsungProblems/baekjoon/19238_스타트택시.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../chelseashin/baekjoon/19236_청소년상어.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../chelseashin/baekjoon/19237_어른상어.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-665">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../chelseashin/baekjoon/19236_청소년상어.py" />
+    <entry file="file://$PROJECT_DIR$/../../chelseashin/baekjoon/19237_어른상어.py" />
     <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/20057_다른풀이2.py" />
     <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/20057_마법사상어와토네이도.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -708,13 +690,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/19237_어른상어.py" />
     <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/19238_스타트택시.py" />
-    <entry file="file://$PROJECT_DIR$/../../chelseashin/baekjoon/19237_다시풀기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="88" column="18" lean-forward="true" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../chelseashin/baekjoon/19237_다시풀기.py" />
     <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/삼성SW역량테스트기출문제/14503_input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -775,13 +751,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/2798_블랙잭.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/2798_블랙잭.py" />
     <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/16959_체스판여행1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -793,13 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1425">
           <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/17825_주사위윷놀이.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -838,13 +801,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/1874_스택수열.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/1874_스택수열.py" />
     <entry file="file://$PROJECT_DIR$/baekjoon/weekly_study/Deque/1966_프린터큐.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -859,27 +816,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/2920_음계.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/10930_SHA-236.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/1920_수찾기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/2920_음계.py" />
+    <entry file="file://$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/10930_SHA-236.py" />
+    <entry file="file://$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/1920_수찾기.py" />
     <entry file="file://$PROJECT_DIR$/daily_study/DataStructure/01_배열.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -895,31 +834,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daily_study/Algorithm/Union_Find_Algorithm.py">
+    <entry file="file://$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/4195_친구네트워크.py" />
+    <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/15686_치킨배달.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="95">
+          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daily_study/DataStructure/ProblemSolving/4195_친구네트워크.py">
+    <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/15685_드래곤커브.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state relative-caret-position="152">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daily_study/Algorithm/Union_Find_Algorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/16959_다른풀이.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="437">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/15684_사다리조작.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/17142_연구소3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+        <state relative-caret-position="247">
+          <caret line="28" column="70" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/17779_게리맨더링2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="68" column="38" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/17825_주사위윷놀이.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/17837_새로운게임2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
         </state>
       </provider>
     </entry>

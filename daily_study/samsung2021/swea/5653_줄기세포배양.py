@@ -49,9 +49,6 @@ def bfs():
             if raw[r][c][1] > 0:    # 살아있는 것만 큐에 담기
                 Q.append((r, c))
         time += 1
-        # print(time, "시간 후")
-        # for a in raw:
-        #     print(a)
 
 # main
 T = int(input())
@@ -66,9 +63,8 @@ for tc in range(T):
     for r in range(start, start+N):
         for c in range(start, start+M):
             if raw[r][c]:
-                Q.append((r, c))        # 확인할 세포 좌표 담기
+                Q.append((r, c))        # 살아있는 세포의 좌표 큐에 담기
                 raw[r][c] = [raw[r][c], raw[r][c] * 2, 0]
-
     bfs()    # 줄기세포 번식
 
     print("#{} {}".format(tc+1, len(Q)))

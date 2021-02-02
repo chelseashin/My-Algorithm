@@ -16,19 +16,19 @@ def calc():
     max_col = 0
     for i in range(len(A)):
         # 수의 등장 횟수가 커지는 순으로, 그러한 것이 여러가지면 수가 커지는 순으로 정렬
-        r_temp = sorted(Counter(A[i]).most_common(), key=lambda x: (x[1], x[0]))
+        temp = sorted(Counter(A[i]).most_common(), key=lambda x: (x[1], x[0]))
         A[i] = []
         cnt = 0
-        for n, c in r_temp:
+        for n, c in temp:
             if n == 0:      # 0이면 무시
                 continue
             A[i].extend([n, c])
             cnt += 2
         max_col = max(max_col, cnt)
         col = max_col                   # 각 행의 최대 길이 갱신
-    for r_temp in A:
-        if len(r_temp) < max_col:
-            r_temp.extend([0] * (max_col - len(r_temp)))    # 최대 길이에 맞춰 0 채우기
+    for row in A:
+        if len(row) < max_col:
+            row.extend([0] * (max_col - len(row)))    # 최대 길이에 맞춰 0 채우기
 
 def solve():
     global row, col, A

@@ -12,7 +12,6 @@ input = sys.stdin.readline
 from collections import Counter
 
 def calc():
-    global row, col
     max_col = 0
     for i in range(len(A)):
         # 수의 등장 횟수가 커지는 순으로, 그러한 것이 여러가지면 수가 커지는 순으로 정렬
@@ -24,14 +23,13 @@ def calc():
                 continue
             A[i].extend([n, c])
             cnt += 2
-        max_col = max(max_col, cnt)
-        col = max_col                   # 각 행의 최대 길이 갱신
+        max_col = max(max_col, cnt)       # 각 행의 최대 길이 갱신
     for row in A:
         if len(row) < max_col:
             row.extend([0] * (max_col - len(row)))    # 최대 길이에 맞춰 0 채우기
 
 def solve():
-    global row, col, A
+    global A
     time = 0
     while time < 101:
         if len(A) > r-1 and len(A[0]) > c-1:    # runtime error의 주범. 조건 만족할 때만 

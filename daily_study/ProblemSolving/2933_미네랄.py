@@ -11,14 +11,14 @@ dc = (0, 0, -1, 1)
 # 탐색 시작열과 마지막열 인자로 넣으면 떨어질 수 있는 가장 작은 차이를 리턴
 def down(left, right):
     min_gap = R
-    for c in range(left, right + 1):
+    for c in range(left, right+1):
         flag = False
         cnt = 0
         for r in range(R):
             if visited[r][c] == 2:
                 flag = True
                 cnt = 0
-            elif flag and visited[r][c] == 0:
+            elif flag and visited[r][c] == 0 and cave[r][c] == '.':
                 cnt += 1
             elif visited[r][c] == 1:
                 break
@@ -66,10 +66,10 @@ def check():
         if cave[R-1][c] == 'x' and not visited[R-1][c]:
             bfs(R-1, c, 1)     # 땅에 붙어 있는 미네랄이면 방문처리
 
-    for r in range(R):
+    for r in range(R-1):
         for c in range(C):
             if cave[r][c] == 'x' and not visited[r][c]:
-                bfs(r, c, 2)
+                bfs(r, c, 2)    # 공중에 떠있는 클러스터
 
 # main
 R, C = map(int, input().split())
@@ -102,7 +102,9 @@ for i in range(N):
         # for v in visited:
         #     print(v)
 
-for i in range(R):
-    for j in range(C):
-        print(cave[i][j], end='')
-    print()
+# for i in range(R):
+#     for j in range(C):
+#         print(cave[i][j], end='')
+#     print()
+for row in cave:
+        print(''.join(row))

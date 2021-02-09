@@ -1,6 +1,14 @@
 # 22:35 start
 # 23:53 finish
 # 1h 18m 소요
+# 사용 알고리즘 : BFS / 자료구조 : Queue, Heap
+# Simulation이 아니라 오래 걸리지 X. print 찍으며 코드의 오류를 빠르게 찾을 수 있었음
+
+# 전역변수와 지역변수를 헷갈리지 말고 갱신해줘야 함. 초기화 위치 잘 봐야 함
+# 물고기의 우선순위를 heap으로 관리(중요도 : 거리 > 행 > 열 순으로 고려)
+# visited 사용하여 물고기까지의 거리 표기
+# 물고기 먹을 때 그동안 먹은 물고기만큼 먹었다면 크기 키워주기
+# 물고기 먹고 해당 위치로 이동, 맵에서 먹은 물고기 0으로 바꾸기
 
 import sys
 input = sys.stdin.readline
@@ -21,7 +29,6 @@ def bfs(r, c):
         for d in range(4):
             nr = r + dr[d]
             nc = c + dc[d]
-
             if not (0 <= nr < N and 0 <= nc < N):
                 continue
             if visited[nr][nc] >= 0:         # 이미 방문했다면
@@ -41,9 +48,8 @@ def bfs(r, c):
             visited[nr][nc] = visited[r][c] + 1
             Q.append((nr, nc))
 
-    # print("우선순위 큐", pq)
     if pq:
-        distance, row, col = heapq.heappop(pq)
+        distance, row, col = heapq.heappop(pq)      # 우선순위 가장 높은 물고기 pop
         A[row][col] = 0     # 해당 물고기 먹기
         fishCnt += 1
         sr, sc = row, col
@@ -78,6 +84,6 @@ while True:
     dis = bfs(sr, sc)   # 물고기 먹을 때까지 이동한 거리(=시간)
     if dis:
         time += dis
-    else:    # 아기 상어가 물고기 먹지 못하면
+    else:    # 아기 상어가 더이상 먹을 물고기 없으면
         print(time)
         break

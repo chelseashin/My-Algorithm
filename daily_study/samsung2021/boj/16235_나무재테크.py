@@ -13,7 +13,7 @@ dr = (-1, -1, 0, 1, 1, 1, 0, -1)
 dc = (0, 1, 1, 1, 0, -1, -1, -1)
 
 # 봄
-def springandsummer():
+def springAndSummer():
     for r in range(N):
         for c in range(N):
             if A[r][c]:         # 나무 있는 곳이면
@@ -62,7 +62,7 @@ for _ in range(M):
 
 # K 년동안 나무 재테크
 for _ in range(K):
-    springandsummer()   # 봄 & 여름
+    springAndSummer()   # 봄 & 여름
     if not A:           # 나무 없으면 종료
         print(0)
         exit()

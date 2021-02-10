@@ -10,6 +10,8 @@
 # 물고기 먹을 때 그동안 먹은 물고기만큼 먹었다면 크기 키워주기
 # 물고기 먹고 해당 위치로 이동, 맵에서 먹은 물고기 0으로 바꾸기
 
+# 다음에는 힙 사용하지 않고 구해보자!
+
 import sys
 input = sys.stdin.readline
 import heapq
@@ -29,9 +31,7 @@ def bfs(r, c):
         for d in range(4):
             nr = r + dr[d]
             nc = c + dc[d]
-            if not (0 <= nr < N and 0 <= nc < N):
-                continue
-            if visited[nr][nc] >= 0:         # 이미 방문했다면
+            if not (0 <= nr < N and 0 <= nc < N) or visited[nr][nc] >= 0:   # 격자 밖으로 나가거나 이미 방문했다면
                 continue
             if A[nr][nc] > sharkSize:    # 상어보다 물고기 크기가 크다면
                 continue

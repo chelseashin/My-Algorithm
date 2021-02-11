@@ -1,5 +1,6 @@
 # from 10:30 to ???
 # 11%에서 틀림.. 반례도 다 맞음,, 오늘은 여기까지..
+# 이제 11%에서 시간 초과.....
 
 import sys
 input = sys.stdin.readline
@@ -30,6 +31,7 @@ def bfs(sr, sc, num):
     visited[sr][sc] = num
     Q = deque([(sr, sc)])
     minerals = [(sr, sc)]
+    downLst = []
     while Q:
         r, c = Q.popleft()
         for d in range(4):
@@ -40,24 +42,35 @@ def bfs(sr, sc, num):
             if cave[nr][nc] == 'x' and not visited[nr][nc]:
                 visited[nr][nc] = num
                 Q.append((nr, nc))
-                if num == 2:
+                if num == 2 and cave[nr+1][nc] == '.':
+                    downLst.append((nr, nc))
                     minerals.append((nr, nc))
     if num == 2:
-        minerals.sort(key=lambda x: x[1])
-        left, right = minerals[0][1], minerals[-1][1]
-        gap = down(left, right)     # 떨어질 수 있는 최소 차이
-        mlen = len(minerals)        # 미네랄 갯수
-        new_minerals = []           # 미네랄의 새 위치 담으면서 빈 공간으로 만들어주기
-        for i in range(mlen):
-            mr, mc = minerals[i]
-            cave[mr][mc] = '.'
-            visited[mr][mc] = 0
-            new_minerals.append((mr+gap, mc))
+        gap = down(downLst)     # 떨어질 수 있는 최소 차이
+        for i in range(R - 2, -1, -1):
+            for j in range(C):
+                # 클러스터 내린 상태 A에 반영
+                if cave[i][j] == 'x' and visited[i][j] == 2:
+                    cave[i][j] = '.'          # 미네랄의 새 위치 담으면서 빈 공간으로 만들어주기
+                    visited[i][j] = 0
+                    cave[i+gap][j] = 'x'    # 미네랄 새 위치에 뿌리기
+                    visited[i+gap][j] = 1
 
-        for i in range(mlen):
-            nr, nc = new_minerals[i]
-            cave[nr][nc] = 'x'           # 미네랄 새 위치에 뿌리기
-            visited[nr][nc] = 1
+def down(downLst):
+    global visited
+    k, flag = 1, 0  # k 크기 1씩 늘려가며(클러스터로부터 떨어질 수 있는 최대 차이를 찾기 위해)
+    while True:
+        for r, c in downLst:
+            if r + k == R - 1:  # 땅을 만나거나
+                flag = 1
+                break
+            if cave[r+k+1][c] == 'x' and not visited[r+k+1][c]:  # 다른 미네랄 만나면
+                flag = 1
+                break
+        if flag:  # 그 때가 떨어질 수 있는 최대 k 값
+            break
+        k += 1
+    return k
 
 # 땅에 붙어 있는 클러스터는 1 표시, 공중에 떠 있는 클러스터는 2 표시
 def check():
@@ -98,13 +111,10 @@ for i in range(N):
     if tag:         # 미네랄 깼으면
         visited = [[0] * C for _ in range(R)]
         check()     # 각 클러스터가 땅에 붙어있는지
-        # print("visited 상태")
-        # for v in visited:
-        #     print(v)
 
-# for i in range(R):
-#     for j in range(C):
-#         print(cave[i][j], end='')
-#     print()
+# print("visited 상태")
+# for v in visited:
+#     print(v)
+
 for row in cave:
         print(''.join(row))

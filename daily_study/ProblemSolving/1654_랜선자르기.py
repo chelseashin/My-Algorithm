@@ -20,18 +20,19 @@ while start <= end:
         start = mid + 1
     else:
         end = mid - 1
-    print(mid)
 print(end)
 
 
 # 이분탐색 함수
-# def binarySearch(array, value, low, high):
-#     if low > high:
-#         return False
-#     mid = (low+high) / 2
-#     if array[mid] > value:
-#         return binarySearch(array, value, low, mid-1)
-#     elif array[mid] < value:
-#         return binarySearch(array, value, mid+1, high)
-#     else:
-#         return mid
+"""
+def binarySearch(array, value, low, high):
+    if low > high:
+        return False
+    mid = (low+high) // 2
+    if array[mid] > value:
+        return binarySearch(array, value, low, mid-1)
+    elif array[mid] < value:
+        return binarySearch(array, value, mid+1, high)
+    else:
+        return mid
+"""

@@ -1,5 +1,6 @@
 # DFS는 시간초과.. DP로 접근해야 함
 # https://www.acmicpc.net/problem/11055
+# https://pacific-ocean.tistory.com/153 참고해보자
 
 import sys
 input = sys.stdin.readline

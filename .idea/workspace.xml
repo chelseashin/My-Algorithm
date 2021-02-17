@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a67cc1a6-2a9d-42e4-91d1-1d85e6969e29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/programmers/Heap/이중우선순위큐.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily_study/ProblemSolving/1057_토너먼트.py" beforeDir="false" afterPath="$PROJECT_DIR$/daily_study/ProblemSolving/1057_토너먼트.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swea/samsung2020/2383_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/swea/samsung2020/2383_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daily_study/ProblemSolving/11055_가장큰증가부분수열.py" beforeDir="false" afterPath="$PROJECT_DIR$/daily_study/ProblemSolving/11055_가장큰증가부분수열.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,65 +20,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/daily_study/ProblemSolving/11055_가장큰증가부분수열.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            <state relative-caret-position="38">
+              <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daily_study/ProblemSolving/1057_토너먼트.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/ProblemSolving/dp/1520_내리막길.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/programmers/Heap/디스크컨트롤러.py">
+        <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/ProblemSolving/dp/2631_줄세우기.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/SamsungProblems/swea/2383_점심식사시간.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/SamsungProblems/swea/2383_input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/swea/samsung2020/2383_점심식사시간.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/swea/samsung2020/2383_input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="19">
+              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -135,13 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/daily_study/ProblemSolving/1939_중량제한.py" />
-        <option value="$PROJECT_DIR$/daily_study/samsung2021/swea/5653_input.txt" />
-        <option value="$PROJECT_DIR$/daily_study/samsung2021/swea/5648_원자소멸시뮬레이션3.py" />
-        <option value="$PROJECT_DIR$/daily_study/samsung2021/swea/5650_핀볼게임.py" />
-        <option value="$PROJECT_DIR$/daily_study/samsung2021/swea/5653_줄기세포배양.py" />
-        <option value="$PROJECT_DIR$/daily_study/samsung2021/boj/17144_미세먼지안녕!.py" />
-        <option value="$PROJECT_DIR$/daily_study/samsung2021/boj/17143_낚시왕.py" />
         <option value="$PROJECT_DIR$/daily_study/ProblemSolving/16953_A-B.py" />
         <option value="$PROJECT_DIR$/daily_study/samsung2021/boj/15685_드래곤커브.py" />
         <option value="$PROJECT_DIR$/daily_study/ProblemSolving/9205_맥주마시며걸어가기.py" />
@@ -169,7 +120,6 @@
         <option value="$PROJECT_DIR$/daily_study/ProblemSolving/9461_파도반수열.py" />
         <option value="$PROJECT_DIR$/daily_study/samsung2021/boj/16236_아기상어.py" />
         <option value="$PROJECT_DIR$/daily_study/ProblemSolving/1600_말이되고픈원숭이.py" />
-        <option value="$PROJECT_DIR$/daily_study/ProblemSolving/11055_가장큰증가부분수열.py" />
         <option value="$PROJECT_DIR$/daily_study/ProblemSolving/2933.py" />
         <option value="$PROJECT_DIR$/daily_study/ProblemSolving/2933_미네랄.py" />
         <option value="$PROJECT_DIR$/daily_study/ProblemSolving/2933_미네랄(다른풀이).py" />
@@ -183,23 +133,50 @@
         <option value="$PROJECT_DIR$/programmers/Heap/디스크컨트롤러.py" />
         <option value="$PROJECT_DIR$/programmers/Heap/이중우선순위큐.py" />
         <option value="$PROJECT_DIR$/daily_study/ProblemSolving/1057_토너먼트.py" />
-        <option value="$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/SamsungProblems/swea/2383_점심식사시간.py" />
         <option value="$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/SamsungProblems/swea/2383_input.txt" />
+        <option value="$PROJECT_DIR$/programmers/Sorting/K번째수.py" />
+        <option value="$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/Programmers/04_Sorting/K번째수.py" />
+        <option value="$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/Programmers/04_Sorting/가장큰수.py" />
+        <option value="$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/Programmers/04_Sorting/H-Index.py" />
+        <option value="$PROJECT_DIR$/swea/samsung2020/2383_점심식사시간.py" />
         <option value="$PROJECT_DIR$/swea/samsung2020/2383_input.txt" />
+        <option value="$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/ProblemSolving/dp/2631_줄세위.py" />
+        <option value="$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/SamsungProblems/swea/2383_점심식사시간.py" />
+        <option value="$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/ProblemSolving/dp/2631_줄세우기.py" />
+        <option value="$PROJECT_DIR$/daily_study/ProblemSolving/11055_가장큰증가부분수열.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="18" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="973" />
+    <option name="y" value="-19" />
+    <option name="width" value="978" />
+    <option name="height" value="992" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="My-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My-Algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="programmers" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="restartRequiresConfirmation" value="false" />
@@ -225,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2383_점심식사시간 (1)">
+  <component name="RunManager" selected="Python.2631_줄세우기">
     <configuration name="위장" type="PythonConfigurationType" factoryName="Python">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -247,7 +224,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1057_토너먼트" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="가장큰수" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,53 +232,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/daily_study/ProblemSolving" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/Programmers/04_Sorting" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/daily_study/ProblemSolving/1057_토너먼트.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="이중우선순위큐" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="My-Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programmers/Heap" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programmers/Heap/이중우선순위큐.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2383_점심식사시간 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="My-Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swea/samsung2020" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swea/samsung2020/2383_점심식사시간.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/Programmers/04_Sorting/가장큰수.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -331,7 +266,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4013_특이한자석" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2631_줄세우기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="My-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -339,11 +274,74 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/daily_study/samsung2021/swea" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/ProblemSolving/dp" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/ProblemSolving/dp/2631_줄세우기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="H-Index" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="My-Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/Programmers/04_Sorting" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/Programmers/04_Sorting/H-Index.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="K번째수" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="My-Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/Programmers/04_Sorting" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/Programmers/04_Sorting/K번째수.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="이중우선순위큐" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="My-Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programmers/Heap" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/daily_study/samsung2021/swea/4013_특이한자석.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programmers/Heap/이중우선순위큐.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -480,19 +478,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.위장" />
-      <item itemvalue="Python.4013_특이한자석" />
-      <item itemvalue="Python.1057_토너먼트" />
-      <item itemvalue="Python.이중우선순위큐" />
       <item itemvalue="Python.2383_점심식사시간" />
-      <item itemvalue="Python.2383_점심식사시간 (1)" />
+      <item itemvalue="Python.K번째수" />
+      <item itemvalue="Python.가장큰수" />
+      <item itemvalue="Python.H-Index" />
+      <item itemvalue="Python.2631_줄세우기" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.2383_점심식사시간 (1)" />
+        <item itemvalue="Python.2631_줄세우기" />
         <item itemvalue="Python.2383_점심식사시간" />
-        <item itemvalue="Python.1057_토너먼트" />
-        <item itemvalue="Python.이중우선순위큐" />
-        <item itemvalue="Python.4013_특이한자석" />
+        <item itemvalue="Python.H-Index" />
+        <item itemvalue="Python.가장큰수" />
+        <item itemvalue="Python.K번째수" />
       </list>
     </recent_temporary>
   </component>
@@ -520,33 +518,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4969072" weight="0.2328496" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4969072" weight="0.23153034" />
       <window_info id="Structure" order="1" sideWeight="0.50309277" side_tool="true" weight="0.2328496" />
       <window_info id="Favorites" order="2" sideWeight="0.50132626" side_tool="true" weight="0.051813472" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959327" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4966533" visible="true" weight="0.49509117" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38709676" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4966533" weight="0.37587658" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3858156" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32765958" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50334674" side_tool="true" weight="0.49078014" />
       <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49966997" weight="0.32765958" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4990099" weight="0.32905984" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4990099" weight="0.32765958" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4969072" weight="0.2328496" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4969072" weight="0.23214285" />
       <window_info id="Structure" order="1" sideWeight="0.50309277" side_tool="true" weight="0.2328496" />
       <window_info id="Favorites" order="2" sideWeight="0.50132626" side_tool="true" weight="0.051813472" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959327" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4966533" visible="true" weight="0.48527348" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4966533" visible="true" weight="0.38014185" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38709676" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -554,7 +551,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32765958" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50334674" side_tool="true" weight="0.49078014" />
       <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49966997" weight="0.32765958" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4990099" weight="0.32905984" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4990099" weight="0.32765958" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -791,31 +788,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/daily_study/samsung2021/boj/17070_파이프옮기기1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="36" selection-start-line="36" selection-end-line="41" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/Programmers/Stack&amp;Queue/주식가격.py" />
-    <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/Programmers/Stack&amp;Queue/다리를지나는트럭.py" />
-    <entry file="file://$PROJECT_DIR$/daily_study/ProblemSolving/9205_맥주마시며걸어가기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/Programmers/Stack&amp;Queue/프린터.py" />
-    <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/Programmers/Stack&amp;Queue/기능개발.py" />
-    <entry file="file://$PROJECT_DIR$/daily_study/ProblemSolving/2250_트리의높이와너비.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-157">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/daily_study/ProblemSolving/1927_최소힙.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -995,13 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daily_study/ProblemSolving/11055_가장큰증가부분수열.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/daily_study/ProblemSolving/1654_랜선자르기.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
@@ -1026,20 +991,6 @@
     <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/namsookim/SWEA/3주차/4013(특이한 자석).py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/daily_study/ProblemSolving/1057_토너먼트.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmers/Heap/디스크컨트롤러.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/SamsungProblems/swea/4013_특이한자석.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-24" />
@@ -1052,13 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/SamsungProblems/swea/2383_점심식사시간.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../algorithmStudyDaejeon/jonghyeok/hw9_1/2383. [모의 SW 역량테스트] 점심 식사시간.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1068,24 +1012,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/daily_study/ProblemSolving/1057_토너먼트.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmers/Sorting/K번째수.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/Programmers/04_Sorting/K번째수.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/Programmers/04_Sorting/가장큰수.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="20" selection-start-line="11" selection-start-column="17" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/Programmers/04_Sorting/H-Index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/SamsungProblems/swea/2383_input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/swea/samsung2020/2383_input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="95">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/ProblemSolving/dp/2631_줄세위.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/swea/samsung2020/2383_점심식사시간.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="513">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/SamsungProblems/swea/2383_점심식사시간.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/ProblemSolving/dp/1520_내리막길.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmers/Heap/디스크컨트롤러.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmStudy2021/chelseashin/ProblemSolving/dp/2631_줄세우기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daily_study/ProblemSolving/11055_가장큰증가부분수열.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
         </state>
       </provider>
     </entry>

@@ -8,7 +8,7 @@
 
 * 없어진 기록 찾기
 
-  ```sql
+  ```mysql
   -- 조인 이용
   SELECT O.ANIMAL_ID, O.NAME
   FROM ANIMAL_OUTS AS O
@@ -19,7 +19,7 @@
 
 
 * 있었는데요 없었습니다
-* ```sql
+* ```mysql
   -- INNER JOIN
   SELECT O.ANIMAL_ID, O.NAME
   FROM ANIMAL_OUTS O
@@ -44,14 +44,27 @@
 
 
 * 오랜 기간 보호한 동물(1)
-* ```sql
+* ```mysql
   -- LEFT JOIN / LEFT OUTER JOIN 모두 가능
   SELECT I.NAME, I.DATETIME
   FROM ANIMAL_INS as I
   LEFT JOIN ANIMAL_OUTS as O
+  -- LEFT OUTER JOIN ANIMAL_OUTS as O
   ON I.ANIMAL_ID = O.ANIMAL_ID
   WHERE O.ANIMAL_ID IS NULL
   ORDER BY I.DATETIME ASC LIMIT 3;
   ```
 
-* 
+
+
+* 보호소에서 중성화한 동물
+
+  ```mysql
+  -- LEFT JOIN, LEFT OUTER JOIN, INNER JOIN 모두 가능
+  SELECT I.ANIMAL_ID, I.ANIMAL_TYPE, I.NAME
+  FROM ANIMAL_INS I
+  INNER JOIN ANIMAL_OUTS O ON I.ANIMAL_ID = O.ANIMAL_ID
+  WHERE I.SEX_UPON_INTAKE LIKE "Intact%" AND O.SEX_UPON_OUTCOME NOT LIKE "Intact%"
+  # (O.SEX_UPON_OUTCOME LIKE "Spayed%" OR O.SEX_UPON_OUTCOME LIKE "Neutered%")
+  ORDER BY O.ANIMAL_ID ASC;
+  ```

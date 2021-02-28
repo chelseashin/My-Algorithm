@@ -23,5 +23,6 @@ def main():
                 break
         i += 1
     print(MAX - MIN)
+
 if __name__ == "__main__":
     main()

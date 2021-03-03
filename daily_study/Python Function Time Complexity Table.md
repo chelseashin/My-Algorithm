@@ -1,6 +1,8 @@
-### Python 내장 함수 시간 복잡도 정리
+## Python 자료구조별 시간 복잡도 정리
 
 
+
+### 리스트 자료형과 메서드의 시간 복잡도
 
 |      | Operation     | Example       | Class       | Notes                                   |
 | ---- | ------------- | ------------- | ----------- | --------------------------------------- |
@@ -25,3 +27,51 @@
 | 19   | Iteration     | for v in l:   | O(N)        | 전체 데이터 확인하므로                  |
 | 20   | Sort          | l.sort()      | O(N Log N)  | 파이썬 기본 정렬 알고리즘               |
 | 21   | Multiply      | k*l           | O(k N)      | 리스트의 곱은 리스트 개수 늘어남        |
+
+
+
+-----
+
+
+
+### 집합(set) 자료형과 메소드의 시간 복잡도
+
+|      | Operation      | Example       | Class            | Notes                    |
+| ---- | -------------- | ------------- | ---------------- | ------------------------ |
+| 1    | Add            | s.add(5)      | O(1)             | 집합 요소 추가           |
+| 2    | Containment    | x in/not in s | O(1)             | 포함 여부 확인           |
+| 3    | Remove         | s.remove(..)  | O(1)             | 요소 제거                |
+| 4    | Discard        | s.discard(..) | O(1)             | 특정 요소 제거           |
+| 5    | Pop            | s.pop()       | O(1)             | 랜덤하게 하나 pop        |
+| 6    | Clear          | s.clear()     | O(1)             | similar to s = set()     |
+| 7    | Construction   | set(...)      | O(len(...))      | 길이만큼                 |
+| 8    | check ==, !=   | s != t        | O(len(s))        | 전체 요소 동일 여부 확인 |
+| 9    | <=/<           | s <= t        | O(len(s))        | 부분집합 여부            |
+| 10   | >=/>           | s >= t        | O(len(t))        | 부분집합 여부            |
+| 11   | Union          | s, t          | O(len(s)+len(t)) | 합집합                   |
+| 12   | Intersection   | s & t         | O(len(s)+len(t)) | 교집합                   |
+| 13   | Difference     | s - t         | O(len(s)+len(t)) | 차집합                   |
+| 14   | Symmetric Diff | s ^ t         | O(len(s)+len(t)) | 여집합                   |
+| 15   | Iteration      | for v in s:   | O(N)             | 전체 요소 순회           |
+| 16   | Copy           | s.copy()      | O(N)             | 복제                     |
+
+
+
+----
+
+
+
+### 딕셔너리(Dictionary) 자료형과 메소드의 시간 복잡도
+
+|      | Operation      | Example     | Class       | Notes                                |
+| ---- | -------------- | ----------- | ----------- | ------------------------------------ |
+| 1    | Store          | d[k] = v    | O(1)        | 데이터 저장                          |
+| 2    | Length         | len(d)      | O(1)        | 길이 출력                            |
+| 3    | Delete         | del d[k]    | O(1)        | 요소 제거                            |
+| 4    | get/setdefault | d.get(k)    | O(1)        | key에 따른 value 확인                |
+| 5    | Pop            | d.pop(k)    | O(1)        | pop                                  |
+| 6    | Pop item       | d.popitem() | O(1)        | 랜덤하게 선택해서 pop                |
+| 7    | Clear          | d.clear()   | O(1)        | similar to s = {} or = dict()        |
+| 8    | View           | d.keys()    | O(1)        | same for d.values() / 키값 전체 확인 |
+| 9    | Construction   | dict(...)   | O(len(...)) | (key, value) 튜플 개수만큼           |
+| 10   | Iteration      | for k in d: | O(N)        | 전체 딕셔너리 순회                   |

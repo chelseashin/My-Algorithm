@@ -2,7 +2,6 @@
 
 import sys
 input = sys.stdin.readline
-# from itertools import combinations
 
 # main
 n = int(input())
@@ -13,15 +12,15 @@ while True:
     info = {key: value for key, value in info.items() if key in baseSet}
     # print("딕셔너리 상태", info)
     # print(baseSet, set(info.values()))
-    # print()
     if baseSet == set(info.values()):
         print(len(info))
         for key in info.keys():
             print(key)
         break
 
-
 # n <= 100이므로 당연히 시간 초과
+# from itertools import combinations
+
 # flag = 0
 # for i in range(n, 0, -1):
 #     for comb in combinations(range(1, n+1), i):

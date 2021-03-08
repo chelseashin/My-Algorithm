@@ -18,7 +18,8 @@ def backtracking(depth, temp):
     if depth == N:
         flag = True
         print(int(temp))
-        return
+        exit()
+        # return
     for num in "123":
         backtracking(depth+1, temp + num)
 

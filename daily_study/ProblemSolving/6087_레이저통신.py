@@ -12,8 +12,8 @@ def bfs():
     while Q:
         r, c = Q.popleft()
         if (r, c) == (gr, gc):
-            for v in check:
-                print(v)
+            # for v in check:
+            #     print(v)
             return check[gr][gc]
 
         # 4방향으로 각각 직진

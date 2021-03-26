@@ -11,9 +11,7 @@ def bfs():
     Q = deque([(0, 0, 0)])
     while Q:
         r, c, cnt = Q.popleft()
-        if (r, c) == (N-1, N-1):        # 목적지 흰 방에 도달하면 리턴
-            # for v in visited:
-            #     print(v)
+        if (r, c) == (N-1, N-1):
             print(cnt)
             return
         for d in range(4):
@@ -23,7 +21,7 @@ def bfs():
                 continue
 
             # 이동할 곳이 흰 방일 때 최솟값으로 갱신할 수 있는 곳일 때만 값 갱신
-            if maze[nr][nc] == '1' and visited[nr][nc] > visited[r][c]+1:
+            if maze[nr][nc] == '1' and visited[nr][nc] > visited[r][c]:
                 visited[nr][nc] = cnt
                 Q.appendleft((nr, nc, cnt))
 

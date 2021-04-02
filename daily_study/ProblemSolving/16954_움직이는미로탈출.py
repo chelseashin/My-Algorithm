@@ -1,7 +1,7 @@
 # 22:20 start
-# finish
 # 22:47 92%에서 틀렸습니다..
 # 23:21 계속 92%에서 틀렸습니다..
+# 23:51 finish
 
 from sys import stdin
 input = stdin.readline
@@ -38,11 +38,8 @@ def bfs():
         board.pop()
         board.appendleft(['.', '.', '.', '.', '.', '.', '.', '.'])
 
-        # for i in range(8):
-        #     print(visited[i], "=========", board[i])
-        # print(time, "초 후 상태")
         time += 1
-        if time == 8:   # 8초 후 현존하는 벽 없음
+        if time == 9:   # 8초 후 현존하는 벽 없음
             return 1
     return 0    # 탈출 실패
 

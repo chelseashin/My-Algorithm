@@ -17,17 +17,16 @@ dc = (0, 0, -1, 1)
 def bfs():
     Q = deque([(0, 0, 1)])
     visited = [[[0 for _ in range(M)] for _ in range(N)] for _ in range(2)]
-    visited[0][0][0] = 1
     visited[1][0][0] = 1
     while Q:
         r, c, bomb = Q.popleft()
         
         # 목적지에 도달했을 때의 visited에 있는 거리 정보 리턴
         if r == N-1 and c == M-1:
-            for vi in visited:
-                for v in vi:
-                    print(v)
-                print()
+            # for vi in visited:
+            #     for v in vi:
+            #         print(v)
+            #     print()
             return visited[bomb][r][c]
 
         for d in range(4):

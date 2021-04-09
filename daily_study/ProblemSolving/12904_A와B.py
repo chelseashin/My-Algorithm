@@ -1,43 +1,49 @@
 # 23:38 start
+# 24:06 finish
 
 from sys import stdin
 input = stdin.readline
 
-# def comb(depth, k, pick):
-#     if depth == pick:
-#         print(order)
+# 완전탐색 시간초과 코드..
+
+# def comb(depth, temp):
+#     global flag
+#     if depth == N:
+#         if temp == T:
+#             flag = 1
 #         return
+#     for i in range(2):
+#         if i == 0:
+#             comb(depth+1, temp + ["A"])
+#         else:
+#             comb(depth+1, list(reversed(temp)) + ["B"])
 
-#     for i in range(k, N):
-#         order[i] = 1
-#         comb(depth+1, i+1, pick)
-#         order[i] = 0
+# # main
+# S = list(input().rstrip())
+# T = list(input().rstrip())
+# N = len(T) - len(S)
 
+# flag = 0
+# comb(0, S)
+# if flag:
+#     print(1)
+# else:
+#     print(0)
 
-def comb(depth, temp):
-    if depth == N:
-        if ''.join(temp) == str:
-            print(order, ''.join(temp))
-        return
-    for i in range(2):
-        order.append(i)
-        # comb(depth+1, temp + ["A"])
-        if i == 0:
-            comb(depth+1, temp + ["A"])
-        else:
-            comb(depth+1, list(reversed(temp)) + ["B"])
-        order.pop()
-
-# main
+# Greedy 정답 코드
 S = list(input().rstrip())
 T = list(input().rstrip())
-N = len(T) - len(S)
-L = "ABCDE"
-print(S, T, N, "뒤집어", str(reversed(L)))
 
-# order = [0] * N
-# for i in range(N):
-#     comb(0, 0, i)
+# T에서 S로 바꾼다고 생각하면 편함!
+while len(S) != len(T):
+    if T[-1] == "A":    # T의 마지막 문자가 "A"이면 pop
+        T.pop()
+    else:               # T의 마지막 문자가 "B" 이면 pop하고 뒤집기
+        T.pop()
+        T.reverse()
 
-order = []
-comb(0, S)
+# 같으면 1 다르면 0 출력
+if S == T:
+    print(1)
+else:
+    print(0)

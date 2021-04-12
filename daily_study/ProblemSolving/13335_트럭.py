@@ -1,4 +1,4 @@
-# 23:00 start
+# 계속
 # https://www.acmicpc.net/problem/13335
 
 from sys import stdin

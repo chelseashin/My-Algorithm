@@ -150,7 +150,7 @@ for r in range(N):
 startDir = checkDir(start)  # 세로 방향 0, 가로 방향 1
 goal = tuple(goal)
  
-visited = set()             # 방문 정보 확인
+visited = set()             # 방문 정보 확인(set 자료구조)
 visited.add(tuple(start))   # 첫 위치 방문 표시
 q = deque([(start, startDir, 0)])       # (시작 좌표, 시작 방향, 이동 횟수)
 

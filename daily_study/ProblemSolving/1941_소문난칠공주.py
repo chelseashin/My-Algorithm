@@ -4,6 +4,7 @@ input = stdin.readline
 dr = (-1, 1, 0, 0)
 dc = (0, 0, -1, 1)
         
+# 재귀로 7개 숫자 위치 연결되어 있는지 확인
 def check(num):
     global available    
     r = num // 5

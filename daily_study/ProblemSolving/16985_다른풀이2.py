@@ -1,20 +1,15 @@
-# 20:00 start
-# 아 문제 잘못 읽어서 망쳤다. 판을 내 마음대로 쌓을 수 있는 것이었다니.. 문제 제대로 안 읽었니
-# 꼭 다시 풀자.
-# https://www.acmicpc.net/problem/16985
-# https://rebas.kr/842
-# https://home-body.tistory.com/650
+# 얘도 실패.. 으악 뭐 때문인지
 
 from sys import stdin
 input = stdin.readline
 from collections import deque
-
+from itertools import permutations, product
 
 df = (0, 0, 0, 0, -1, 1)
 dr = (-1, 1, 0, 0, 0, 0)
 dc = (0, 0, -1, 1, 0, 0)
 
-def checkMaze(arr):
+def checkMaze(newMaze):
     global result
     visited = [[[0] * 5 for _ in range(5)] for _ in range(5)]
     visited[0][0][0] = 1    # 시작 층, 행, 열 위치 표시
@@ -23,6 +18,9 @@ def checkMaze(arr):
         f, r, c = Q.popleft()
         if (f, r, c) == (4, 4, 4):      # 목적지 도착
             result = min(result, visited[f][r][c] - 1)
+            if result == 12:
+                print(12)
+                exit()
             return
 
         for d in range(6):
@@ -33,15 +31,10 @@ def checkMaze(arr):
             if not (0 <= nf < 5 and 0 <= nr < 5 and 0 <= nc < 5):
                 continue
             # 갈 수 없는 곳이거나 이미 방문한 곳이면
-            if arr[nf][nr][nc] == 0 or visited[nf][nr][nc]:
+            if newMaze[nf][nr][nc] == 0 or visited[nf][nr][nc]:
                 continue
             visited[nf][nr][nc] = visited[f][r][c] + 1     # 방문 가능
             Q.append((nf, nr, nc))
-    # print("temp", temp)
-    # print("비지티드 ****************************************************")
-    # for row in visited:
-    #     print(row)
-    # print()
 
 # 몇 층인지, 방향
 def checkDir(idx, dir):
@@ -68,44 +61,32 @@ def checkDir(idx, dir):
             new.append(col)
     return new
 
-def makeNewMaze(temp):
-    newMaze = []
-    for i in range(5):
-        if temp[i] == 0:        # 0: 회전 안 한 경우
-            newMaze.append(maze[i])   # 그대로 추가
-            continue
-        newMaze.append(checkDir(i, temp[i]))      # (해당 층 번호, 회전 횟수)
+def makeNewMaze():
     
-    if newMaze[0][0][0] and newMaze[4][4][4]:    # 입구/출구 들어갈 수 있는 경우에만 새 미로 확인
-        # print("new 미로 =============================================================")
-        # for floor in range(5):
-        #     print(temp[floor], "회전 후", newMaze[floor])
-        # print(len(newMaze), "길이정보")
-        # print()
+    for temp in product((0, 1, 2, 3), repeat=5):
+        # print("temp", temp)
+        newMaze = []
+        for i in range(5):          # 5개 층
+            if temp[i] == 0:        # 0: 회전 안 한 경우
+                newMaze.append(A[i])   # 그대로 추가
+                continue
+            newMaze.append(checkDir(i, temp[i]))      # (해당 층 번호, 회전 횟수)
 
-        checkMaze(newMaze)      # 목적지 도착할 수 있는지 확인
-    # return newMaze
+        if newMaze[0][0][0] and newMaze[4][4][4]:    # 입구/출구 들어갈 수 있는 경우에만 새 미로 확인
+            checkMaze(newMaze)      # 목적지 도착할 수 있는지 확인
 
-def perm(depth):
-    global result
-    if depth == 5:
-        # print(temp)
-        makeNewMaze(temp)
-        return
-    
-    for i in range(4):
-        temp[depth] = i
-        perm(depth+1)
-        temp[depth] = 0
+def solve():
+    for perm in permutations((0, 1, 2, 3, 4)):
+        for i in range(5):
+            A[perm[i]] = maze[i]    # 5층 다른 방법으로 쌓기
+        # print(perm, A)
+        makeNewMaze()
 
+# main
 maze = [[list(map(int, input().split())) for _ in range(5)] for _ in range(5)]
-# for floor in range(5):
-#     print(floor, maze[floor])
-
+A = [[[0] * 5 for _ in range(5)] for _ in range(5)]
 result = float('inf')
-temp = [0] * 5
-perm(0)
-# makeNewMaze([1, 3, 0, 2, 3])
+solve()
 if result == float('inf'):
     print(-1)
 else:

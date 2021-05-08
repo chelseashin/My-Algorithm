@@ -20,7 +20,7 @@ for i in range(slen):
         sInfo[ord(s[i]) - ord('a')] += 1
     else: 
         sInfo[ord(s[i]) - ord('A') + 26] += 1
-    length += 1             # 길이 1칸 늘리기.
+    length += 1             # 길이 1칸 늘리기
 
     # Sliding Window
     if length == wlen:      # 탐색 길이와 찾을 문자열 길이가 같으면
@@ -31,6 +31,6 @@ for i in range(slen):
         else: 
             sInfo[ord(s[start]) - ord('A') + 26] -= 1
         start += 1          # 시작 위치 1칸 밀고
-        length -= 1         # 길이는 1칸 줄여준다.
+        length -= 1         # 길이는 1칸 줄이기
 
 print(result)
